@@ -750,6 +750,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+					add_tech_bonus = {
+						name = sov_jap_border_conflict_won
+						category = land_doctrine
+						bonus = 1.0
+					}
+		}
 	}
 
 	#Focus for Starfighters Researches
@@ -953,6 +960,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		add_political_power = 150
+		}
 	}
 
 	#Focus for Negotiations with The Republic
@@ -989,6 +999,15 @@ focus_tree = {
 		prerequisite = { focus = ATZ_armyreforms }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = CZE_inf_and_artillery_advancement
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = infantry_weapons
+			}
 		}
 	}
 
