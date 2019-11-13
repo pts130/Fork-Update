@@ -18,7 +18,7 @@
 default_unit_production = {
 	enable = {
 		always = yes
-		NOT = { original_tag = GER } NOT = { original_tag = FRA } NOT = { original_tag = CHI  } NOT = { original_tag = ENG  }
+		NOT = { original_tag = GER } NOT = { original_tag = FRA } NOT = { original_tag = CHI  } NOT = { original_tag = ENG  } NOT = { original_tag = REP } NOT = { original_tag = CIS }
 	}
 	
 	ai_strategy = {
@@ -122,7 +122,7 @@ default_pp_spend_amount = {
 
 default_paratroopers_production = {
 	enable = {
-		NOT = { original_tag = GER }
+		NOT = { original_tag = GER }  NOT = { original_tag = REP } NOT = { original_tag = CIS}
 		ai_wants_divisions >  12 #Massively decreasing the amount of paratroopers the AI wants
 	}
 	abort = {
@@ -145,6 +145,8 @@ default_garrison_production = {
 			original_tag = CHI
 			original_tag = FRA
 			original_tag = JAP
+			original_tag = REP
+			original_tag = CIS
 		}
 		ai_wants_divisions >  12 #Massively decreasing the amount of garrison and suppression the AI wants
 		is_major = yes
@@ -169,7 +171,7 @@ default_garrison_production = {
 
 default_mountaineers_production = {
 	enable = {
-		NOT = { original_tag = GER }
+		NOT = { original_tag = GER } NOT = { original_tag = REP } NOT = { original_tag = CIS }
 		ai_wants_divisions > 11 #Decreasing the amount of mountaineers the AI wants
 	}
 	abort = {
@@ -185,7 +187,7 @@ default_mountaineers_production = {
 
 default_marines_production = {
 	enable = {
-		NOT = { original_tag = GER }
+		NOT = { original_tag = GER } NOT = { original_tag = REP } NOT = { original_tag = CIS }
 		ai_wants_divisions > 49
 	}
 	abort = {
@@ -207,7 +209,7 @@ default_marines_production = {
 
 default_mobile_production = {
 	enable = {
-		NOT = { original_tag = GER }
+		NOT = { original_tag = GER } NOT = { original_tag = REP } NOT = { original_tag = CIS }
 		ai_wants_divisions > 11
 		has_tech = motorised_infantry
 	}
@@ -224,7 +226,7 @@ default_mobile_production = {
 
 default_armored_production = {
 	enable = {
-		NOT = { original_tag = GER }
+		NOT = { original_tag = GER } NOT = { original_tag = REP } NOT = { original_tag = CIS }
 		ai_wants_divisions > 49
 	}
 	abort = {
@@ -246,7 +248,7 @@ default_armored_production = {
 
 highered_armored_production = {
 	enable = {
-		NOT = { original_tag = GER }
+		NOT = { original_tag = GER }  NOT = { original_tag = REP } NOT = { original_tag = CIS }
 		num_of_military_factories > 69
 	}
 	abort = {
@@ -405,7 +407,7 @@ default_stockpile_management = {
 
 DEFAULT_template_design = {
 	enable = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = POL } }	
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = POL tag = CIS tag = REP} }	
 		date < 1940.1.1				
 	}
 	abort = { 
@@ -457,7 +459,7 @@ DEFAULT_template_design = {
 
 DEFAULT_template_design = {
 	enable = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = POL } }
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = POL tag = CIS tag = REP } }
 		date > 1940.1.1				
 	}
 

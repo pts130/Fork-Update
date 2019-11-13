@@ -29,27 +29,16 @@ add_political_power = 75
 set_convoys = 50
 
 
-set_popularities = {
-
-	parties = {
-		democratic = { 
-			popularity = 10
-		}
-
-		fascism = {
-			popularity = 90
-		}
-		
-		communism = {
-			popularity = 0
-			banned = yes #default is no
-		}
-	}
-	
+set_politics = {
 	ruling_party = fascism
 	last_election = "1933.3.5"
-	election_frequency = 240
+	election_frequency = 48
 	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 60
+	communism = 30
 }
 
 create_country_leader = {

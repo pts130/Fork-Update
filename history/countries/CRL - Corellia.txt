@@ -28,21 +28,16 @@ set_technology = {
 add_political_power = 75
 set_convoys = 50
 
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.11.8"
+	election_frequency = 240
+	elections_allowed = yes
+}
 set_popularities = {
-	parties = {
-		democratic = { 
-			popularity = 90
-		}
-
-		fascism = {
-			popularity = 10
-		}
-		
-		communism = {
-			popularity = 0
-			banned = yes #default is no
-		}
-	}
+	democratic = 70
+	communism = 30
+}
 	
 	ruling_party = democratic
 	last_election = "1933.3.5"
