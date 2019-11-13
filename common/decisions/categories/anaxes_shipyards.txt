@@ -1,0 +1,10 @@
+anaxes_shipyards = {
+     icon = generic_prospect_for_resources
+	
+available = { 
+	REP = {controls_state = 19}
+     }
+allowed = {
+		original_tag = REP
+	}
+}

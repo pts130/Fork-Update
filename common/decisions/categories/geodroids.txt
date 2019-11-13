@@ -1,0 +1,10 @@
+geodroids = {
+     icon = generic_prospect_for_resources
+	
+available = { 
+	CIS = {controls_state = 47}
+     }
+allowed = {
+		original_tag = CIS
+	}
+}

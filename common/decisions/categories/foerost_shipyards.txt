@@ -1,0 +1,10 @@
+foerost_shipyards = {
+     icon = generic_prospect_for_resources
+	
+available = { 
+	CIS = {controls_state = 27}
+     }
+allowed = {
+		original_tag = CIS
+	}
+}

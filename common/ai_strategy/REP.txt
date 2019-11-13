@@ -1,0 +1,81 @@
+attack_cis = {
+    enable = {
+	original_tag = REP
+    }
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = invade
+		id = "CIS"
+		value = 1000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CIS"
+		value = 200
+	}
+	ai_strategy = {
+		type = protect
+		id = "TLZ"			
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "RYL"			
+		value = 200
+	}	
+	ai_strategy = {
+		type = protect
+		id = "ALD"			
+		value = 200
+	}
+}
+
+REP_area_priority = {
+	enable = {
+		original_tag = REP
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 400 #more focus here
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = 400
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = africa
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = australia
+		value = 200
+	}
+}

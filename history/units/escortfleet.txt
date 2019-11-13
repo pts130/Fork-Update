@@ -1,0 +1,38 @@
+﻿units = {
+navy = {					
+		name = "Escort Fleet"				
+		base = 2434 #Kuat
+		location = 2434 #Kuat 
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "RSS Consular-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+	}
+}

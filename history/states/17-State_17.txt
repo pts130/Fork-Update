@@ -1,0 +1,37 @@
+###corulag
+state={
+	id=17
+	name="STATE_17"
+	provinces={
+		14 19 29 162 185 238 256 273 274 402 444 461 627 764 772 773 781 841 902 950 993 998 1022 1093 1107 1183 1204 1309 1371 1390 1414 1423 1442 1454 1461 2120 2127 2130 2131 2134 2135 2139 2141 2143 2144 2145 2148 2150 2151 2153 2155 2162 2163 2164 2169 2176 2178 2187 2191 2192 2197 2212 
+	}
+	manpower=15000000000
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
+   	history = {
+	owner = CLG
+	buildings = {
+		infrastructure = 9
+		arms_factory = 2
+		industrial_complex = 6
+		dockyard = 2
+		air_base = 4
+		444 = {
+		     naval_base = 2
+			}
+		185 = {
+		     naval_base = 2
+			}
+		}
+		add_core_of = CLG
+		victory_points = {
+			461 60
+	}
+}

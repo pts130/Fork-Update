@@ -1,0 +1,10 @@
+﻿units = {
+navy = {					
+		name = "Foerost Delivery"				
+		base = 2512
+		location = 2512 #Foerost
+		ship = { name = "Saboath-class" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = CIS } } 
+		}
+
+	}
+}

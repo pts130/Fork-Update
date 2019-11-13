@@ -1,0 +1,1614 @@
+﻿division_template = {
+	name = "Clone Trooper Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+
+division_template = {
+	name = "Republic Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Tank Division"				
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		
+		light_armor = { x = 0 y = 1 }		
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+	support = {
+			recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+	}
+}
+
+
+###########################################UNITS###########################################
+
+units = {
+	division= {	
+		name = "1. Clone Trooper Division"
+		location = 1532 #dantooine
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Clone Trooper Division"
+		location = 2254 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Clone Trooper Division"
+		location = 912 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Republic Garrison"
+		location = 1223 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 2250 #anaxes
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 737 #fresia
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 1223 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Clone Trooper Division"
+		location = 732 #kuat
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Clone Trooper Division"
+		location = 1532 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "6. Clone Trooper Division"
+		location = 827 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Clone Trooper Division"
+		location = 3024 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Clone Trooper Division"
+		location = 1695 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Clone Trooper Division"
+		location = 2200 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Clone Trooper Division"
+		location = 1532 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "11. Clone Trooper Division"
+		location = 1004 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Republic Garrison"
+		location = 2377 #kuat
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+
+
+
+	division= {	
+		name = "Republic Garrison"
+		location = 29 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+		division= {	
+		name = "Republic Garrison"
+		location = 466 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+		division= {	
+		name = "Republic Garrison"
+		location = 2816 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2699 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 254 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 1303 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 149 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	
+			division= {	
+		name = "Republic Garrison"
+		location = 362 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 748 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2266 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 559 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 13 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 3085 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2856 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2952 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+
+
+
+	division= {	
+		name = "1. Clone Armored Division"
+		location = 749 #coruscant
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Clone Armored Division"
+		location = 2993 #kamino
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Clone Armored Division"
+		location = 2421 #kuat
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Clone Armored Division"
+		location = 1062 #carida
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Clone Trooper Division"
+		location = 1532 #dantooine
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Clone Trooper Division"
+		location = 2254 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Clone Trooper Division"
+		location = 912 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Republic Garrison"
+		location = 1223 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 2250 #anaxes
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 737 #fresia
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 1223 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Clone Trooper Division"
+		location = 732 #kuat
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Clone Trooper Division"
+		location = 1532 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "6. Clone Trooper Division"
+		location = 827 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Clone Trooper Division"
+		location = 3024 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Clone Trooper Division"
+		location = 1695 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Clone Trooper Division"
+		location = 2200 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Clone Trooper Division"
+		location = 1532 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "11. Clone Trooper Division"
+		location = 1004 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Republic Garrison"
+		location = 2377 #kuat
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+
+
+
+	division= {	
+		name = "Republic Garrison"
+		location = 29 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+		division= {	
+		name = "Republic Garrison"
+		location = 466 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+		division= {	
+		name = "Republic Garrison"
+		location = 2816 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2699 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 254 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 1303 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 149 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	
+			division= {	
+		name = "Republic Garrison"
+		location = 362 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 748 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2266 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 559 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 13 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 3085 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2856 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2952 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+
+
+
+	division= {	
+		name = "1. Clone Armored Division"
+		location = 749 #coruscant
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Clone Armored Division"
+		location = 2993 #kamino
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Clone Armored Division"
+		location = 2421 #kuat
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Clone Armored Division"
+		location = 1062 #carida
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Clone Trooper Division"
+		location = 1532 #dantooine
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Clone Trooper Division"
+		location = 2254 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Clone Trooper Division"
+		location = 912 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Republic Garrison"
+		location = 1223 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 2250 #anaxes
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 737 #fresia
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 1223 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Clone Trooper Division"
+		location = 732 #kuat
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Clone Trooper Division"
+		location = 1532 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "6. Clone Trooper Division"
+		location = 827 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Clone Trooper Division"
+		location = 3024 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Clone Trooper Division"
+		location = 1695 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Clone Trooper Division"
+		location = 2200 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Clone Trooper Division"
+		location = 1532 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "11. Clone Trooper Division"
+		location = 1004 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Republic Garrison"
+		location = 2377 #kuat
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+
+
+
+	division= {	
+		name = "Republic Garrison"
+		location = 29 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+		division= {	
+		name = "Republic Garrison"
+		location = 466 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+		division= {	
+		name = "Republic Garrison"
+		location = 2816 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2699 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 254 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 1303 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 149 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	
+			division= {	
+		name = "Republic Garrison"
+		location = 362 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 748 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2266 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 559 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 13 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 3085 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2856 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2952 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+
+
+
+	division= {	
+		name = "1. Clone Armored Division"
+		location = 749 #coruscant
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Clone Armored Division"
+		location = 2993 #kamino
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Clone Armored Division"
+		location = 2421 #kuat
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Clone Armored Division"
+		location = 1062 #carida
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Clone Trooper Division"
+		location = 1532 #dantooine
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Clone Trooper Division"
+		location = 2254 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Clone Trooper Division"
+		location = 912 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Republic Garrison"
+		location = 1223 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 2250 #anaxes
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 737 #fresia
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 1223 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Clone Trooper Division"
+		location = 732 #kuat
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Clone Trooper Division"
+		location = 1532 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "6. Clone Trooper Division"
+		location = 827 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Clone Trooper Division"
+		location = 3024 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Clone Trooper Division"
+		location = 1695 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Clone Trooper Division"
+		location = 2200 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Clone Trooper Division"
+		location = 1532 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "11. Clone Trooper Division"
+		location = 1004 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Republic Garrison"
+		location = 2377 #kuat
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+
+
+
+	division= {	
+		name = "Republic Garrison"
+		location = 29 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+		division= {	
+		name = "Republic Garrison"
+		location = 466 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+		division= {	
+		name = "Republic Garrison"
+		location = 2816 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2699 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 254 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 1303 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 149 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+			division= {	
+		name = "Republic Garrison"
+		location = 362 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 748 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2266 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 559 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 13 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 3085 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2856 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2952 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+
+
+
+	division= {	
+		name = "1. Clone Armored Division"
+		location = 749 #coruscant
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Clone Armored Division"
+		location = 2993 #kamino
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Clone Armored Division"
+		location = 2421 #kuat
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Clone Armored Division"
+		location = 1062 #carida
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Clone Trooper Division"
+		location = 1532 #dantooine
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Clone Trooper Division"
+		location = 2254 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Clone Trooper Division"
+		location = 912 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Republic Garrison"
+		location = 1223 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 2250 #anaxes
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 737 #fresia
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 1223 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Clone Trooper Division"
+		location = 732 #kuat
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Clone Trooper Division"
+		location = 1532 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "6. Clone Trooper Division"
+		location = 827 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Clone Trooper Division"
+		location = 3024 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Clone Trooper Division"
+		location = 1695 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Clone Trooper Division"
+		location = 2200 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Clone Trooper Division"
+		location = 1532 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "11. Clone Trooper Division"
+		location = 1004 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Republic Garrison"
+		location = 2377 #kuat
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+
+
+
+	division= {	
+		name = "Republic Garrison"
+		location = 29 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+		division= {	
+		name = "Republic Garrison"
+		location = 466 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+		division= {	
+		name = "Republic Garrison"
+		location = 2816 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2699 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 254 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 1303 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 149 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	
+			division= {	
+		name = "Republic Garrison"
+		location = 362 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 748 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2266 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 559 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 13 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 3085 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2856 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2952 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+
+
+
+	division= {	
+		name = "1. Clone Armored Division"
+		location = 749 #coruscant
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Clone Armored Division"
+		location = 2993 #kamino
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Clone Armored Division"
+		location = 2421 #kuat
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Clone Armored Division"
+		location = 1062 #carida
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Clone Trooper Division"
+		location = 1532 #dantooine
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Clone Trooper Division"
+		location = 2254 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Clone Trooper Division"
+		location = 912 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Republic Garrison"
+		location = 1223 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 2250 #anaxes
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 737 #fresia
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 1223 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Clone Trooper Division"
+		location = 732 #kuat
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Clone Trooper Division"
+		location = 1532 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "6. Clone Trooper Division"
+		location = 827 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Clone Trooper Division"
+		location = 3024 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Clone Trooper Division"
+		location = 1695 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Clone Trooper Division"
+		location = 2200 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Clone Trooper Division"
+		location = 1532 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "11. Clone Trooper Division"
+		location = 1004 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Republic Garrison"
+		location = 2377 #kuat
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+
+
+
+	division= {	
+		name = "Republic Garrison"
+		location = 29 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+		division= {	
+		name = "Republic Garrison"
+		location = 466 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+		division= {	
+		name = "Republic Garrison"
+		location = 2816 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2699 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 254 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 1303 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 149 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+			division= {	
+		name = "Republic Garrison"
+		location = 362 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 748 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2266 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 559 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 13 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 3085 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2856 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+			division= {	
+		name = "Republic Garrison"
+		location = 2952 
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+
+
+
+	division= {	
+		name = "1. Clone Armored Division"
+		location = 749 #coruscant
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Clone Armored Division"
+		location = 2993 #kamino
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Clone Armored Division"
+		location = 2421 #kuat
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Clone Armored Division"
+		location = 1062 #carida
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+		####navy#####
+	navy = {					
+		name = "Core Fleet"				
+		base = 1237
+		location = 1237 #coruscant
+		ship = { name = "RSS Furious" definition = carrier equipment = { carrier_2 = { amount = 1 owner = REP } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "REP" amount = 80 } # historical: 16
+				cv_cas_equipment_2 =  { owner = "REP" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "REP" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "RSS Repulse" definition = carrier equipment = { carrier_2 = { amount = 1 owner = REP } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "REP" amount = 80 } # historical: 16
+				cv_cas_equipment_2 =  { owner = "REP" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "REP" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+
+	}
+
+	navy = {					
+		name = "Outer Rim Fleet"				
+		base = 2942
+		location = 2942 #Kamino
+		ship = { name = "RSS Avenger" definition = carrier equipment = { carrier_2 = { amount = 1 owner = REP } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "REP" amount = 80 } # historical: 16
+				cv_cas_equipment_2 =  { owner = "REP" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "REP" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "RSS Crusader" definition = carrier equipment = { carrier_2 = { amount = 1 owner = REP } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "REP" amount = 80 } # historical: 16
+				cv_cas_equipment_2 =  { owner = "REP" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "REP" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+
+	}
+
+	navy = {					
+		name = "Mid Rim Fleet"				
+		base = 427
+		location = 427 #Kuat
+		ship = { name = "RSS Protector" definition = carrier equipment = { carrier_2 = { amount = 1 owner = REP } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "REP" amount = 80 } # historical: 16
+				cv_cas_equipment_2 =  { owner = "REP" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "REP" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "RSS Brassbound" definition = carrier equipment = { carrier_2 = { amount = 1 owner = REP } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "REP" amount = 80 } # historical: 16
+				cv_cas_equipment_2 =  { owner = "REP" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "REP" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+
+	}
+
+}
+

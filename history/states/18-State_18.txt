@@ -1,0 +1,25 @@
+###boz pity
+state={
+	id=18
+	name="STATE_18"
+	provinces={
+		40 45 92 95 108 144 154 299 303 431 527 581 598 648 700 748 770 776 800 812 857 888 903 1020 1201 1300 1315 1323 2123 2126 2128 2129 2132 2133 2136 2137 2138 2140 2142 2146 2147 2149 2152 2154 2156 2157 2159 2160 2167 2168 2171 2172 2177 2182 2183 2189 2190 2198 2201 2202 2206 2217 2218 2220 2221 2235 2246 
+	}
+	manpower=4000000000
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+   	history = {
+	owner = REP
+	buildings = {
+		infrastructure = 1
+		arms_factory = 0
+		industrial_complex = 0
+		dockyard = 0
+		air_base = 1
+		303 = {
+		     naval_base = 2
+			}
+		}
+		add_core_of = REP
+	}	
+}

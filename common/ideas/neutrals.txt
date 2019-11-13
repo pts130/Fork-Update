@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+		neutral_industry = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_export_focus
+			
+			modifier = {
+				global_building_slots_factor = 0.1
+				production_speed_buildings_factor = 0.05
+				production_speed_arms_factory_factor = -0.05
+				local_resources_factor = 0.1
+			}
+		}
+	}
+}	
+		

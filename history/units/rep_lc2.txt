@@ -1,0 +1,10 @@
+﻿units = {
+navy = {					
+		name = "Kuat Delivery"				
+		base = 2434 #Kuat
+		location = 2434 #Kuat 
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+
+	}
+}

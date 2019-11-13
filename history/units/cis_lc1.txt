@@ -1,0 +1,10 @@
+﻿units = {
+navy = {					
+		name = "Minntoine Delivery"				
+		base = 1685
+		location = 1685 #Minntoine
+		ship = { name = "Diamond-class" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CIS } } 
+		}
+
+	}
+}

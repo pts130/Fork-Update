@@ -1,0 +1,21 @@
+﻿REP = {
+	carrier = {
+		prefix = "RSS"
+		generic = { "Attack Cruiser" }
+		unique = {
+			"Arbitrator" "Brassbound" "Coruscant Sky" "Coryx Moth" "Dauntless" "Defender" "Demolisher" "Electrum" "Endurance" "Guardian"
+			"Guarlala" "Indomitable" "Integrity" "Intervention" "Intrepid" "Laudable" "Liberation" "Liberator" "Liberty" "Majestic" "Negotiator"
+			"Pioneer" "Redeemer" "Redoubt" "Renown" "Resilient" "Resolute" "Resolution" "Retaliation" "Selfless" "Solidarity" "Spirit of The Republic"
+			"Steadfast" "Strikefast" "Tempestuous" "Tenacious" "The Righteous" "Tranquility" "Triumphant" "Unity" "Vensenor" "Vigilance"
+	}
+
+	destroyer = {
+		prefix = "RSS"
+		generic = { "Corvette" }
+	}
+
+	light_cruiser = {
+		prefix = "RSS"
+		generic = { "Frigate" }
+	}
+}

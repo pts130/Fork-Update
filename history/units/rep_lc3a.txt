@@ -1,0 +1,10 @@
+﻿units = {
+navy = {					
+		name = "Anaxes Delivery"				
+		base = 2205
+		location = 2205 #Anaxes
+		ship = { name = "Acclamator-Class Assault Ship" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = REP } } 
+		}
+
+	}
+}

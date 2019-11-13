@@ -1,0 +1,254 @@
+﻿capital = 21
+
+oob = "REP_1936"
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = .10
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	CAS1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+	cv_CAS2 = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_carrier = 1
+	basic_carrier = 1
+	transport = 1
+	superior_firepower = 1
+	base_strike = 1
+
+}
+
+
+
+
+add_political_power = 50
+set_convoys = 2000
+
+
+set_popularities = {
+
+	parties = {
+		democratic = { 
+			popularity = 85
+		}
+
+		fascism = {
+			popularity = 10
+		}
+		
+		communism = {
+			popularity = 5
+			banned = yes #default is no
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1933.3.5"
+	election_frequency = 240
+	elections_allowed = no
+
+}
+
+create_faction = Galactic Republic
+add_to_faction = REP
+add_to_faction = ALD
+add_to_faction = ATZ
+add_to_faction = BOT
+add_to_faction = CAR
+add_to_faction = CLG
+add_to_faction = CRL
+add_to_faction = TLZ
+
+give_guarantee = ALD
+give_military_access = ALD
+
+give_guarantee = TLZ
+give_military_access = TLZ
+
+give_guarantee = ATZ
+give_military_access = ATZ
+
+
+give_guarantee = BOT
+give_military_access = BOT
+
+
+give_guarantee = CAR
+give_military_access = CAR
+
+give_guarantee = CLG
+give_military_access = CLG
+
+give_guarantee = CRL
+give_military_access = CRL
+
+create_country_leader = {
+	name = "Sheev Palpatine"
+	desc = "The newly elected Chancellor of the Galactic Republic"
+	picture = "gfx/leaders/REP/palpatine.dds"
+	expire = "2020.1.1"
+	ideology = conservatism
+	traits = {
+		dictator
+	}
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}

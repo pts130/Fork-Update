@@ -1,0 +1,1753 @@
+focus_tree = {
+	id = REP
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = REP
+		}
+	}
+	#Focus for Galactic Stability
+	focus = {
+		id = REP_galacticstability
+		icon = GFX_goal_tripartite_pact
+		x = 0
+		y = 6
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_senate }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.15
+add_popularity= { 
+ideology = democratic
+popularity = 0.1 
+}
+		}
+	}
+
+	#Focus for Stormtroopers
+	focus = {
+		id = REP_stormtroopers
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 29
+		y = 9
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = REP_thefutureofthegalaxy 
+		}
+		prerequisite = { 
+			focus = REP_phaseiiclonetroopers 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 2 
+category = infantry_tech 
+}
+
+add_tech_bonus= {
+ bonus = 0.5 
+uses = 2 
+category = land_doctrine 
+}
+		}
+	}
+
+	#Focus for The Future of the Galaxy
+	focus = {
+		id = REP_thefutureofthegalaxy
+		icon = GFX_goal_generic_propaganda
+		x = 16
+		y = 7
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = REP_theempireandorder66 
+			focus = REP_galacticstability 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= -0.05
+add_threat = 5
+		}
+	}
+
+
+
+
+##################BUILDUPS##############
+
+
+
+
+
+	#Focus for Outer Rim Air Bases
+	focus = {
+		id = REP_outerrimairbases
+		icon = GFX_goal_generic_build_airforce
+		x = 43
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_airpower 
+		}
+		prerequisite = { focus = REP_moncalamaribuildup 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			39 = {	#Kamino
+
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = air_base
+							level = 2
+							instant_build = yes
+						}
+				}
+			}
+			42 = {	#Rodia
+
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = air_base
+							level = 2
+							instant_build = yes
+						}
+				}
+			}
+			44 = {	#Christophsis
+
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = air_base
+							level = 2
+							instant_build = yes
+						}
+				}
+			}
+		}
+	}
+
+	#Focus for Mon Calamari Buildup
+	focus = {
+		id = REP_moncalamaribuildup
+		icon = GFX_goal_generic_army_artillery2
+		x = 43
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_outerrimbases }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			44 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 1701
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 925
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 106
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = coastal_bunker
+							level = 3
+							province = 1096
+							instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Naval  Air Power
+	focus = {
+		id = REP_navalairpower
+		icon = GFX_focus_chi_flying_tigers
+		x = 36
+		y = 6
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_dropshipoperations }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = cv_tech 
+}
+
+add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = light_fighter
+}
+
+add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = cas_bomber
+}
+		}
+	}
+
+	#Focus for Dropship Operations
+	focus = {
+		id = REP_dropshipoperations
+		icon = GFX_focus_generic_paratrooper
+		x = 38
+		y = 4
+		cost = 3
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = REP_airpower 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = para_tech 
+}
+		}
+	}
+
+	#Focus for Resources II
+	focus = {
+		id = REP_resourcesii
+		icon = GFX_focus_generic_steel
+		x = 10
+		y = 6
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_resources }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_tech = synth_oil_experiments
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Naval Transports
+	focus = {
+		id = REP_navaltransports
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+		x = 20
+		y = 6
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_escorts }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = tp_tech 
+}
+		}
+	}
+
+	#Focus for Galactic Marines
+	focus = {
+		id = REP_galacticmarines
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 24
+		y = 7
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = REP_navaltransports 
+		}
+		prerequisite = { 
+			focus = REP_phaseiiclonetroopers 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = 21marines
+			hidden_effect = {load_oob= marines }
+			add_tech_bonus= {
+ 				bonus = 0.5 
+				uses = 2
+				category = marine_tech 
+}
+create_corps_commander = {
+	name = "Clone Commander Bacara"
+	picture = "bacara.dds"
+	traits = { invader_ii naval_invader }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+}
+		}
+	}
+
+	#Focus for Research slots
+	focus = {
+		id = REP_researchslots
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 7
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_industryresearch }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_research_slot= 2
+		}
+	}
+
+	#Focus for Civilian Factories
+	focus = {
+		id = REP_civilianfactories
+		icon = GFX_goal_generic_production
+		x = 9
+		y = 2
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_industry }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			24 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+			}
+			17 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+			}
+			19 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+			}
+			21 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+			}
+			25 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Republic Navy
+	focus = {
+		id = REP_republicnavy
+		icon = GFX_focus_generic_cruiser2
+		x = 20
+		y = 1
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+			navy_experience= 15
+
+create_navy_leader = {
+	name = "Wullf Yularen"
+    picture = "Yularen.dds"
+	traits = { superior_tactician }
+	skill = 5
+}
+		}
+	}
+
+	#Focus for Politics
+	focus = {
+		id = REP_politics
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 2
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05
+		}
+	}
+
+	#Focus for Industry
+	focus = {
+		id = REP_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 9
+		y = 1
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 2 
+category = industry 
+}
+		}
+	}
+
+	#Focus for Outer Rim Bases
+	focus = {
+		id = REP_outerrimbases
+		icon = GFX_goal_generic_construction2
+		x = 43
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			48 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3318
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 155
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3324
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 824
+							instant_build = yes
+					}
+				}
+			}
+			18 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 2154
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 1201
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 748
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 2152
+							instant_build = yes
+					}
+				}
+			}
+			22 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 2277
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 897
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 2263
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 752
+							instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Better Corvettes
+	focus = {
+		id = REP_bettercorvettes
+		icon = GFX_goal_generic_navy_cruiser
+		x = 20
+		y = 4
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_republicnavy }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 1 
+category = dd_tech 
+}
+		}
+	}
+
+	#Focus for Capital Ships
+	focus = {
+		id = REP_capitalships
+		icon = GFX_goal_generic_navy_battleship
+		x = 22
+		y = 3
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_republicnavy }
+		mutually_exclusive = { focus = REP_frigatewarfare }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_tech = basic_carrier
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = cv_tech
+}
+		}
+	}
+
+	#Focus for Pride of the Core
+	focus = {
+		id = REP_prideofthecore
+		icon = GFX_goal_generic_amphibious_assault
+		x = 22
+		y = 5
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_venatorclass }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_tech = early_battlecruiser
+		}
+		completion_reward = {
+			custom_effect_tooltip = potc
+			hidden_effect = {load_oob= potc }
+		}
+	}
+
+	#Focus for Befriend Kashyyyk
+	focus = {
+		id = REP_befriendkashyyyk
+		icon = GFX_goal_generic_major_alliance
+		x = 12
+		y = 5
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_protector }
+		mutually_exclusive = { focus = REP_protecttrandosha }
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {
+			give_guarantee= KYK
+			reverse_add_opinion_modifier = {
+			target = TRA
+			modifier = faction_traitor
+			}
+add_political_power = 200
+add_threat = 5
+		}
+	}
+
+	#Focus for Protect Trandosha
+	focus = {
+		id = REP_protecttrandosha
+		icon = GFX_goal_generic_major_alliance
+		x = 15
+		y = 5
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_protector }
+		mutually_exclusive = { focus = REP_befriendkashyyyk }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			give_guarantee= TRA
+			reverse_add_opinion_modifier = {
+			target = KYK
+			modifier = faction_traitor
+			}
+add_political_power = 10
+add_threat = 8
+		}
+	}
+
+	#Focus for Protect Ryloth
+	focus = {
+		id = REP_protectryloth
+		icon = GFX_goal_generic_major_alliance
+		x = 14
+		y = 3
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_protector }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			give_guarantee= RYL
+add_political_power = 100
+add_threat = 5
+		}
+	}
+
+	#Focus for Military Factories
+	focus = {
+		id = REP_militaryfactories
+		icon = GFX_goal_generic_army_motorized
+		x = 9
+		y = 4
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_civilianfactories }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			24 = {
+			is_owned_by = REP
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}
+			17 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}
+			19 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}
+			21 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}
+			25 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Jedi Generals
+	focus = {
+		id = REP_jedigenerals
+		icon = GFX_goal_generic_cavalry
+		x = 31
+		y = 3
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_phase1clonetroopers }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_corps_commander = {
+	name = "Jedi General Ashoka Tano"
+	picture = "tano.dds"
+	traits = { scavenger ambusher }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Jedi General Mace Windu"
+	picture = "windu.dds"
+	traits = { invader_ii fortress_buster }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Clone Commander Gree"
+	picture = "gree.dds"
+	traits = { infantry_expert organizer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Clone Commander Bly"
+	picture = "bly.dds"
+	traits = { infantry_leader naval_invader }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+		}
+	}
+
+	#Focus for Escorts
+	focus = {
+		id = REP_escorts
+		icon = GFX_goal_generic_navy_anti_submarine
+		x = 20
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_bettercorvettes }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_tech = basic_destroyer
+		}
+		completion_reward = {
+			custom_effect_tooltip = escortfleet
+			hidden_effect = {load_oob= escortfleet }
+			add_tech_bonus= {
+ 				bonus = 0.5 
+				uses = 1
+				category = convoy_defense_tree
+			}
+		}
+	}
+
+	#Focus for Venator Class
+	focus = {
+		id = REP_venatorclass
+		icon = GFX_goal_generic_navy_battleship
+		x = 22
+		y = 4
+		cost = 8
+		available_if_capitulated = yes
+		available = {
+			has_tech = basic_carrier
+		}
+		prerequisite = { focus = REP_capitalships }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = venatorfleet
+			hidden_effect = {load_oob= venatorfleet}
+		}
+	}
+
+	#Focus for Dreadnoughts
+	focus = {
+		id = REP_dreadnoughts
+		icon = GFX_goal_generic_amphibious_assault
+		x = 18
+		y = 4
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = {  
+			focus = REP_frigatewarfare 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = cl_tech
+}
+navy_experience = 10
+		}
+	}
+
+	#Focus for Outer rim Factories
+	focus = {
+		id = REP_outerrimfactories
+		icon = GFX_focus_generic_rubber
+		x = 7
+		y = 4
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_civilianfactories }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Kamino Buildup
+	focus = {
+		id = REP_kaminobuildup
+		icon = GFX_goal_generic_construct_military
+		x = 45
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_outerrimbases }
+		ai_will_do = {
+			factor = 6
+		}
+		completion_reward = {
+			35 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 2993
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 2958
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 885
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 151
+							instant_build = yes
+					}
+						add_building_construction = {
+							type = coastal_bunker
+							level = 3
+							province = 2942
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = coastal_bunker
+							level = 3
+							province = 337
+							instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Christophsis  Buildup
+	focus = {
+		id = REP_christophsisbuildup
+		icon = GFX_goal_continuous_non_factory_construct
+		x = 41
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_outerrimbases }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			44 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 41
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 189
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3166
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = coastal_bunker
+							level = 3
+							province = 3164
+							instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Deploy the 4th fleet
+	focus = {
+		id = REP_deploythe4thfleet
+		icon = GFX_goal_generic_amphibious_assault
+		x = 18
+		y = 6
+		cost = 12
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = REP_escorts 
+			focus = REP_dreadnoughts 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_tech = basic_destroyer
+		has_tech = basic_carrier
+		has_tech = basic_light_cruiser
+		}
+		completion_reward = {
+			custom_effect_tooltip = 4thfleet
+			hidden_effect = {load_oob= 4thfleet }
+		}
+	}
+
+	#Focus for Industry Research
+	focus = {
+		id = REP_industryresearch
+		icon = GFX_goal_generic_construction2
+		x = 7
+		y = 5
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_outerrimfactories }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 3 
+category = industry 
+}
+		}
+	}
+
+	#Focus for Resources
+	focus = {
+		id = REP_resources
+		icon = GFX_goal_generic_oil_refinery
+		x = 10
+		y = 5
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_civilianfactories }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_tech = synth_oil_experiments
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Y-Wing Support
+	focus = {
+		id = REP_ywingsupport
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 38
+		y = 3
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_closeairsupport }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_tech = cv_CAS2
+		}
+		completion_reward = {
+		custom_effect_tooltip = REP_ywingsupport_desc
+		hidden_effect = {load_oob = ywing}
+		}
+	}
+
+	#Focus for Advanced Fighters
+	focus = {
+		id = REP_advancedfighters
+		icon = GFX_focus_jap_zero
+		x = 34
+		y = 3
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_airsuperiority }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 2
+category = light_fighter
+}
+		}
+	}
+
+	#Focus for Close Air Support
+	focus = {
+		id = REP_closeairsupport
+		icon = GFX_goal_generic_occupy_start_war
+		x = 38
+		y = 2
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_airpower }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = cas_bomber
+}
+add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = battlefield_support_tree
+}
+		}
+	}
+
+	#Focus for Air Superiority
+	focus = {
+		id = REP_airsuperiority
+		icon = GFX_goal_continuous_air_production
+		x = 34
+		y = 2
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_airpower }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 2
+category = light_fighter
+}
+		}
+	}
+
+	#Focus for Bothawui Buildup
+	focus = {
+		id = REP_bothawuibuildup
+		icon = GFX_goal_generic_army_artillery2
+		x = 45
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_kaminobuildup }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			35 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 2818
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 2857
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 2815
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 874
+							instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	#Focus for Rodia Buildup
+	focus = {
+		id = REP_rodiabuildup
+		icon = GFX_goal_generic_fortify_city
+		x = 41
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_christophsisbuildup }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			42 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = coastal_bunker
+							level = 3
+							province = 1477
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3087
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3078
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3098
+							instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Invasion of Geonosis
+	focus = {
+		id = REP_invasionofgeonosis
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 27
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_phase1clonetroopers }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			declare_war_on= { 
+				target = CIS 
+				type = annex_everything 
+			}
+		custom_effect_tooltip = geoattack
+		hidden_effect = {load_oob = geoattack}
+		}
+	}
+
+	#Focus for Phase II Clone Troopers
+	focus = {
+		id = REP_phaseiiclonetroopers
+		icon = GFX_goal_generic_CAS
+		x = 29
+		y = 6
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_clonetrainingfacilities }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 20
+
+add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = infantry_tech 
+}
+
+add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = support_tech 
+}
+
+add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = logistics_tech 
+}
+
+add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = land_doctrine 
+}
+		}
+	}
+
+	#Focus for 7th Sky Corps
+	focus = {
+		id = REP_7thskycorps
+		icon = GFX_goal_generic_small_arms
+		x = 34
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = REP_jedigenerals 
+		}
+		prerequisite = { 
+			focus = REP_dropshipoperations 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = 7skycorps
+			hidden_effect = { load_oob= 7skycorps }
+		}
+	}
+
+	#Focus for Phase 1 Clone Troopers
+	focus = {
+		id = REP_phase1clonetroopers
+		icon = GFX_goal_generic_secret_weapon
+		x = 29
+		y = 2
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_grandarmy }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = infantry_tech 
+}
+
+add_tech_bonus = {
+ bonus = 0.5 
+uses = 2 
+category = land_doctrine 
+}
+		}
+	}
+
+	#Focus for Republic Commandos
+	focus = {
+		id = REP_republiccommandos
+		icon = GFX_focus_prc_infiltration
+		x = 27
+		y = 5
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_clonetrainingfacilities }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 2
+category = mountaineers_tech 
+}
+add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = night_vision
+}
+		}
+	}
+
+	#Focus for Senate
+	focus = {
+		id = REP_senate
+		icon = GFX_goal_tripartite_pact
+		x = 0
+		y = 5
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_powertothepeople }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05
+add_popularity= { 
+ideology = democratic
+popularity = 0.1 
+}
+		}
+	}
+
+	#Focus for Power to the People
+	focus = {
+		id = REP_powertothepeople
+		icon = GFX_goal_generic_improve_relations
+		x = 0
+		y = 4
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_republicday }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05
+add_popularity= { 
+ideology = democratic
+popularity = 0.1 
+}
+		}
+	}
+
+	#Focus for The Empire and Order 66
+	focus = {
+		id = REP_theempireandorder66
+		icon = GFX_focus_smiling_buddha
+		x = 4
+		y = 6
+		cost = 15
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_emergencypowers }
+		ai_will_do = {
+			factor = 0
+		}
+		completion_reward = {
+			annex_country = {
+    target = CIS
+    transfer_troops = no
+}
+add_stability = -0.3
+add_threat = 80
+add_popularity= { 
+ideology = fascism 
+popularity = 0.1 
+}
+		}
+	}
+
+	#Focus for Emergency Powers
+	focus = {
+		id = REP_emergencypowers
+		icon = GFX_goal_generic_demand_territory
+		x = 4
+		y = 5
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_palpatinegivenanotherterm }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= -0.05
+			add_threat = 5
+add_popularity= { 
+ideology = fascism 
+popularity = 0.1 
+}
+		}
+	}
+
+	#Focus for Palpatine Given Another Term
+	focus = {
+		id = REP_palpatinegivenanotherterm
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 4
+		y = 4
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_chancellorday }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= -0.05
+			add_threat = 5
+add_popularity= { 
+ideology = fascism 
+popularity = 0.1 
+}
+		}
+	}
+
+	#Focus for Chancellor Day
+	focus = {
+		id = REP_chancellorday
+		icon = GFX_goal_generic_territory_or_war
+		x = 4
+		y = 3
+		cost = 3
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_politics }
+		mutually_exclusive = { focus = REP_republicday }
+		ai_will_do = {
+			factor = 0
+		}
+		completion_reward = {
+			add_stability = -0.05
+			add_threat = 5
+add_popularity= { 
+ideology = fascism 
+popularity = 0.1 
+}
+		}
+	}
+
+	#Focus for Republic Day
+	focus = {
+		id = REP_republicday
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		x = 0
+		y = 3
+		cost = 3
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_politics }
+		mutually_exclusive = { focus = REP_chancellorday }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity= { 
+ideology = democratic 
+popularity = 0.1 
+}
+add_stability= 0.05
+		}
+	}
+
+
+
+
+	#Focus for Protector
+	focus = {
+		id = REP_protector
+		icon = GFX_goal_tripartite_pact
+		x = 15
+		y = 1
+		cost = 3
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05
+			add_war_support = 0.2
+		}
+	}
+
+	#Focus for Air Power
+	focus = {
+		id = REP_airpower
+		icon = GFX_goal_generic_air_fighter2
+		x = 36
+		y = 1
+		cost = 6
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ace= {
+name = Anakin 
+surname = Skywalker 
+callsign = 'Red-Five' 
+type = fighter_genius 
+is_female = no
+}
+air_experience = 15
+		}
+	}
+
+	#Focus for Frigate warfare
+	focus = {
+		id = REP_frigatewarfare
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 18
+		y = 3
+		cost = 3
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_republicnavy }
+		mutually_exclusive = { focus = REP_capitalships }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 1
+category = cl_tech
+}
+		}
+	}
+
+	#Focus for Clone Training Facilities
+	focus = {
+		id = REP_clonetrainingfacilities
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 29
+		y = 4
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_phase1clonetroopers }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 15
+add_tech_bonus= {
+ bonus = 0.5 
+uses = 2
+category = land_doctrine 
+}
+		}
+	}
+
+	#Focus for ARC Training
+	focus = {
+		id = REP_arctraining
+		icon = GFX_goal_generic_CAS
+		x = 31
+		y = 5
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = REP_clonetrainingfacilities }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 2
+category = recon_tech 
+}
+		}
+	}
+
+	#Focus for The Imperial Fleet
+	focus = {
+		id = REP_theimperialfleet
+		icon = GFX_goal_generic_navy_battleship
+		x = 22
+		y = 9
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = REP_prideofthecore 
+		}
+		prerequisite = { 
+			focus = REP_thefutureofthegalaxy 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_technology = {
+				advanced_carrier = 1
+				}
+			set_technology = {
+				basic_battlecruiser = 1
+			}
+		}
+	}
+
+
+	#Focus for Grand Army
+	focus = {
+		id = REP_grandarmy
+		icon = GFX_goal_unknown ##Unfortunately
+		x = 29
+		y = 1
+		cost = 4
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 15
+			create_corps_commander = {
+			name = "Jedi General Obi-Wan Kenobi"
+			picture = "kenobi.dds"
+			traits = { trickster brilliant_strategist }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+			}
+		}
+	}
+
+	#Focus for TIE
+	focus = {
+		id = REP_tie
+		icon = GFX_goal_generic_air_fighter2
+		x = 36
+		y = 9
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = REP_thefutureofthegalaxy 
+		}
+		prerequisite = { 
+			focus = REP_navalairpower 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_technology = {
+				jet_fighter1 = 1
+			}
+			set_technology = {
+			jet_tactical_bomber1
+			}
+		}
+	}
+
+
+
+	#End of focuses 
+ }

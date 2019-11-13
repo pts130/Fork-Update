@@ -1,0 +1,10 @@
+﻿units = {
+navy = {					
+		name = "Anaxes Delivery"				
+		base = 2205
+		location = 2205 #Anaxes
+		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		}
+
+	}
+}

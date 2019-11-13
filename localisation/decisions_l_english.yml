@@ -1,0 +1,105 @@
+﻿l_english:
+ DECISIONVIEW_TITLE:0 "Events and Decisions"
+ DECISIONSVIEW_EVENT_HEADER:0 "Events"
+ POPUP_NEWS:0 "News Popup"
+ POPUP_EVENTS:0 "Event Popup"
+ CATEGORY_COLLAPSE_DESC:0 "§GClick§! to collapse"
+ CATEGORY_EXPAND_DESC:0 "§GClick§! to expand"
+ DECISION_KEEP_NOTIFIED:1 "§HNotify§!\n\n§GClick§! to §Rnot be notified§! when it is possible to take this decision.\n"
+ DECISION_NOT_KEEP_NOTIFIED:1 "§HNotify§!\n\n§GClick§! to §Gbe notified§! when it is possible to take this decision.\n"
+ TAKE_DECISION_HEADER:0 "§HTake decision§!\n\n"
+ DECISION_COST_DESC:0 "It costs £pol_power $VAL|H0$ to take the decision"
+ DECISION_COST_NOT_ENOUGH:0 "It costs £pol_power $VAL|HR0$ to take the decision"
+
+Kuat_drive_yards:0 "Kuat Drive Yards"
+Kuat_drive_yards_desc:0 "Purchase ships from the Kuat Drive Yards."
+anaxes_shipyards:0 "Anaxes shipyards"
+anaxes_shipyards_desc:0 "Purchase ships from the Anaxes shipyards."
+REP_carrier1:0 "Trireme-class Frigate"
+REP_carrier2:0 "Venator-class Attack Cruiser"
+REP_carrier3:0 "Protector-class Star Destroyer"
+REP_carrier2_desc:0 "Very powerful main line capital ship."
+
+REP_destroyer1:0 "Hammerhead-Class Corvette"
+REP_destroyer2:0 "Consular-Class Corvette"
+REP_destroyer3:0 "Corellian Light Corvette"
+
+REP_lc1:0 "Carrack-Class Light Cruiser"
+REP_lc2:0 "Rendili-Class Dreadnaught"
+REP_lc3:0 "Acclamator-Class Assault Ship"
+REP_lc4:0 "Acclamator-Class Star Frigate"
+
+REP_Mandator:0 "Mandator-Class"
+
+REP_carrier1a:0 "Trireme-class Frigate"
+REP_carrier2a:0 "Venator-class Attack Cruiser"
+REP_carrier3a:0 "Protector-class Star Destroyer"
+REP_carrier2a_desc:0 "Very powerful main line capital ship."
+
+REP_destroyer1a:0 "Hammerhead-Class Corvette"
+REP_destroyer2a:0 "Consular-Class Corvette"
+REP_destroyer3a:0 "Corellian Light Corvette"
+
+REP_lc1a:0 "Carrack-Class Light Cruiser"
+REP_lc2a:0 "Rendili-Class Dreadnaught"
+REP_lc3a:0 "Acclamator-Class Assault Ship"
+REP_lc4a:0 "Acclamator-Class Star Frigate"
+
+REP_Mandatora:0 "Mandator-Class"
+
+cloning_facilities:0 "Kamino Cloning Facilities"
+cloning_facilities_desc:0 "Purchase clone troopers from the cloning facilities on Kamino."
+REP_clonedivision:0 "Clone Trooper Division (x1)"
+REP_clonedivision3:0 "Clone Trooper Division (x3)"
+
+
+foerost_shipyards:0 "Foerost shipyards"
+foerost_shipyards_desc:0 "Purchase ships from the Foerost shipyards."
+CIS_carrier1a:0 "Recusant-class Destroyer"
+CIS_carrier2a:0 "Providence-class Cruiser"
+CIS_carrier3a:0 "Lucrehulk-class Battleship"
+CIS_carrier2a_desc:0 "Very powerful main line capital ship."
+
+CIS_destroyer1a:0 "Hammerclass Pickett"
+CIS_destroyer2a:0 "Marauder-class Corvette"
+CIS_destroyer3a:0 "Light Missile Cruiser"
+
+CIS_lc1a:0 "Diamond-class Cruiser"
+CIS_lc2a:0 "Munificent-class Cruiser"
+CIS_lc3a:0 "Saboath-class Destroyer"
+CIS_lc4a:0 "Missile Frigate"
+
+CIS_mandatora:0 "Subjugator-Class"
+
+
+mintships:0 "Minntoine shipyards"
+foerost_shipyards_desc:0 "Purchase ships from the Minntoine shipyards."
+CIS_carrier1:0 "Recusant-class Destroyer"
+CIS_carrier2:0 "Providence-class Cruiser"
+CIS_carrier3:0 "Lucrehulk-class Battleship"
+CIS_carrier2_desc:0 "Very powerful main line capital ship."
+
+CIS_destroyer1:0 "Hammerclass Pickett"
+CIS_destroyer2:0 "Marauder-class Corvette"
+CIS_destroyer3:0 "Light Missile Cruiser"
+
+CIS_lc1:0 "Diamond-class Cruiser"
+CIS_lc2:0 "Munificent-class Cruiser"
+CIS_lc3:0 "Saboath-class Destroyer"
+CIS_lc4:0 "Missile Frigate"
+
+CIS_dist:0 "Subjugator-Class"
+
+
+
+geodroids:0 "Geonosis Droid Factories"
+geodroids_desc:0 "Purchase ground forces from the Geonosis Droid Factories."
+CIS_droiddivision:0 "Battledroid Division (x1)"
+CIS_droiddivision3:0 "Battledroid Division (x3)"
+CIS_tankdivision:0 "Tank Division"
+
+muundroids:0 "Muunilinst Droid Factories"
+muundroids_desc:0 "Purchase ground forces from the Muunilinst Droid Factories."
+CIS_droiddivisionm:0 "Battledroid Division (x1)"
+CIS_droiddivision3m:0 "Battledroid Division (x3)"
+CIS_tankdivisionm:0 "Tank Division"

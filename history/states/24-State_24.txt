@@ -1,0 +1,44 @@
+###kuat
+state={
+	id=24
+	name="STATE_24"
+	provinces={
+		62 131 136 138 148 321 376 427 494 577 635 685 715 732 756 884 939 973 1002 1045 1150 1227 1327 1339 2351 2357 2363 2365 2367 2371 2376 2377 2388 2392 2394 2405 2406 2407 2414 2415 2421 2423 2424 2425 2426 2429 2434 2435 2439 2441 2442 2444 2452 2455 2456 2457 2460 2463 2468 2470 2471 2480 2481 2482 2483 2484 2488 2489 2490 2495 2500 
+	}
+	manpower=3600000000
+	buildings_max_level_factor=1.000
+    state_category = metropolis
+	resources={
+		steel = 20
+		aluminium = 50
+		rubber = 20
+		tungsten = 50
+		oil = 80
+	}
+   	history = {
+	owner = REP
+	buildings = {
+		infrastructure = 6
+		arms_factory = 2
+		industrial_complex = 4
+		dockyard = 8
+		air_base = 4
+		427 = {
+		     naval_base = 2
+			}
+		2495 = {
+		     naval_base = 2
+			}
+		2434 = {
+		     naval_base = 2
+			}
+		2442 = {
+		     naval_base = 2
+			}
+		}
+		add_core_of = REP
+		victory_points = {
+			2444 50
+		}
+	}
+}

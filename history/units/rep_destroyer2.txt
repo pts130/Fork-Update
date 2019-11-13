@@ -1,0 +1,10 @@
+﻿units = {
+navy = {					
+		name = "Kuat Delivery"				
+		base = 2434 #Kuat
+		location = 2434 #Kuat
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		}
+
+	}
+}

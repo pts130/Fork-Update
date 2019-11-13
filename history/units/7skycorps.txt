@@ -1,0 +1,87 @@
+﻿division_template = {
+	name = "Clone Trooper Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+
+division_template = { 						
+	name = "Airborne Division"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+	}
+}
+
+
+###########################################UNITS###########################################
+
+units = {
+	division= {	
+		name = "7th Sky Corps 1st division"
+		location = 1284 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.8   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7th Sky Corps 2nd division"
+		location = 1284 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.8   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7th Sky Corps 3rd division"
+		location = 1284 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.8   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7th Sky Corps 4th division"
+		location = 1284 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.8   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7th Sky Corps 5th division"
+		location = 1284 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.8   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7th Sky Corps 1st Airborne"
+		location = 1284 #coruscant
+		division_template = "Airborne Division"
+		start_experience_factor = 0.8   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7th Sky Corps 2nd Airborne"
+		location = 1284 #coruscant
+		division_template = "Airborne Division"
+		start_experience_factor = 0.8   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7th Sky Corps 3rd Airborne"
+		location = 1284 #coruscant
+		division_template = "Airborne Division"
+		start_experience_factor = 0.8   #optional, otherwise starts with 0 expereince
+	}
+}
+

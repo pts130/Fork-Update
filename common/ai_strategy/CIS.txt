@@ -1,0 +1,244 @@
+attack_rep = {
+    enable = {
+	tag = CIS
+    }
+
+
+
+###Alderaan
+	ai_strategy = {
+		type = invade
+		id = "ALD"
+		value = 100
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = "ALD"
+		value = 200
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ALD"
+		value = 200
+	}
+
+ 	ai_strategy = {
+       		type = declare_war
+       		id = "ALD"
+       		value = 400
+   	}
+
+
+
+###Atzerri
+	ai_strategy = {
+		type = invade
+		id = "ATZ"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = "ATZ"
+		value = 200
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ATZ"
+		value = 200
+	}
+ 	ai_strategy = {
+        	type = declare_war
+       		id = "ATZ"
+       		value = 400
+   	}
+
+
+###Bothawui
+	ai_strategy = {
+		type = invade
+		id = "BOT"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = "BOT"
+		value = 200
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BOT"
+		value = 200
+	}
+ 	ai_strategy = {
+        	type = declare_war
+       		id = "BOT"
+       		value = 400
+   	}
+
+
+###Carida
+	ai_strategy = {
+		type = invade
+		id = "CAR"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = "CAR"
+		value = 200
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAR"
+		value = 200
+	}
+ 	ai_strategy = {
+        	type = declare_war
+       		id = "CAR"
+       		value = 400
+   	}
+
+
+###Corulag
+	ai_strategy = {
+		type = invade
+		id = "CLG"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = "CLG"
+		value = 200
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CLG"
+		value = 200
+	}
+ 	ai_strategy = {
+        	type = declare_war
+       		id = "CLG"
+       		value = 400
+   	}
+
+
+
+###Corellia
+	ai_strategy = {
+		type = invade
+		id = "CRL"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = "CRL"
+		value = 200
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CRL"
+		value = 200
+	}
+ 	ai_strategy = {
+        	type = declare_war
+       		id = "CRL"
+       		value = 400
+   	}
+
+
+
+###Alzoc iii
+	ai_strategy = {
+		type = invade
+		id = "TLZ"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = "TLZ"
+		value = 200
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TLZ"
+		value = 200
+	}
+ 	ai_strategy = {
+        	type = declare_war
+       		id = "TLZ"
+       		value = 400
+   	}
+
+
+
+  	  ai_strategy = {
+      		type = build_army 
+    		id = infantry   
+      		value = 10000000
+    }
+  	  ai_strategy = {
+      		type = build_army 
+    		id = armor
+      		value = 10000000
+    }
+  	  ai_strategy = {
+      		type = garrison
+    		id = 27
+      		value = 10000000
+    }
+}
+
+CIS_area_priority = {
+	enable = {
+		original_tag = CIS
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 100 #more focus here
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = 125
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = africa
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = australia
+		value = 150
+	}
+}

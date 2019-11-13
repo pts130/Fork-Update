@@ -1,0 +1,35 @@
+###Fresia
+state={
+	id=25
+	name="STATE_25"
+	provinces={
+		23 46 79 105 224 262 306 345 485 512 578 593 706 720 723 737 799 823 830 917 978 988 989 1208 1252 1299 1425 1443 1479 2350 2352 2353 2354 2361 2366 2369 2370 2379 2383 2384 2386 2387 2401 2404 2412 2413 2418 2419 2420 2422 2428 2437 2438 2440 2445 2451 2453 2454 2462 2467 2469 2474 2477 2478 2479 2487 2491 2494 2498 
+	}
+	manpower=2300000
+	buildings_max_level_factor=1.000
+    state_category = rural
+	resources={
+		steel = 10
+		aluminium = 30
+		rubber = 20
+		tungsten = 30
+		oil = 50
+	}
+   	history = {
+	owner = REP
+	buildings = {
+		infrastructure = 5
+		arms_factory = 0
+		industrial_complex = 4
+		dockyard = 0
+		air_base = 2
+		988 = {
+		     naval_base = 2
+			}
+		799 = {
+		     naval_base = 2
+			}
+		}
+		add_core_of = REP
+	}
+}
