@@ -3,5 +3,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_neutral_industry"
 		texturefile = "gfx/interface/ideas/idea_generic_export_focus.dds"
+	}
+
+###Neutral Ideas icons####
+	spriteType = {
+		name = "GFX_idea_neutral_industry"
+		texturefile = "gfx/interface/ideas/idea_generic_export_focus.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_NET_fortify_the_borders"
+		texturefile = "gfx/interface/ideas/idea_generic_fortify_the_borders.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NET_democratic_influence"
+		texturefile = "gfx/interface/ideas/idea_generic_victors_of_ww1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NET_trade_opinions"
+		texturefile = "gfx/interface/ideas/idea_generic_foreign_capital.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NET_fascist_influence"
+		texturefile = "gfx/interface/ideas/idea_FRA_scw_intervention_republicans_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NET_dooku_opinion"
+		texturefile = "gfx/interface/ideas/idea_chi_war_of_resistance.dds"
 	}		
 }

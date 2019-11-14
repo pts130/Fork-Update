@@ -17,6 +17,94 @@ ideas = {
 				local_resources_factor = 0.1
 			}
 		}
+		
+		NET_fortify_the_borders = {
+
+			picture = generic_fortify_the_borders
+
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_bunker_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.2
+			}
+		}
+		
+		NET_democratic_influence = {
+
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+
+			modifier = {
+				democratic_drift = 0.1
+				democratic_acceptance = 85
+			}
+		}
+
+		NET_trade_opinions = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			picture = generic_foreign_capital
+			
+			modifier = {
+				trade_opinion_factor = 0.2
+				industrial_capacity_factory = 0.1
+			}
+		}
+
+		NET_fascist_influence = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+
+			modifier = {
+				fascism_drift = 0.1
+				fascism_acceptance = 85
+			}
+		}
+
+	NET_dooku_opinion = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = chi_war_of_resistance
+			
+			modifier = {
+				MONTHLY_POPULATION = 0.2
+				war_support_factor = 0.05
+				research_speed_factor = 0.03
+				attrition = -0.25
+				army_morale_factor = 0.1
+				encryption_factor = 0.5
+			}
+		}		
 	}
 }	
 		
