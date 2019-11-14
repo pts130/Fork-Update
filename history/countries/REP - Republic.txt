@@ -47,7 +47,7 @@ set_popularities = {
 	communism = 1
 }
 
-create_faction = Galactic Republic
+create_faction = GalacticRepublic
 add_to_faction = REP
 add_to_faction = ALD
 add_to_faction = ATZ
