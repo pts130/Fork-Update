@@ -42,9 +42,9 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Jabba The Hutt"
-	desc = "Leader of the Hutt clan"
-	picture = "gfx/leaders/HUT/jabba.dds"
+	name = "Jabba"
+	desc = ""
+	picture = "gfx/leaders/HUT/HUT_Jabba.tga"
 	expire = "2020.1.1"
 	ideology = marxism
 	traits = {

@@ -61,8 +61,8 @@ set_convoys = 5000
 
 create_country_leader = {
 	name = "Count Dooku"
-	desc = "Sith Lord in command of all Confederate forces"
-	picture = "gfx/leaders/CIS/dooku.dds"
+	desc = ""
+	picture = "gfx/leaders/CIS/CIS_Dooku.tga"
 	expire = "2020.1.1"
 	ideology = fascism_ideology 
 	traits = {
