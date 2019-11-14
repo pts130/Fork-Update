@@ -3,7 +3,7 @@ navy = {
 		name = "Anaxes Delivery"				
 		base = 2205
 		location = 2205 #Anaxes
-		ship = { name = "Acclamator-Class Frigate" definition = light_cruiser equipment = { light_cruiser_4 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-II class" definition = light_cruiser equipment = { light_cruiser_4 = { amount = 1 owner = REP } } 
 		}
 
 	}

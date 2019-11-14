@@ -3,7 +3,7 @@ navy = {
 		name = "Anaxes Delivery"				
 		base = 2205
 		location = 2205
-		ship = { name = "Hammerhead-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
 	}

@@ -3,7 +3,7 @@ navy = {
 		name = "Anaxes Delivery"				
 		base = 2205
 		location = 2205 #Anaxes
-		ship = { name = "Venator-Class" definition = carrier equipment = { carrier_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Victory-I Class" definition = carrier equipment = { carrier_3 = { amount = 1 owner = REP } } 
 			air_wings = {
 			}
 		}

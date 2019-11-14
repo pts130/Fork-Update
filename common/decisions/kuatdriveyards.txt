@@ -86,6 +86,34 @@ Kuat_drive_yards = {
 			factor = 8
 		}
 	}
+		REP_destroyer4 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = advanced_destroyer
+		}	
+
+		cost = 4
+
+		visible = {
+				tag = REP
+			has_tech = advanced_destroyer
+			}
+
+
+		complete_effect = {
+				load_oob = rep_destroyer4
+		}
+		ai_will_do = {
+			factor = 8
+		}
+	}
 ##########Frigates############
 
 
@@ -290,6 +318,35 @@ Kuat_drive_yards = {
 
 		complete_effect = {
 				load_oob = rep_carrier3
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+		REP_carrier4 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = advanced_carrier
+		}	
+
+		cost = 22
+
+		visible = {
+				tag = REP
+			has_tech = advanced_carrier
+			}
+
+
+		complete_effect = {
+				load_oob = rep_carrier4
 		}
 		ai_will_do = {
 			factor = 10

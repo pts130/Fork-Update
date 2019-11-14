@@ -1442,46 +1442,46 @@ units = {
 				cv_nav_bomber_equipment_1 =  { owner = "REP" amount = 80 } # historical: 12
 			}
 		}
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
 
 	}
@@ -1504,46 +1504,46 @@ units = {
 				cv_nav_bomber_equipment_1 =  { owner = "REP" amount = 80 } # historical: 12
 			}
 		}
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
 
 	}
@@ -1566,46 +1566,46 @@ units = {
 				cv_nav_bomber_equipment_1 =  { owner = "REP" amount = 80 } # historical: 12
 			}
 		}
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
-		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
-		ship = { name = "Rendili-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class assault" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REP } } 
 		}
 
 	}

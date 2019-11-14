@@ -3,7 +3,7 @@ navy = {
 		name = "Kuat Delivery"				
 		base = 2434 #Kuat
 		location = 2434 #Kuat 
-		ship = { name = "Trireme-Class" definition = carrier equipment = { carrier_1 = { amount = 1 owner = REP } } 
+		ship = { name = "Acclamator-class Cruiser" definition = carrier equipment = { carrier_1 = { amount = 1 owner = REP } } 
 			air_wings = {
 			}
 		}

@@ -3,7 +3,7 @@ navy = {
 		name = "Kuat Delivery"				
 		base = 2434 #Kuat
 		location = 2434 #Kuat
-		ship = { name = "Hammerhead-Class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
+		ship = { name = "Consular-class" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REP } } 
 		}
 
 	}
