@@ -9,26 +9,26 @@ bookmarks = {
 		
 
 		"REP"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "REP_GATHERING_STORM_DESC"
 		}
 		"CIS"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "CIS_GATHERING_STORM_DESC"
 		}
 		"HUT"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "HUT_GATHERING_STORM_DESC"
 		}
 		"MAN"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "MAN_GATHERING_STORM_DESC"
 		}
 		"KYK"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "KYK_GATHERING_STORM_DESC"
 		}
 		"RYL"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "RYL_GATHERING_STORM_DESC"
 		}
 
 		"ALD"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "ALD_GATHERING_STORM_DESC"
 		}
 
 		"---"={
