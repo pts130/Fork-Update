@@ -3615,7 +3615,10 @@ spriteTypes = {
 		name = "GFX_GER_CAS3_medium"
 		texturefile = "gfx/interface/technologies/GER_CAS3.dds"
 	}		
-	
+	SpriteType = {
+		name = "GFX_CIS_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/CIS_superheavy_tank.dds"
+	}
 	SpriteType = {
 		name = "GFX_GER_cv_CAS3_medium"
 		texturefile = "gfx/interface/technologies/GER_cv_CAS3.dds"
@@ -4248,9 +4251,8 @@ spriteTypes = {
 		name = "GFX_CIS_improved_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/CIS_imp_heavy_tank.dds"
 	}
-
-	SpriteType = {
-		name = "GFX_CIS_super_heavy_tank_medium"
+SpriteType = {
+		name = "GFX_CIS_superheavy_tank"
 		texturefile = "gfx/interface/technologies/CIS_superheavy_tank.dds"
 	}
 }
