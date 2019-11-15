@@ -4244,5 +4244,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/CIS_CAS3.dds"
 	}		
 
+	SpriteType = {
+		name = "GFX_CIS_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/CIS_imp_heavy_tank.dds"
+	}
 
+	SpriteType = {
+		name = "GFX_CIS_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/CIS_superheavy_tank.dds"
+	}
 }
