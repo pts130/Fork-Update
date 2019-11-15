@@ -23,6 +23,6 @@ units = {
 		name = "Clone Trooper Division"
 		location = 2993 #kamino
 		division_template = "Clone Trooper Division"
-		start_experience_factor = 0.0   #optional, otherwise starts with 0 expereince
+		start_experience_factor = 1.0   #optional, otherwise starts with 0 expereince
 	}
 }

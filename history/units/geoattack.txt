@@ -41,76 +41,76 @@ units = {
 		name = "Clone Trooper Division"
 		location = 849 #Kamino
 		division_template = "Clone Trooper Division"
-		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_experience_factor = 1.2   #optional, otherwise starts with 0 expereince
 	}
 	division= {	
 		name = "Clone Trooper Division"
 		location = 849 #Kamino
 		division_template = "Clone Trooper Division"
-		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_experience_factor = 1.2   #optional, otherwise starts with 0 expereince
 	}
 	division= {	
 		name = "Clone Trooper Division"
 		location = 849 #Kamino 
 		division_template = "Clone Trooper Division"
-		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_experience_factor = 1.2   #optional, otherwise starts with 0 expereince
 	}
 	division= {	
 		name = "Clone Trooper Division"
 		location = 849 #Kamino 
 		division_template = "Clone Trooper Division"
-		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
-	}
-
-	division= {	
-		name = "Clone Trooper Division"
-		location = 849 #Kamino 
-		division_template = "Clone Trooper Division"
-		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_experience_factor = 1.2   #optional, otherwise starts with 0 expereince
 	}
 
 	division= {	
 		name = "Clone Trooper Division"
 		location = 849 #Kamino 
 		division_template = "Clone Trooper Division"
-		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_experience_factor = 1.2   #optional, otherwise starts with 0 expereince
 	}
 
 	division= {	
 		name = "Clone Trooper Division"
 		location = 849 #Kamino 
 		division_template = "Clone Trooper Division"
-		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_experience_factor = 1.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Clone Trooper Division"
+		location = 849 #Kamino 
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 1.2   #optional, otherwise starts with 0 expereince
 	}
 	division= {	
 		name = "Clone Trooper Division"
 		location = 732 
 		division_template = "Clone Trooper Division"
-		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_experience_factor = 1.2   #optional, otherwise starts with 0 expereince
 	}
 	division= {	
 		name = "Clone Trooper Division"
 		location = 849 #Kamino 
 		division_template = "Clone Trooper Division"
-		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_experience_factor = 1.2   #optional, otherwise starts with 0 expereince
 	}
 	division= {	
 		name = "Clone Trooper Division"
 		location = 849 #Kamino 
 		division_template = "Clone Trooper Division"
-		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_experience_factor = 1.2   #optional, otherwise starts with 0 expereince
 	}
 	division= {	
 		name = "Tank Division"
 		location = 849 #Kamino 
 		division_template = "Tank Division"
-		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_experience_factor = 1.2   #optional, otherwise starts with 0 expereince
 	}
 	division= {	
 		name = "Tank Division"
 		location = 849 #Kamino 
 		division_template = "Tank Division"
-		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_experience_factor = 1.2   #optional, otherwise starts with 0 expereince
 	}
 }
 

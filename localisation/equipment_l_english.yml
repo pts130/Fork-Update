@@ -3460,3 +3460,64 @@
  REP_modern_tank_equipment_1_short:1 "Occupier"
  REP_super_heavy_tank_equipment_1:0 "HCVw A9 turbo tank"
  REP_super_heavy_tank_equipment_1_short:0 "A9 Turbo Tank"
+
+
+############Republic infantry###########
+ REP_infantry_equipment:0 "Blasters"
+ REP_infantry_equipment_short:0 "Blasters"
+ REP_infantry_equipment_desc:0 "The S-5 heavy blaster pistol was a versatile weapon with a heavy wooden gripstock and twin scopes for sighting and rangefinding. The S-5 blaster pistol was used extensively during the Battle of Naboo."
+ 
+ REP_infantry_equipment_0:0 "S-5 Blaster Pistol"
+ REP_infantry_equipment_0_short:0 "S-5"
+ REP_infantry_equipment_0_desc:0 "Basic infantryman equipment developed before and during the Great War."
+ 
+ REP_infantry_equipment_1:0 "DC-15a Blaster Rifle"
+ REP_infantry_equipment_1_short:0 "DC-15a"
+ REP_infantry_equipment_1_desc:0 "The DC-15A blaster rifle was the weapon of choice for the Galactic Republic's clone troopers in the Grand Army of the Republic. A version with a wooden stock was the standard weapon of the Senate Commandos. It was a larger and more powerful long-range alternative to the DC-15S."
+ 
+ REP_infantry_equipment_2:0 "DC-15s Blaster Rifle"
+ REP_infantry_equipment_2_short:0 "DC-15s"
+ REP_infantry_equipment_2_desc:0 "The DC-15S was the blaster carbine variant of BlasTech's DC-15A blaster rifle. This weapon was carried by the clone troopers of the Galactic Republic during the Clone Wars."
+
+ REP_infantry_equipment_3:0 "E-11 Blaster Rifle"
+ REP_infantry_equipment_3_short:0 "E-11"
+ REP_infantry_equipment_3_desc:0 "The E-11 blaster rifle was a light but powerful blaster rifle manufactured by BlasTech Industries. It served as the standard issue weapon of Imperial stormtroopers, and was based on the DC-15A blaster used by clone troopers during the Clone Wars."
+ 
+ REP_motorized_equipment:0 "Motorized"
+ REP_motorized_equipment_desc:0 "Turbolift vehicles used for transporting troops to and in the field."
+ REP_motorized_equipment_1:0 "RTT-04 Troop Transport"
+ REP_motorized_equipment_1_desc:0 "The RTT-04 armored troop transport, also referred to as the Republic troop transport, was a light armored infantry fighting vehicle that was part of Rothana Heavy Engineering's line of military repulsorcraft designed and manufactured for the Galactic Republic."
+ REP_mechanized_equipment:0 "Mechanized"
+ REP_mechanized_equipment_short:0 "Mechanized"
+ REP_mechanized_equipment_desc:0 "Mechanized infantry is infantry equipped with armored personnel carriers (APCs) or infantry fighting vehicles (IFVs) for transport and combat. Mechanized infantry is distinguished from motorized infantry in that its vehicles provide a degree of protection from hostile fire, as opposed to soft-skinned wheeled vehicles (trucks or jeeps) for motorized infantry."
+ REP_mechanized_equipment_1:0 "AT-OT Walker"
+ REP_mechanized_equipment_1_short:0 "AT-OT"
+ REP_mechanized_equipment_1_desc:0 "The All Terrain Open Transport was a walker with eight legs, four laser cannons, an open top, and space to fit several clone troopers."
+ REP_mechanized_equipment_2:0 "Manka-Class Armored Transport"
+ REP_mechanized_equipment_2_short:0 "Manka-Class"
+ REP_mechanized_equipment_2_desc:0 "The Manka-class armored transport, also known as an APC, was a model of armored walkers in use by both the forces of the Republic and the reconstituted Sith Empire during the Great Galactic War, the Cold War, and Galactic War. Making up part of the Republic's armored vehicle units, the Manka-class armored transport saw use on battlefields across the galaxy, including extensive use across Ord Mantell during the Separatist War, as well as on Balmorra, Voss, and Corellia, throughout the period of conflict between the two galactic powers. "
+ REP_mechanized_equipment_3:0 "Imperial Troop Transport"
+ REP_mechanized_equipment_3_short:0 "Imperial Transport"
+ REP_mechanized_equipment_3_desc:0 "The Imperial Troop Transport (ITT), also known as a K79-S80, RTT or Recon transport, was a boxy repulsorlift ground assault vehicle used by the Galactic Empire. Developed by Ubrikkian Industries, it was used to either move Imperial stormtroopers in, or to move prisoners out. Despite not being designed for combat, the Imperial Troop Transport was fitted with two forward laser guns, and one dorsal twin laser turret."
+ 
+
+ #######CIS infantry#########
+ CIS_infantry_equipment:0 "Blasters"
+ CIS_infantry_equipment_short:0 "Blasters"
+ CIS_infantry_equipment_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs."
+ 
+ CIS_infantry_equipment_0:0 "SE-14 Blaster Pistol"
+ CIS_infantry_equipment_0_short:0 "SE-14"
+ CIS_infantry_equipment_0_desc:0 "The SE-14, sometimes known as the SR combat pistol, or the Separatist blaster pistol during the Clone Wars, was a basic blaster pistol produced by BlasTech Industries."
+ 
+ CIS_infantry_equipment_1:0 "E-5 Blaster Rifle"
+ CIS_infantry_equipment_1_short:0 "E-5"
+ CIS_infantry_equipment_1_desc:0 "The E-5 blaster rifle was the standard-issue armament of the OOM and B1 battle droids and the elite BX-series droid commando. The E-5 blaster rifle was a powerful, light, but somewhat inaccurate weapon."
+ 
+ CIS_infantry_equipment_2:0 "E-5C Blaster Rifle"
+ CIS_infantry_equipment_2_short:0 "E-5C"
+ CIS_infantry_equipment_2_desc:0 "The E-5C, also known as the E-5C heavy blaster rifle, was a model of blaster rifle."
+ 
+ CIS_infantry_equipment_3:0 "E-11 Blaster Rifle"
+ CIS_infantry_equipment_3_short:0 "E-11"
+ CIS_infantry_equipment_3_desc:0 "The E-11 blaster rifle was a light but powerful blaster rifle manufactured by BlasTech Industries. It served as the standard issue weapon of Imperial stormtroopers, and was based on the DC-15A blaster used by clone troopers during the Clone Wars."
