@@ -601,6 +601,15 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+				}
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 120
+		}
 	}
 
 	#Focus for Invite CIS Investors
