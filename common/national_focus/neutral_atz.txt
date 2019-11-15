@@ -624,6 +624,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		add_ideas = NET_cis_investor
+		}
 	}
 
 	#Focus for Republic Cooperation
@@ -744,6 +747,9 @@ focus_tree = {
 		prerequisite = { focus = ATZ_clonesarrival }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		add_ideas = NET_republic_investor
 		}
 	}
 
@@ -866,7 +872,7 @@ focus_tree = {
 	#Focus for Clones Arrival
 	focus = {
 		id = ATZ_clonesarrival
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_clones_arrive
 		x = 19
 		y = 5
 		cost = 10

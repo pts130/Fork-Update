@@ -104,6 +104,37 @@ ideas = {
 				army_morale_factor = 0.1
 				encryption_factor = 0.5
 			}
+		}
+
+	NET_cis_investor = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = net_tf_investors
+			
+			modifier = {
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+			}
+		}
+	NET_republic_investor = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = man_five_year_plan_industry
+			
+			modifier = {
+				army_morale_factor = 0.05
+				land_reinforce_rate = 0.05
+			}
 		}		
 	}
 }	

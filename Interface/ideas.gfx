@@ -16,18 +16,26 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_NET_democratic_influence"
-		texturefile = "gfx/interface/ideas/idea_generic_victors_of_ww1.dds"
+		texturefile = "gfx/interface/ideas/idea_republic_alignment.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_NET_trade_opinions"
-		texturefile = "gfx/interface/ideas/idea_generic_foreign_capital.dds"
+		texturefile = "gfx/interface/ideas/idea_trade_factor.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_NET_fascist_influence"
-		texturefile = "gfx/interface/ideas/idea_FRA_scw_intervention_republicans_focus.dds"
+		texturefile = "gfx/interface/ideas/idea_separatist_alignment.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_NET_dooku_opinion"
 		texturefile = "gfx/interface/ideas/idea_chi_war_of_resistance.dds"
-	}		
+	}
+	spriteType = {
+		name = "GFX_idea_net_tf_investors"
+		texturefile = "gfx/interface/ideas/idea_net_tf_investors.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NET_republic_investor"
+		texturefile = "gfx/interface/ideas/idea_man_five_year_plan_industry.dds"
+	}	
 }
