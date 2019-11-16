@@ -88,7 +88,7 @@ create_country_leader = {
 	expire = "2020.1.1"
 	ideology = conservatism
 	traits = {
-		dictator
+		
 	}
 }
 
@@ -99,7 +99,7 @@ create_country_leader = {
 	expire = "1937.1.1"
 	ideology = conservatism
 	traits = {
-		dictator
+		
 	}
 }
 
