@@ -36,9 +36,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 60
-	communism = 30
+	fascism = 100
 }
 
 create_faction = Confederacy
