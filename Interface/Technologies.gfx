@@ -4255,4 +4255,16 @@ SpriteType = {
 		name = "GFX_CIS_superheavy_tank"
 		texturefile = "gfx/interface/technologies/CIS_superheavy_tank.dds"
 	}
+	SpriteType = {
+		name = "GFX_CIS_light_tank"
+		texturefile = "gfx/interface/technologies/CIS_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_CIS_imp_light_tank"
+		texturefile = "gfx/interface/technologies/CIS_imp_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_CIS_heavy_tank"
+		texturefile = "gfx/interface/technologies/CIS_heavy_tank.dds"
+	}
 }
