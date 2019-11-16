@@ -12,7 +12,7 @@ geodroids = {
 			CIS = {owns_state = 47}
 		}	
 
-		cost = 2
+		cost = 20
 
 		visible = {
 				tag = CIS
@@ -39,7 +39,7 @@ geodroids = {
 			CIS = {owns_state = 47}
 		}	
 
-		cost = 6
+		cost = 60
 
 		visible = {
 				tag = CIS
@@ -66,7 +66,7 @@ geodroids = {
 			CIS = {owns_state = 47}
 		}	
 
-		cost = 10
+		cost = 100
 
 		visible = {
 				tag = CIS

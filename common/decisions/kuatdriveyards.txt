@@ -15,7 +15,7 @@ Kuat_drive_yards = {
 			has_tech = early_destroyer
 		}	
 
-		cost = 4
+		cost = 40
 
 		visible = {
 				tag = REP
@@ -43,7 +43,7 @@ Kuat_drive_yards = {
 			has_tech = basic_destroyer
 		}	
 
-		cost = 5
+		cost = 50
 
 		visible = {
 				tag = REP
@@ -71,7 +71,7 @@ Kuat_drive_yards = {
 			has_tech = improved_destroyer
 		}	
 
-		cost = 6
+		cost = 60
 
 		visible = {
 				tag = REP
@@ -99,7 +99,7 @@ Kuat_drive_yards = {
 			has_tech = advanced_destroyer
 		}	
 
-		cost = 4
+		cost = 40
 
 		visible = {
 				tag = REP
@@ -130,7 +130,7 @@ Kuat_drive_yards = {
 			has_tech = early_light_cruiser
 		}	
 
-		cost = 8
+		cost = 80
 
 		visible = {
 				tag = REP
@@ -159,7 +159,7 @@ Kuat_drive_yards = {
 			has_tech = basic_light_cruiser
 		}	
 
-		cost = 10
+		cost = 100
 
 		visible = {
 				tag = REP
@@ -188,7 +188,7 @@ Kuat_drive_yards = {
 			has_tech = improved_light_cruiser
 		}	
 
-		cost = 11
+		cost = 110
 
 		visible = {
 				tag = REP
@@ -217,7 +217,7 @@ Kuat_drive_yards = {
 			has_tech = advanced_light_cruiser
 		}	
 
-		cost = 13
+		cost = 130
 
 		visible = {
 				tag = REP
@@ -250,7 +250,7 @@ Kuat_drive_yards = {
 			has_tech = early_carrier
 		}	
 
-		cost = 17
+		cost = 170
 
 		visible = {
 				tag = REP
@@ -279,7 +279,7 @@ Kuat_drive_yards = {
 			has_tech = basic_carrier
 		}	
 
-		cost = 20
+		cost = 200
 
 		visible = {
 				tag = REP
@@ -308,7 +308,7 @@ Kuat_drive_yards = {
 			has_tech = improved_carrier
 		}	
 
-		cost = 22
+		cost = 220
 
 		visible = {
 				tag = REP
@@ -337,7 +337,7 @@ Kuat_drive_yards = {
 			has_tech = advanced_carrier
 		}	
 
-		cost = 22
+		cost = 220
 
 		visible = {
 				tag = REP
@@ -366,7 +366,7 @@ Kuat_drive_yards = {
 			has_tech = early_battlecruiser
 		}	
 
-		cost = 250
+		cost = 2000
 
 		visible = {
 			tag = REP

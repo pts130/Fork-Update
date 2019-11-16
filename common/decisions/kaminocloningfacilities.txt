@@ -13,7 +13,7 @@ cloning_facilities = {
 			has_tech = early_destroyer
 		}	
 
-		cost = 3
+		cost = 30
 
 		visible = {
 				tag = REP
@@ -41,7 +41,7 @@ cloning_facilities = {
 			has_tech = early_destroyer
 		}	
 
-		cost = 9
+		cost = 90
 
 		visible = {
 				tag = REP
