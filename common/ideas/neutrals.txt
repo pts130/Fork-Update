@@ -135,6 +135,45 @@ ideas = {
 				army_morale_factor = 0.05
 				land_reinforce_rate = 0.05
 			}
+		}
+		NET_neutral_focus = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			picture = neutral_alignment
+
+			modifier = {
+				neutrality_drift = 5
+				drift_defence_factor = 0.1
+				join_faction_tension = -0.2
+				lend_lease_tension = -0.2
+				send_volunteers_tension = -0.2
+				industry_repair_factor = 0.20
+				training_time_factor = -0.1
+				conscription = 0.005
+			}
+		}
+		NET_volunters_send = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = net_volunteers_icon
+			
+			modifier = {
+				army_org = 5
+				army_morale_factor = 0.1
+				weekly_manpower = 1000
+				army_core_attack_factor = 0.5
+				army_core_defence_factor = 0.5
+			    industrial_capacity_factory = 0.10
+			}
 		}		
 	}
 }	
