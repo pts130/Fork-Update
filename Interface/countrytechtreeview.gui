@@ -2544,8 +2544,7 @@ guiTypes = {
 #					position = { x=0 y=-150 }					
 #				}
 			}
-		}
-		
+		}		
 		containerWindowType = {
 			name = "electronics_folder"
 			position = { x=0 y=47 }

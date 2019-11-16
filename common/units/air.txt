@@ -40,7 +40,7 @@ sub_units = {
 		sprite = light_plane
 		priority = 1
 		active = yes
-		type = { naval_bomber }
+		type = { naval_bomber cas fighter strategic_bomber }
 		need = { cv_nav_bomber_equipment = 1 }
 	}
 
@@ -48,7 +48,7 @@ sub_units = {
 		sprite = light_plane
 		priority = 1
 		active = yes
-		type = { naval_bomber cas fighter }
+		type = { naval_bomber cas fighter strategic_bomber }
 		need = { nav_bomber_equipment = 1 }
 	}
 	
