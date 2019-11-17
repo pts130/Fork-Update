@@ -1,0 +1,18 @@
+#GandalfSpaceState(UpperCoruscant)
+state={
+	id=84
+	name="STATE_84"
+	provinces={
+		3620 4008 4452 4600 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = REP
+	add_core_of = REP
+		}
+	}

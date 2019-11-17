@@ -1,0 +1,18 @@
+#GandalfSpaceState(Neimodian)
+state={
+	id=79
+	name="STATE_79"
+	provinces={
+		3529 3920 4212 4405 4638 4648
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = CIS
+	add_core_of = CIS
+		}
+	}

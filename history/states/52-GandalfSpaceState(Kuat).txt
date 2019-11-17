@@ -1,0 +1,18 @@
+#GandalfSpaceState(Kuat)
+state={
+	id=52
+	name="STATE_52"
+	provinces={
+		3559 3756 3807 3820 3863 4677 4825 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = REP
+	add_core_of = REP
+		}
+	}

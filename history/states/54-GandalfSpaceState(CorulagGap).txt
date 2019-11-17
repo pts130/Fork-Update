@@ -1,0 +1,18 @@
+#GandalfSpaceState(CorulagGap)
+state={
+	id=54
+	name="STATE_54"
+	provinces={
+		3461 3554 3678 4359 4725 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = REP
+	add_core_of = REP
+		}
+	}
