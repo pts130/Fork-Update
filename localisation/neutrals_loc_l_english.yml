@@ -123,3 +123,6 @@ ATZ_formforeignbrigades_desc:0 ""
 ###OOBS###
 net_clones_loc: "Clone reinforcements will be available."
 net_droids_loc: "Several B1 Battle droids will be deployed."
+###Shared###
+gen_aircraft_republic:0 "Republic Starfighter Mission" 
+GEN_aircraft_separatist:0 "Separatist Starfighter Mission"

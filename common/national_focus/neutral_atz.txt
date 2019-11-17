@@ -515,7 +515,7 @@ focus_tree = {
 	#Focus for Study Separatist Fighters
 	focus = {
 		id = ATZ_studyseparatistfighters
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_cis_fighters
 		x = 33
 		y = 5
 		cost = 10
@@ -525,12 +525,60 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+	available = {
+		AND = {
+			CIS = {
+				exists = yes
+				has_capitulated = no
+				has_opinion = { target = ROOT value > 49 }
+			}
+		}
+		OR = {
+			has_government = fascism
+			has_government = neutrality
+			CIS = { has_government = ROOT }
+		}
+		not = {
+			has_War_with = CIS
+		}
 	}
+
+	completion_reward = {
+
+		add_tech_bonus = {
+			name = fighter_bonus
+			bonus = 1
+			uses = 1
+			technology = early_fighter
+			technology = fighter1
+			technology = fighter2
+		}
+
+		add_tech_bonus = {
+			name = fighter_bonus
+			bonus = 1
+			uses = 1
+			technology = cv_early_fighter
+			technology = cv_fighter1
+		}
+
+		add_tech_bonus = {
+			name = fighter_bonus
+			bonus = 1
+			uses = 1
+			technology = cas1
+			technology = cas2
+		}
+
+		add_opinion_modifier = { target = CIS modifier = GEN_aircraft_separatist }
+	}
+}
 
 	#Focus for Study Republic Fighters
 	focus = {
 		id = ATZ_studyrepublicfighters
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_rep_fighters
 		x = 29
 		y = 5
 		cost = 10
@@ -540,7 +588,55 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+				available = {
+			AND = {
+				REP = {
+					exists = yes
+					has_capitulated = no
+					has_opinion = { target = ROOT value > 49 }
+				}
+			}
+			OR = {
+				has_government = democratic
+				has_government = neutrality
+				REP = { has_government = ROOT }
+			}
+			not = {
+				has_War_with = REP
+			}
+		}
+			
+		completion_reward = {
+		
+		add_tech_bonus = {
+			name = fighter_bonus
+			bonus = 1
+			uses = 1
+			technology = early_fighter
+			technology = fighter1
+			technology = fighter2
+		}
+
+		add_tech_bonus = {
+			name = fighter_bonus
+			bonus = 1
+			uses = 1
+			technology = cv_early_fighter
+			technology = cv_fighter1
+		}
+
+		add_tech_bonus = {
+			name = fighter_bonus
+			bonus = 1
+			uses = 1
+			technology = naval_bomber1
+			technology = naval_bomber2
+		}
+
+		add_opinion_modifier = { target = REP modifier = GEN_aircraft_republic }
 	}
+}
 
 	#Focus for Isolation
 	focus = {

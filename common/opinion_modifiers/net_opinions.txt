@@ -1,0 +1,8 @@
+opinion_modifiers = {
+	gen_aircraft_republic = {
+		value = 30
+	}
+	GEN_aircraft_separatist = {
+		value = 30
+	}
+}
