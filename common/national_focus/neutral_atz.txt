@@ -751,7 +751,7 @@ focus_tree = {
 	#Focus for Republic Cooperation
 	focus = {
 		id = ATZ_republiccooperation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_rep_equipment
 		x = 41
 		y = 5
 		cost = 10
@@ -771,7 +771,7 @@ focus_tree = {
 	#Focus for Separatist Cooperation
 	focus = {
 		id = ATZ_separatistcooperation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_cis_equipment
 		x = 45
 		y = 5
 		cost = 10
