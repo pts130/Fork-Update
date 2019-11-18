@@ -670,7 +670,7 @@ NMilitary = {
 	EQUIPMENT_REPLACEMENT_RATIO = 0.1,				-- Equipment min ratio after blocking the equipment type
 	NUKE_DELAY_HOURS = 12,							-- How many hours does it take for the nuclear drop to happen
 	PARADROP_PENALTY = -0.3, 						-- Combat penalty when recently paradropped
-	PARADROP_HOURS = 48,							-- time paratroopers suffer penalties in combat
+	PARADROP_HOURS = 6, 							-- time paratroopers suffer penalties in combat
 	COMBAT_SUPPLY_LACK_IMPACT = -0.33,				-- combat penalty if out of supply
 	COMBAT_STACKING_START = 8,						-- at what nr of divisions stacking penalty starts
 	COMBAT_STACKING_EXTRA = 4,                      -- extra stacking from directions
@@ -1139,14 +1139,14 @@ NNavy = {
 	MISSION_DEFAULT_SPREAD_BASE = 1.0, -- multiplier for mission spreads. higher = less ships on start
 
 	AGGRESSION_SETTINGS_VALUES = { -- ships will use this values while deciding to attack enemies
-		0,		-- do not engage
-		0.5,	-- low
-		0.9,	-- medium
-		2.0,	-- high
+		5,		-- do not engage
+		10,	    -- low
+		15,	    -- medium
+		20, 	-- high
 		10000,	-- I am death incarnate!
 	},
 	
-	AGGRESION_MULTIPLIER_FOR_COMBAT = 1.2,				-- ships are more aggresive in combat
+	AGGRESION_MULTIPLIER_FOR_COMBAT = 2.0,				-- ships are more aggresive in combat
 	
 	AGGRESSION_ARMOR_EFFICIENCY_MULTIPLIER = 1.0,		-- armor to enemy piercing ratio is multiplied by this value, which will increase the strength of ships while considering them for aggression
 	AGGRESSION_MIN_ARMOR_EFFICIENCY = 0.5,              -- armor multiplier has a min and max caps while being factored in aggression
@@ -1281,7 +1281,7 @@ NNavy = {
 	SPOTTING_ENEMY_SPOTTING_MULTIPLIER_FOR_RUNNING_AWAY = 0.80,		-- enemy spotting is multiplied by this value to simulate running away
 	SPOTTING_MULTIPLIER_FOR_SURFACE = 1.0,							-- task force surface spotting value is multiplied by this and added to spotting percentage every hour
 	SPOTTING_MULTIPLIER_FOR_SUB = 1.0,								-- task force sub spotting value is multiplied by this and added to spotting percentage every hour
-	SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 0.5,						-- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio
+	SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 0.2,						-- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio
 	SPOTTING_SPEED_MULT_FOR_CATCHING_UP = 0.2,						-- speed diff bonus rate that is added to spotting every hour
 	SPOTTING_MISSION_DETECTION_THRESHOLD_LOW = 10.0,					-- value between 0 and 100 above which to show very coarse information about the spotted task force
 	SPOTTING_MISSION_DETECTION_THRESHOLD_MEDIUM = 70.0,					-- value between 0 and 100 above which to show coarse information about the spotted task force. Note: accurate information are shown when spotting reach 100.
@@ -1567,7 +1567,7 @@ NAI = {
 	VARIANT_UPGRADE_MIN_XP = 50,				-- Minimum XP before attempting to create a new variant.
 	UPGRADE_XP_RUSH_UPDATE = 150,				-- If XP is above this on the daily tick the AI will attempt to spend it
 	FOCUS_TREE_CONTINUE_FACTOR = 1.5,			-- Factor for score of how likely the AI is to keep going down a focus tree rather than starting a new path.
-	PLAN_VALUE_TO_EXECUTE = -0.5,				-- AI will typically avoid carrying out a plan it below this value (0.0 is considered balanced).
+	PLAN_VALUE_TO_EXECUTE = -3.0				-- AI will typically avoid carrying out a plan it below this value (0.0 is considered balanced).
 	DECLARE_WAR_NOT_NEIGHBOR_FACTOR = 0.25,		-- Multiplier applied before force factor if country is not neighbor with the one it is considering going to war
 	CALL_ALLY_BASE_DESIRE = 20,					-- exactly what it says
 	CALL_ALLY_DEMOCRATIC_DESIRE = 50,			-- Desire to call ally added for democratic AI
@@ -1595,7 +1595,7 @@ NAI = {
 	NEUTRAL_THREAT_PARANOIA = 10,				-- How scared neutrals are of everyone
 	DIFFERENT_FACTION_THREAT = 30,				-- Threat caused by not being in the same faction
 	MAX_THREAT_FOR_FIRST_YEAR_CIVILIAN_MODE = 60, -- above this threshold, ai will leave first year civilian factory mode which bumps it civilian factory scores while building
-	PLAN_ATTACK_MIN_ORG_FACTOR_LOW = 0.85,		-- Minimum org % for a unit to actively attack an enemy unit when executing a plan
+	PLAN_ATTACK_MIN_ORG_FACTOR_LOW = 0.65,		-- Minimum org % for a unit to actively attack an enemy unit when executing a plan
 	PLAN_ATTACK_MIN_STRENGTH_FACTOR_LOW = 0.4,	-- Minimum strength for a unit to actively attack an enemy unit when executing a plan
 	PLAN_ATTACK_MIN_ORG_FACTOR_MED = 0.75,		-- (LOW,MED,HIGH) corresponds to the plan execution agressiveness level.
 	PLAN_ATTACK_MIN_STRENGTH_FACTOR_MED = 0.3,	

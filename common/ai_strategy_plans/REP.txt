@@ -1,0 +1,61 @@
+Republic_historical = {
+	name = "Republic historical plan"
+	desc = "Lore based path for the republic"
+
+	enable = {
+		original_tag = REP
+	}
+	abort = {
+	}
+
+	ai_national_focuses = {
+	}
+
+	research = {
+		infantry_weapons = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+	}
+
+	traits = {
+	}
+
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "CIS"
+		value = 100
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = "CIS"
+		value = 100
+	}
+
+	ai_strategy = {
+		type = invade
+		id = "CIS"
+		value = 3000
+	}
+	ai_strategy = {
+		type = protect
+		id = "TLZ"			
+		value = 40
+	}
+	ai_strategy = {
+		type = alliance
+		id = "RYL"			
+		value = 40
+	}	
+	ai_strategy = {
+		type = protect
+		id = "ALD"			
+		value = 40
+	}
+
+}
