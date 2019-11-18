@@ -29,14 +29,13 @@ add_political_power = 50
 set_convoys = 20
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1932.11.8"
 	election_frequency = 240
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	neutrality = 100
 }
 
 
@@ -45,7 +44,7 @@ create_country_leader = {
 	desc = "Leader of Honoghr's Noghri clans"
 	picture = "gfx/leaders/HON/lead.dds"
 	expire = "2020.1.1"
-	ideology = conservatism
+	ideology = despotism
 	traits = {
 		
 	}

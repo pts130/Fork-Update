@@ -1,0 +1,18 @@
+#GandalfSpaceState(Upper Ord Mantell)
+state={
+	id=90
+	name="STATE_90"
+	provinces={
+		3969 4088 4118 4666 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = REP
+	add_core_of = REP
+		}
+	}

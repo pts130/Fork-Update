@@ -29,14 +29,13 @@ add_political_power = 75
 set_convoys = 50
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1932.11.8"
 	election_frequency = 240
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	neutrality = 100
 }
 
 give_military_access = REP
@@ -46,7 +45,7 @@ create_country_leader = {
 	desc = "The Council of Elders is the representing body for the habitants of Ithor"
 	picture = "gfx/leaders/ITH/ithor.dds"
 	expire = "2020.1.1"
-	ideology = conservatism
+	ideology = despotism
 	traits = {
 		
 	}
