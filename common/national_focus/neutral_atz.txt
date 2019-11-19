@@ -195,7 +195,7 @@ focus_tree = {
 	#Focus for Super Star Destroyers
 	focus = {
 		id = ATZ_superstardestroyers
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_ssd
 		x = 3
 		y = 4
 		cost = 10
@@ -209,7 +209,7 @@ focus_tree = {
 	#Focus for Destroyers Flexibility
 	focus = {
 		id = ATZ_destroyersflexibility
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_navy_upgrade
 		x = 3
 		y = 3
 		cost = 10
@@ -223,7 +223,7 @@ focus_tree = {
 	#Focus for Capital Ships
 	focus = {
 		id = ATZ_capitalships
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_navy_css
 		x = 7
 		y = 4
 		cost = 10
@@ -237,7 +237,7 @@ focus_tree = {
 	#Focus for Cruiser Mass Production
 	focus = {
 		id = ATZ_cruisermassproduction
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_navy_production
 		x = 7
 		y = 3
 		cost = 10
@@ -251,7 +251,7 @@ focus_tree = {
 	#Focus for Large Armada
 	focus = {
 		id = ATZ_largearmada
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_navy_large
 		x = 7
 		y = 2
 		cost = 10
@@ -266,7 +266,7 @@ focus_tree = {
 	#Focus for Heavy Navy
 	focus = {
 		id = ATZ_heavynavy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_navy_heavy
 		x = 3
 		y = 2
 		cost = 10
@@ -281,13 +281,22 @@ focus_tree = {
 	#Focus for Battleships Efforts
 	focus = {
 		id = ATZ_battleshipsefforts
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_cruiser_naval
 		x = 5
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		navy_experience = 30
+			add_tech_bonus = {
+				name = cv_bonus
+				bonus = 0.5
+				uses = 1
+				category = bc_tech
+			}
 		}
 	}
 
