@@ -1372,6 +1372,82 @@ add_tech_bonus = {
 uses = 2 
 category = land_doctrine 
 }
+
+
+create_corps_commander = {
+	name = "Captain Rex"
+	picture = "rex.dds"
+	traits = { invader_ii naval_invader }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Clone Commander Cody"
+	picture = "cody.dds"
+	traits = { invader_ii naval_invader }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Clone Commander Fox"
+	picture = "fox.dds"
+	traits = { invader_ii naval_invader }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Clone Commander Wolffe"
+	picture = "wolffe.dds"
+	traits = { invader_ii naval_invader }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Clone Commander Neyo"
+	picture = "neyo.dds"
+	traits = { invader_ii naval_invader }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Clone Commander Ponds"
+	picture = "ponds.dds"
+	traits = { invader_ii naval_invader }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Clone Commander Thire"
+	picture = "thire.dds"
+	traits = { invader_ii naval_invader }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+
+
 		}
 	}
 

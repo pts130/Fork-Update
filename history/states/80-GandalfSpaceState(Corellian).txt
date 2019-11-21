@@ -1,0 +1,18 @@
+#GandalfSpaceState(Corellian)
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		3576 4103 4192 4335 4532 4838 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = REP
+	add_core_of = REP
+		}
+	}

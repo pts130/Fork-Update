@@ -1,0 +1,18 @@
+#GandalfSpaceState(Utapau)
+state={
+	id=76
+	name="STATE_76"
+	provinces={
+		4172 4296 4505 4723 4849 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = CIS
+	add_core_of = CIS
+		}
+	}

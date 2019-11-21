@@ -1,0 +1,18 @@
+#GandalfSpaceState(SluisVan)
+state={
+	id=73
+	name="STATE_73"
+	provinces={
+		3851 3942 4375 4406 4491 4544 4699 4866 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = CIS
+	add_core_of = CIS
+		}
+	}

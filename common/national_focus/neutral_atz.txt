@@ -195,7 +195,7 @@ focus_tree = {
 	#Focus for Super Star Destroyers
 	focus = {
 		id = ATZ_superstardestroyers
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_ssd
 		x = 3
 		y = 4
 		cost = 10
@@ -209,7 +209,7 @@ focus_tree = {
 	#Focus for Destroyers Flexibility
 	focus = {
 		id = ATZ_destroyersflexibility
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_navy_upgrade
 		x = 3
 		y = 3
 		cost = 10
@@ -223,7 +223,7 @@ focus_tree = {
 	#Focus for Capital Ships
 	focus = {
 		id = ATZ_capitalships
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_navy_css
 		x = 7
 		y = 4
 		cost = 10
@@ -237,7 +237,7 @@ focus_tree = {
 	#Focus for Cruiser Mass Production
 	focus = {
 		id = ATZ_cruisermassproduction
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_navy_production
 		x = 7
 		y = 3
 		cost = 10
@@ -251,7 +251,7 @@ focus_tree = {
 	#Focus for Large Armada
 	focus = {
 		id = ATZ_largearmada
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_navy_large
 		x = 7
 		y = 2
 		cost = 10
@@ -266,7 +266,7 @@ focus_tree = {
 	#Focus for Heavy Navy
 	focus = {
 		id = ATZ_heavynavy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_navy_heavy
 		x = 3
 		y = 2
 		cost = 10
@@ -281,13 +281,22 @@ focus_tree = {
 	#Focus for Battleships Efforts
 	focus = {
 		id = ATZ_battleshipsefforts
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_cruiser_naval
 		x = 5
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		navy_experience = 30
+			add_tech_bonus = {
+				name = cv_bonus
+				bonus = 0.5
+				uses = 1
+				category = bc_tech
+			}
 		}
 	}
 
@@ -515,7 +524,7 @@ focus_tree = {
 	#Focus for Study Separatist Fighters
 	focus = {
 		id = ATZ_studyseparatistfighters
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_cis_fighters
 		x = 33
 		y = 5
 		cost = 10
@@ -525,12 +534,60 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+	available = {
+		AND = {
+			CIS = {
+				exists = yes
+				has_capitulated = no
+				has_opinion = { target = ROOT value > 49 }
+			}
+		}
+		OR = {
+			has_government = fascism
+			has_government = neutrality
+			CIS = { has_government = ROOT }
+		}
+		not = {
+			has_War_with = CIS
+		}
 	}
+
+	completion_reward = {
+
+		add_tech_bonus = {
+			name = fighter_bonus
+			bonus = 1
+			uses = 1
+			technology = early_fighter
+			technology = fighter1
+			technology = fighter2
+		}
+
+		add_tech_bonus = {
+			name = fighter_bonus
+			bonus = 1
+			uses = 1
+			technology = cv_early_fighter
+			technology = cv_fighter1
+		}
+
+		add_tech_bonus = {
+			name = fighter_bonus
+			bonus = 1
+			uses = 1
+			technology = cas1
+			technology = cas2
+		}
+
+		add_opinion_modifier = { target = CIS modifier = GEN_aircraft_separatist }
+	}
+}
 
 	#Focus for Study Republic Fighters
 	focus = {
 		id = ATZ_studyrepublicfighters
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_rep_fighters
 		x = 29
 		y = 5
 		cost = 10
@@ -540,7 +597,55 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+				available = {
+			AND = {
+				REP = {
+					exists = yes
+					has_capitulated = no
+					has_opinion = { target = ROOT value > 49 }
+				}
+			}
+			OR = {
+				has_government = democratic
+				has_government = neutrality
+				REP = { has_government = ROOT }
+			}
+			not = {
+				has_War_with = REP
+			}
+		}
+			
+		completion_reward = {
+		
+		add_tech_bonus = {
+			name = fighter_bonus
+			bonus = 1
+			uses = 1
+			technology = early_fighter
+			technology = fighter1
+			technology = fighter2
+		}
+
+		add_tech_bonus = {
+			name = fighter_bonus
+			bonus = 1
+			uses = 1
+			technology = cv_early_fighter
+			technology = cv_fighter1
+		}
+
+		add_tech_bonus = {
+			name = fighter_bonus
+			bonus = 1
+			uses = 1
+			technology = naval_bomber1
+			technology = naval_bomber2
+		}
+
+		add_opinion_modifier = { target = REP modifier = GEN_aircraft_republic }
 	}
+}
 
 	#Focus for Isolation
 	focus = {
@@ -655,7 +760,7 @@ focus_tree = {
 	#Focus for Republic Cooperation
 	focus = {
 		id = ATZ_republiccooperation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_rep_equipment
 		x = 41
 		y = 5
 		cost = 10
@@ -675,7 +780,7 @@ focus_tree = {
 	#Focus for Separatist Cooperation
 	focus = {
 		id = ATZ_separatistcooperation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_cis_equipment
 		x = 45
 		y = 5
 		cost = 10

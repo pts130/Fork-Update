@@ -1,0 +1,18 @@
+#GandalfSpaceState(Kessel Gap)
+state={
+	id=107
+	name="STATE_107"
+	provinces={
+		3464 3526 3972 4081 4222 4303 4533 4534 4592 4670 4708
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = REP
+	add_core_of = REP
+		}
+	}

@@ -1,0 +1,18 @@
+#GandalfSpaceState(TarisGap)
+state={
+	id=126
+	name="STATE_126"
+	provinces={
+		3465 3599 3659 3724 3776 3811 3862 3952 4069 4113 4763 4814 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = REP
+	add_core_of = REP
+		}
+	}
