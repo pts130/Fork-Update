@@ -1,0 +1,24 @@
+scripted_gui = {
+
+# Gandalf's Super Cool Country Selection
+	
+	the_big_three = {
+		context_type = player_context
+		window_name = "country_entry1"
+
+	    visible = {
+		}
+		effects = {
+			country_leader1_button_on_click = { CIS = { change_tag_from = ROOT
+			}
+		}
+		triggers = {
+			cat_army_button_on_visible = {
+			}
+			cat_annex_click_enabled = {
+			}
+		}
+	}
+	
+}
+

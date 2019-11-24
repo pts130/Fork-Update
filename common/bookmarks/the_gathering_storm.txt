@@ -7,33 +7,16 @@ bookmarks = {
 		default_country = "REP"
 		default = yes
 		
-
+        "CIS"={
+			history = "CIS_GATHERING_STORM_DESC"
+		}
 		"REP"={
 			history = "REP_GATHERING_STORM_DESC"
-		}
-		"CIS"={
-			history = "CIS_GATHERING_STORM_DESC"
 		}
 		"HUT"={
 			history = "HUT_GATHERING_STORM_DESC"
 		}
-		"MAN"={
-			history = "MAN_GATHERING_STORM_DESC"
-		}
-		"KYK"={
-			history = "KYK_GATHERING_STORM_DESC"
-		}
-		"RYL"={
-			history = "RYL_GATHERING_STORM_DESC"
-		}
 
-		"ALD"={
-			history = "ALD_GATHERING_STORM_DESC"
-		}
-
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
