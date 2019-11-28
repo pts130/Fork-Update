@@ -247,7 +247,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_select_date_bg"
-		texturefile = "gfx/interface/select_date_bg.dds"
+		texturefile = "gfx/interface/clonewarsornah.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 	
