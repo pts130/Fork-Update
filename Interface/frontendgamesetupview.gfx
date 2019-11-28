@@ -15,6 +15,21 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_dooku_fullbody"
+		texturefile = "gfx/interface/countryselec_dooku.dds"
+	}
+
+    spriteType = {
+		name = "GFX_palpatine_fullbody"
+		texturefile = "gfx/interface/countryselec_palpi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_jabba_fullbody"
+		texturefile = "gfx/interface/countryselec_jabba.dds"
+	}
+
+	spriteType = {
 		name = "GFX_minor_portrait_overlay"
 		texturefile = "gfx/interface/minor_portrait_overlay.dds"
 	}

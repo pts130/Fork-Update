@@ -127,7 +127,7 @@ guiTypes = {
 	### country entry
 	containerWindowType = {
 		name = "country_entry"
-			
+
 		buttonType = {
 			name = "country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
@@ -664,16 +664,6 @@ guiTypes = {
 		containerWindowType = {
 			name = "info"				
 			position = { x = 35 y = 485 }
-			
-			instantTextBoxType = {
-				name = "leader_label"
-				position = { x = 0 y = -5 }
-				font = "hoi4_typewriter16"
-				borderSize = {x = 0 y = 0}
-				text = "LEADER"
-				maxWidth = 340
-				format = left
-			}
 			
 		}
 		
@@ -1381,22 +1371,17 @@ guiTypes = {
 	
 	containerWindowType = {
 		name ="gamesetup_gameplay_settings_window"
-		position = { x=0 y=196}	
-		show_position = { x=5 y =-85}
+		position = { x=0 y=-200}	
+		show_position = { x=-40 y =-170}
 		animation_type = decelerated
 		animation_time = 1000
 		
 		size = {width=598 height=196}
 		orientation = lower_right
 		origo = lower_right
-	
-		Background = {
-			name = "game_settings_bg"
-			quadTextureSprite = "GFX_lobby_lower_right_sidepanel_bg"
-		}
 		
 		instantTextBoxType={
-			position = {x = 9 y = 12 }
+			position = {x = -198 y = 170 }
 			name = "difficulty_text"
 			font = "hoi_24header"
 			borderSize = {x = 100 y = 0}
@@ -1408,7 +1393,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "very_easy_cb"
-			position = { x=9 y=47}
+			position = { x=9 y=10}
 			quadTextureSprite ="GFX_difficulty_button_civilian"	
 			buttonText = "FE_DIFFICULTY_EASY"
 			buttonFont = "hoi_20b"
@@ -1417,7 +1402,7 @@ guiTypes = {
 
 		checkboxType = {
 			name = "easy_cb"
-			position = { x=125 y=47}
+			position = { x=9 y=40}
 			quadTextureSprite ="GFX_difficulty_button_recruit"	
 			buttonText = "FE_DIFFICULTY_EASY"
 			buttonFont = "hoi_20b"
@@ -1426,7 +1411,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "normal_cb"
-			position = { x=241 y=47}
+			position = { x=9 y=70}
 			quadTextureSprite ="GFX_difficulty_button_regular"	
 			clicksound = click_checkbox
 			buttonText = "FE_DIFFICULTY_NORMAL"
@@ -1435,7 +1420,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "hard_cb"
-			position = { x=357 y=47}
+			position = { x=9 y=100}
 			quadTextureSprite ="GFX_difficulty_button_veteran"
 			buttonText = "FE_DIFFICULTY_HARD"
 			buttonFont = "hoi_20b"
@@ -1444,7 +1429,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "very_hard_cb"
-			position = { x=473 y=47}
+			position = { x=9 y=130}
 			quadTextureSprite ="GFX_difficulty_button_elite"
 			buttonText = "FE_DIFFICULTY_VERY_HARD"
 			buttonFont = "hoi_20b"
@@ -1452,7 +1437,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x=18 y=53 }
+			position = { x=9 y=17}
 			name = "civilian_text"
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}	
@@ -1464,7 +1449,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x=133 y=53 }
+			position = {x=9 y=47 }
 			name = "beginner_text"
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}	
@@ -1476,7 +1461,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType={
-			position = {x=250 y=53 }
+			position = {x=9 y=77 }
 			name = "normal_text"
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}	
@@ -1488,7 +1473,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType={
-			position = {x=368 y=53 }
+			position = {x=9 y=107 }
 			name = "hard_text"
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
@@ -1500,7 +1485,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType={
-			position = {x=480 y=53 }
+			position = {x=9 y=137 }
 			name = "very_hard_text"
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
@@ -1512,7 +1497,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType={
-			position = {x = 30 y = 103 }
+			position = {x = 170 y = 20 }
 			name = "historical_text"
 			font = "hoi_24header"
 			maxWidth = 370
@@ -1525,7 +1510,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "historical_cb"
-			position = { x=530 y =103}
+			position = { x=260 y =70}
 			quadTextureSprite ="GFX_generic_checkbox"
 			clicksound = click_checkbox
 		}
@@ -1578,13 +1563,6 @@ guiTypes = {
 			animation_time = 1000
 			size = { width=102% height =128}
 			clipping = no
-		
-			Background =
-			{
-				name ="top_bg"
-				spriteType = "GFX_tiled_frontend_upper_bar"
-				position = { x=-10 y=0 }
-			}
 
 			containerWindowType = {
 				name ="scenario_window"
@@ -1594,16 +1572,10 @@ guiTypes = {
 				animation_time = 1000
 				size = { width=340 height =128}
 				clipping = no
-
-				iconType ={
-					name ="menu_top_date_bg"
-					spriteType = "GFX_menu_top_bg_bg"
-					position = { x= -196 y = 54 }
-				}	
 				
 				instantTextBoxType = {
 					name = "date"
-					position = { x = -170 y = 65 }
+					position = { x = -1010 y = 180 }
 					font = "hoi_24header"
 					borderSize = {x = 4 y = 4}
 					text = "Pikku Saippuakauppias Itkee!!"	
@@ -1614,7 +1586,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "name"
-					position = { x = -184 y = 85 }
+					position = { x = -1010 y = 220 }
 					font = "hoi_24header"
 					borderSize = {x = 4 y = 4}
 					text = "Pikku Saippuakauppias Itkee!!"	
@@ -1627,7 +1599,7 @@ guiTypes = {
 				# 1st BUTTON (BIG)
 				buttonType = {
 					name = "mapmode_button_1"
-					position = { x=-50 y=160 }	
+					position = { x=-880 y=260 }	
 					quadTextureSprite ="GFX_lobby_country_mapmode_strip"
 					clicksound = land_mapmode
 					shortcut = "F1"
@@ -1637,7 +1609,7 @@ guiTypes = {
 				}
 				buttonType = {
 					name = "mapmode_button_1_s"
-					position = { x=-50 y=160 }	
+					position = { x=-880 y=260 }	
 					quadTextureSprite ="GFX_lobby_country_mapmode_strip_selected"
 					shortcut = "F1"
 					pdx_tooltip = "MAPMODE_DEFAULT"
@@ -1648,7 +1620,7 @@ guiTypes = {
 				# 2st BUTTON (BIG)
 				buttonType = {
 					name = "mapmode_button_2"
-					position = { x=20 y=160 }	
+					position = { x=-825 y=260 }	
 					quadTextureSprite ="GFX_lobby_country_mapmode_strip"
 					clicksound = land_mapmode
 					shortcut = "F2"
@@ -1657,7 +1629,7 @@ guiTypes = {
 				}
 				buttonType = {
 					name = "mapmode_button_2_s"
-					position = { x=20 y=160 }	
+					position = { x=-825 y=260 }	
 					quadTextureSprite ="GFX_lobby_country_mapmode_strip_selected"
 					shortcut = "F2"
 					pdx_tooltip = "MAPMODE_PLAYERS"
@@ -1736,12 +1708,6 @@ guiTypes = {
 			animation_time = 1000				
 			size = { width=102% height =128}
 			Orientation = lower_left	
-			
-			Background ={
-				name ="bottom_win"
-				spriteType = "GFX_tiled_frontend_lower_bar"
-				position = { x=-10 y =0}				
-			}
 			
 			ButtonType = {
 				name = "back_button"

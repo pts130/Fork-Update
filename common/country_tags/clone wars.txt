@@ -31,3 +31,5 @@ ZFE = "countries/ZFE.txt"
 ZFF = "countries/ZFF.txt"
 ZGF = "countries/ZGF.txt"
 ZGG = "countries/ZGG.txt"
+
+# I'm sick and tired of errors
