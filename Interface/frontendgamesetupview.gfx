@@ -9,6 +9,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_country_selection_minor_entry1"
+		texturefile = "gfx/interface/confed_peanuts.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
 		name = "GFX_minor_portrait_overlay"
 		texturefile = "gfx/interface/minor_portrait_overlay.dds"
 	}

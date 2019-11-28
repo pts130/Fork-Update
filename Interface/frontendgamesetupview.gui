@@ -131,8 +131,8 @@ guiTypes = {
 		buttonType = {
 			name = "country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 17 y = 22 }
-			scale=0.75
+			position = { x = 240 y = 18 }
+			scale=2.8
 			clicksound = click_checkbox
 		}	
 	
@@ -151,16 +151,18 @@ guiTypes = {
 			
 		iconType = {
 			name = "country_flag"
-			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 26 y = 22 }
-			Orientation = "UPPER_LEFT"
+			quadTextureSprite =""
+			position = { x =0 y =-300 }
+			Orientation = "CENTER"
 			allwaystransparent = yes
 		}		
 		
 		buttonType = {
 			name = "country"	
-			quadTextureSprite = "GFX_country_selection_minor_entry"
-			position = { x=0 y =0 }
+			quadTextureSprite = "GFX_country_selection_minor_entry1"
+			position = { x=0 y =-300 }
+			scale = 1
+			Orientation = "CENTER"
 			clicksound = click_checkbox
 		}		
 	}
@@ -183,6 +185,13 @@ guiTypes = {
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
 		}		
+
+		buttonType = {
+			name = "country_2"	
+			quadTextureSprite = "GFX_mini_country_selector"
+			position = { x=200 y =0 }
+			clicksound = click_checkbox
+		}	
 	}
 	
 	

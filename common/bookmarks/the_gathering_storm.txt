@@ -6,14 +6,35 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "REP"
 		default = yes
-		
-        "CIS"={
-			history = "CIS_GATHERING_STORM_DESC"
-		}
-		"REP"={
+	
+		"CIS"={
+		    minor = yes
 			history = "REP_GATHERING_STORM_DESC"
 		}
+
+		"CIS"={
+		    minor = yes
+			history = "REP_GATHERING_STORM_DESC"
+		}
+
+		"CIS"={
+		    minor = yes
+			history = "REP_GATHERING_STORM_DESC"
+		}
+
+		"REP"={
+		minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		"REP"={
+		    minor = yes
+			history = "REP_GATHERING_STORM_DESC"
+		}
+
+		
 		"HUT"={
+		    minor = yes
 			history = "HUT_GATHERING_STORM_DESC"
 		}
 
