@@ -60,6 +60,16 @@ create_country_leader = {
 		Warmonger
 		Cornered Fox
 	}
+	name = "Grabow"
+	desc = "wookie_tribe_leader_desc"
+	picture = "gfx/leaders/KYK/KYK_Grabow.tga"
+	expire = "2020.1.1"
+	ideology =  falangism
+	traits = {
+		Dictator
+		Imperial Connections
+		Warmonger
+	}
 }
 
 create_corps_commander = {
