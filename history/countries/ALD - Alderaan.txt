@@ -51,3 +51,14 @@ create_country_leader = {
 		
 	}
 }
+
+create_country_leader = {
+	name = "Breha Organa"
+	desc = "Alderaan Queen"
+	picture = "gfx/leaders/ALD/ALD_brehaorgana.tga"
+	expire = "2020.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}

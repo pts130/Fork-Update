@@ -2,6 +2,10 @@
 ###Wookies Tribes###
  KYK_democratic_party:0 "Wookie Tribe"
  KYK_democratic_party_long:0 "Grakchawwaa Tribe"
+##Alderaan##
+ ALD_neutrality_party:0 "House of Organa"
+ ALD_neutrality_party_long:0 "Royal Family of Alderaan"
+
  communism:0 "Consortiumn"
  communism_noun:0 "Consortium"
  democratic:0 "Loyalist"
