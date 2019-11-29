@@ -29,14 +29,15 @@ add_political_power = 75
 set_convoys = 50
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1932.11.8"
 	election_frequency = 240
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	neutrality = 70
+	democratic = 10
+	communism = 20
 }
 
 create_country_leader = {
@@ -47,6 +48,17 @@ create_country_leader = {
 	ideology = conservatism
 	traits = {
 		
+	}
+	name = "Tarfful"
+	desc = "tarfful_loyalist_leader_desc"
+	picture = "gfx/leaders/KYK/KYK_Tarfful.tga"
+	expire = "2020.1.1"
+	ideology = Anti-Revisionism
+	traits = {
+		Dealbroker
+		Political Dancer
+		Warmonger
+		Cornered Fox
 	}
 }
 
