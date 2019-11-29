@@ -32,4 +32,7 @@ ZFF = "countries/ZFF.txt"
 ZGF = "countries/ZGF.txt"
 ZGG = "countries/ZGG.txt"
 
+# Gandalf's Event-Based Nations
+ALK = "countries/AlkharaBandits.txt"
+
 # I'm sick and tired of errors

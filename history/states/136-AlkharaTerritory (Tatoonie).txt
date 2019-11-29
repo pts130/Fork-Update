@@ -1,0 +1,22 @@
+#AlkharaTerritory (Event Nation)
+state={
+	id=136
+	name="STATE_136"
+	provinces={
+		3244 3257 3192 3202 681 3227
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = town
+	resources={
+	}
+  	history = {
+  	owner = ALK
+	add_core_of = ALK
+	buildings = {
+		infrastructure = 3
+		arms_factory = 2
+		industrial_complex = 2
+		        }
+		      }
+		}
