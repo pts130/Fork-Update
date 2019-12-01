@@ -275,9 +275,9 @@ focus_tree = {
 				bonus = 1.0
 				ahead_reduction = 2
 				uses = 1
-				category = bc_tech
-				category = bb_tech
-				category = shbb_tech
+				category = ca_tech
+				category = cl_tech
+				category = dd_tech
 			}
 		}
 	}
@@ -294,6 +294,15 @@ focus_tree = {
 		mutually_exclusive = { focus = ATZ_largearmada }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		navy_experience = 25
+						add_tech_bonus = {
+							name = net_heavy_armada
+							bonus = 1.0
+							uses = 1
+							category = shbb_tech
+						}
 		}
 	}
 
@@ -463,7 +472,7 @@ focus_tree = {
 	#Focus for Expand starships development
 	focus = {
 		id = ATZ_expandstarshipsdevelopment
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_starfighter_dev
 		x = 31
 		y = 1
 		cost = 10
@@ -471,6 +480,16 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+			completion_reward = {
+					add_tech_bonus = {
+							name = air_plane_models
+							bonus = 1
+							uses = 2
+							category = light_air
+							category = medium_air
+							category = heavy_air
+						}
+				}
 	}
 
 	#Focus for Liberty Alignment
