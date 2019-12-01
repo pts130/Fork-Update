@@ -40,6 +40,17 @@ set_popularities = {
 }
 
 create_country_leader = {
+	name = "Wat Tambor"
+	desc = "Separatist Commander"
+	picture = "gfx/leaders/RYL/RYL_wattambor.tga"
+	expire = "2020.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
 	name = "On Free Ta"
 	desc = ""
 	picture = "gfx/leaders/RYL/RYL_OnFreeTa.tga"
@@ -49,7 +60,7 @@ create_country_leader = {
 		
 	}
 
-create_country_leader = {
+#####create_country_leader = {
 	name = "Cham Syndulla"
 	desc = "Leader of the Free Ryloth Movement"
 	picture = "gfx/leaders/RYL/RYL_Cham.tga"
@@ -58,4 +69,5 @@ create_country_leader = {
 	traits = {
 		
 	}
-}
+#######}
+

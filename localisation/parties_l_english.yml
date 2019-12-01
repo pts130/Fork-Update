@@ -13,6 +13,12 @@
  ALD_neutrality_party:0 "House of Organa"
  ALD_neutrality_party_long:0 "Royal Family of Alderaan"
 
+
+##Ryloth##
+ RYL_fascism_party:0 "Separatist Regime"
+ RYL_fascism_party_long:0 "CIS Ryloth Total Control"
+
+
  communism:0 "Consortiumn"
  communism_noun:0 "Consortium"
  democratic:0 "Loyalist"
