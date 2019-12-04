@@ -1,0 +1,49 @@
+root ground: 0 0 0 0 0 0 1 1 1
+root hips: 0 22 0 0 0 0 1 1 1
+pelvis: 15 0 -7 0 0 0 1 1 1
+leg left thigh upper: 0 0 0 0 0 0 1 1 1
+leg left thigh lower: -35 13 14 0 0 0 1 1 1
+leg left knee: 31 0 0 0 0 0 1 1 1
+leg left ankle: -11 0 -7 0 0 0 1 1 1
+leg left toes: 0 0 0 0 0 0 1 1 1
+leg right thigh upper: 0 0 0 0 0 0 1 1 1
+leg right thigh lower: -41 0 0 0 0 0 1 1 1
+leg right knee: 41 0 0 0 0 0 1 1 1
+leg right ankle: -13 -2 11 0 0 0 1 1 1
+leg right toes: 0 0 0 0 0 0 1 1 1
+spine lower: 13 0 -5 0 0 0 1 1 1
+spine upper: -18 0 -7 0 0 0 1 1 1
+arm left shoulder 1: 0 0 8 0 0 0 1 1 1
+arm left shoulder 2: 28 10 21 0 0 0 1 1 1
+arm left elbow: -58 0 0 0 0 0 1 1 1
+arm left wrist: 0 13 0 0 0 0 1 1 1
+arm left finger 1a: 0 0 0 0 0 0 1 1 1
+arm left finger 1b: 0 0 0 0 0 0 1 1 1
+arm left finger 1c: 0 0 0 0 0 0 1 1 1
+arm left finger 2a: 0 0 -22 0 0 0 1 1 1
+arm left finger 2b: 0 0 -22 0 0 0 1 1 1
+arm left finger 2c: 0 0 -22 0 0 0 1 1 1
+arm left finger 3a: 0 0 -22 0 0 0 1 1 1
+arm left finger 3b: 0 0 -22 0 0 0 1 1 1
+arm left finger 4a: 0 0 -22 0 0 0 1 1 1
+arm left finger 4b: 0 0 -22 0 0 0 1 1 1
+arm left finger 5a: 0 0 -22 0 0 0 1 1 1
+arm left finger 5b: 0 0 -22 0 0 0 1 1 1
+arm right shoulder 1: 0 0 -6 0 0 0 1 1 1
+arm right shoulder 2: 29 0 -6 0 0 0 1 1 1
+arm right elbow: -34 0 0 0 0 0 1 1 1
+arm right wrist: 5 13 15 0 0 0 1 1 1
+arm right finger 1a: 0 0 -7 0 0 0 1 1 1
+arm right finger 1b: 0 0 15 0 0 0 1 1 1
+arm right finger 1c: 0 0 15 0 0 0 1 1 1
+arm right finger 2a: 0 0 15 0 0 0 1 1 1
+arm right finger 2b: 0 0 15 0 0 0 1 1 1
+arm right finger 2c: 0 0 15 0 0 0 1 1 1
+arm right finger 3a: 0 0 15 0 0 0 1 1 1
+arm right finger 3b: 0 0 15 0 0 0 1 1 1
+arm right finger 4a: 0 0 15 0 0 0 1 1 1
+arm right finger 4b: 0 0 15 0 0 0 1 1 1
+arm right finger 5a: 0 0 15 0 0 0 1 1 1
+arm right finger 5b: 0 0 15 0 0 0 1 1 1
+head neck lower: 0 -13 5 0 0 0 1 1 1
+head neck upper: 0 -8 0 0 0 0 1 1 1
