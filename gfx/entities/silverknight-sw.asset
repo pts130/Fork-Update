@@ -1,0 +1,90 @@
+
+entity = { 
+	name = "CAS_infantry_entity"
+	pdxmesh = "r2d2_bot_mesh"	
+		
+	scale = 1.6
+	
+}
+
+entity = { 
+	name = "REE_infantry_entity"
+	pdxmesh = "k-2so_mesh"	
+		
+	scale = 1.6
+	
+}
+### Republic - Clonewars
+entity = { 
+	name = "REP_infantry_entity"
+	pdxmesh = "rep_inf_trooper_mesh"	
+		
+	scale = 1.6
+	
+}
+entity = { 
+	name = "REP_infantry_2_entity"
+	pdxmesh = "rep_inf_arc_pack_blue_mesh"	
+		
+	scale = 1.6
+	
+}
+entity = {
+	name = "REP_light_armor_entity"
+	pdxmesh = "aat_mesh"
+		
+	scale = 5
+}
+
+entity = {
+	name = "REP_medium_armor_entity"
+	pdxmesh = "aat_mesh"
+		
+	scale = 5
+}
+### CIS
+entity = { 
+	name = "CIS_infantry_entity"
+	pdxmesh = "b1_battledroid_mesh"	
+		
+	scale = 1.6
+	
+}
+
+entity = { 
+	name = "CIS_infantry_2_entity"
+	pdxmesh = "b1_battledroid_mesh"	
+		
+	scale = 1.6
+	
+}
+
+entity = { 
+	name = "CIS_cavalry_entity"
+	pdxmesh = "droideka_mesh"	
+		
+	scale = 1.6
+	
+}
+
+entity = { 
+	name = "REL_infantry_entity"
+	pdxmesh = "darth-maul_mesh"	
+		
+	scale = 2.6
+	
+}
+
+entity = {
+	name = "CIS_light_armor_entity"
+	pdxmesh = "aat_mesh"
+		
+	scale = 5
+}
+
+entity = {
+	name = "CIS_medium_armor_entity"
+	pdxmesh = "aat_mesh"
+		
+	scale = 5
+}
