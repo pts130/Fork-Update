@@ -1,0 +1,31 @@
+focus_tree = {
+	id = HUT
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUT
+		}
+	}
+	#Focus for Galactic Stability
+	focus = {
+		id = HUT_galacticstability
+		icon = GFX_goal_tripartite_pact
+		x = 0
+		y = 6
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_senate }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.15
+add_popularity= { 
+ideology = democratic
+popularity = 0.1 
+}
+		}
+
+		}
+	

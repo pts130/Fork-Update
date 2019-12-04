@@ -1,0 +1,32 @@
+﻿division_template = {
+	name = "Wookiee Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+	division= {	
+		name = "Wookiee Garrison"
+		location = 467 #kashyyyk
+		division_template = "Wookiee Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Wookiee Garrison"
+		location = 2165 #kashyyyk
+		division_template = "Wookiee Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Wookiee Garrison"
+		location = 755 #kashyyyk
+		division_template = "Wookiee Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+}

@@ -1,0 +1,52 @@
+﻿capital = 13
+
+oob = "BRN_1936"
+set_research_slots = 2
+set_stability = 0.9
+set_war_support = .01
+
+set_technology = {
+	infantry_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	transport = 1
+	superior_firepower = 1
+	base_strike = 1
+
+}
+
+add_political_power = 75
+set_convoys = 50
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 60
+	communism = 30
+}
+
+give_military_access = CIS
+create_country_leader = {
+	name = "Brentaal Council Chairman"
+	desc = "Chairman of the Brentaal Council"
+	picture = "gfx/leaders/BRN/brent.dds"
+	expire = "2020.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}

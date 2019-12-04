@@ -1,0 +1,65 @@
+﻿capital = 10
+
+oob = "CIS_1936"
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 35
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	CAS1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+	cv_CAS2 = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_carrier = 1
+	transport = 1
+
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 100
+}
+
+create_faction = Confederacy
+add_to_faction = CIS
+add_to_faction = BRN
+add_to_faction = FON
+
+give_guarantee = BRN
+give_military_access = BRN
+
+give_guarantee = FON
+give_military_access = FON
+
+add_political_power = 80
+set_convoys = 5000
+
+create_country_leader = {
+	name = "Count Dooku"
+	desc = ""
+	picture = "gfx/leaders/CIS/CIS_Dooku.tga"
+	expire = "2020.1.1"
+	ideology = fascism_ideology 
+	traits = {
+		
+	}
+}

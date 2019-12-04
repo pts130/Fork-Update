@@ -1,0 +1,30 @@
+###Mandalore
+state={
+	id=7
+	name="STATE_7"
+	provinces={
+		6 24 49 215 219 236 237 343 351 439 553 606 611 652 679 680 763 771 777 865 872 893 990 991 1007 1163 1263 1397 1460 1717 1718 1720 1723 1725 1726 1727 1728 1731 1732 1733 1735 1736 1745 1747 1748 1751 1754 1756 1757 1758 1764 1765 1766 1768 1775 1777 1779 1782 1792 1795 1799 1800 1802 1815 1819 1836 1838 1840 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+    state_category = large_town
+  	history = {
+		owner = MAN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 6
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 2
+			1792 = {
+			     naval_base = 2
+				}
+			991 = {
+			     naval_base = 2
+				}
+		}
+		add_core_of = MAN
+		victory_points = {
+			763 100
+	}
+}

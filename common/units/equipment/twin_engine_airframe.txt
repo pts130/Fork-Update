@@ -1,0 +1,108 @@
+equipments = {
+	
+	heavy_fighter_equipment = {
+		year = 1933
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_strat_bomber_equipment			
+		is_buildable = no
+		type = { fighter interceptor }
+		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 8
+		
+		interface_category = interface_category_air
+		
+		# Heavy fighter
+		interface_overview_category_index = 3
+		
+		upgrades = {
+			plane_gun_upgrade
+			plane_range_upgrade
+			plane_engine_upgrade
+			plane_reliability_upgrade
+		}
+
+		air_superiority = 1.25
+		reliability = 0.8
+
+		# Air vs Navy - low damage / high hit chance / easy to hurt
+		naval_strike_attack = 5
+		naval_strike_targetting = 10
+		
+		build_cost_ic = 28
+		resources = {
+			oil = 1			
+			aluminium = 2
+			rubber = 1
+		}
+		
+		manpower = 40
+	}
+	
+
+	# Basic Heavy Fighter
+	heavy_fighter_equipment_1 = {
+		year = 1936
+
+		archetype = heavy_fighter_equipment
+		priority = 100
+		
+		air_range = 1300
+		maximum_speed = 500
+		air_agility = 25
+		air_attack = 36
+		air_defence = 13
+		
+		# build_cost_ic = 16
+		naval_strike_attack = 3
+		naval_strike_targetting = 6
+	}
+	
+	heavy_fighter_equipment_2 = {
+		year = 1940
+
+		archetype = heavy_fighter_equipment
+		parent = heavy_fighter_equipment_1
+		priority = 100
+		
+		air_range = 1700
+		maximum_speed = 550
+		air_agility = 30
+		air_attack = 46
+		air_defence = 15
+		
+		build_cost_ic = 30
+		resources = {
+			oil = 1			
+			aluminium = 3
+			rubber = 1
+		}
+		naval_strike_attack = 6
+		naval_strike_targetting = 10
+	}
+	
+	heavy_fighter_equipment_3 = {
+		year = 1944
+
+		archetype = heavy_fighter_equipment
+		parent = heavy_fighter_equipment_2
+		priority = 100
+		
+		air_range = 2000
+		maximum_speed = 600
+		air_agility = 33
+		air_attack = 54
+		air_defence = 18
+		
+		build_cost_ic = 32
+		resources = {
+			oil = 1			
+			aluminium = 4
+			rubber = 1
+		}
+		naval_strike_attack = 9
+		naval_strike_targetting = 10
+	}
+}

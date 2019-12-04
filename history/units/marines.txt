@@ -1,0 +1,52 @@
+﻿division_template = {
+	name = "Marine Division" 	
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+		marine = { x = 1 y = 2 }
+		marine = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+		artillery = {x = 0 y = 1 }  
+	}
+	priority = 2
+}
+
+units = {
+	division= {	
+		name = "21st Nova Corps 1st division"
+		location = 1284 #coruscant
+		division_template = "Marine Division"
+		start_experience_factor = 0.8   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "21st Nova Corps 2nd division"
+		location = 1284 #coruscant
+		division_template = "Marine Division"
+		start_experience_factor = 0.8   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "21st Nova Corps 3rd division"
+		location = 1284 #coruscant
+		division_template = "Marine Division"
+		start_experience_factor = 0.8   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "21st Nova Corps 4th division"
+		location = 1284 #coruscant
+		division_template = "Marine Division"
+		start_experience_factor = 0.8   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "21st Nova Corps 5th division"
+		location = 1284 #coruscant
+		division_template = "Marine Division"
+		start_experience_factor = 0.8   #optional, otherwise starts with 0 expereince
+	}
+}

@@ -1,0 +1,18 @@
+#GandalfSpaceState(Kamino)
+state={
+	id=113
+	name="STATE_113"
+	provinces={
+		3527 3815 3915 3933 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = REP
+	add_core_of = REP
+		}
+	}

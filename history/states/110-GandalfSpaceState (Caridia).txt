@@ -1,0 +1,18 @@
+#GandalfSpaceState(Caridia)
+state={
+	id=110
+	name="STATE_110"
+	provinces={
+		3795 4020 4155 4211 4430 4555 4800 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = REP
+	add_core_of = REP
+		}
+	}

@@ -1,0 +1,10 @@
+muundroids = {
+     icon = generic_prospect_for_resources
+	
+available = { 
+	CIS = {controls_state = 4}
+     }
+allowed = {
+		original_tag = CIS
+	}
+}

@@ -1,0 +1,24 @@
+﻿l_english:
+
+#ATZ
+
+neutral_industry:0 "Industrialization"
+neutral_industry_desc:0 "National Industrialization"
+NET_fortify_the_borders:0 "Fortify the borders"
+NET_fortify_the_borders_desc:0 "Fortify the borders and the planet"
+NET_democratic_influence:0 "Democratic Influence"
+NET_democratic_influence_desc:0 "We are gonna help rebuild the nation via the democratic way! Long live the republic!"
+NET_trade_opinions:0 "Trade opinion"
+NET_trade_opinions_desc:0 ""
+NET_fascist_influence:0 "Separatist Influence"
+NET_fascist_influence_desc:0 "The democratic republic no longer works we will support Dooku at all costs!"
+NET_dooku_opinion:0 "Secret reunion with Count Dooku"
+NET_dooku_opinion_desc:0 ""
+NET_cis_investor:0 "CIS military Advisors"
+NET_cis_investor_desc:0 ""
+NET_republic_investor:0 "Republic military Advisors"
+NET_republic_investor_desc:0 ""
+NET_neutral_focus:0 "Neutral Affiliation"
+NET_neutral_focus_desc:0 ""
+NET_volunters_send:0 "Local Volunteers"
+NET_volunters_send_desc:0 ""

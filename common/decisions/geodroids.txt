@@ -1,0 +1,85 @@
+geodroids = {
+
+		CIS_droiddivision = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 47}
+		}	
+
+		cost = 20
+
+		visible = {
+				tag = CIS
+			}
+
+
+		complete_effect = {
+				load_oob = droiddivision
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+		CIS_droiddivision3 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 47}
+		}	
+
+		cost = 60
+
+		visible = {
+				tag = CIS
+			}
+
+
+		complete_effect = {
+				load_oob = droiddivision3
+		}
+		ai_will_do = {
+			factor = 400
+		}
+		}
+
+		CIS_tankdivision = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 47}
+		}	
+
+		cost = 100
+
+		visible = {
+				tag = CIS
+				has_tech = basic_medium_tank
+			}
+
+
+		complete_effect = {
+				load_oob = droidtank
+		}
+		ai_will_do = {
+			factor = 9
+		}
+	}
+
+}

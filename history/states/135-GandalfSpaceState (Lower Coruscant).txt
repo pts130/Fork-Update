@@ -1,0 +1,18 @@
+#GandalfSpaceState(Lower Coruscant)
+state={
+	id=135
+	name="STATE_135"
+	provinces={
+		4018 4120 4559 4571 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = REP
+	add_core_of = REP
+		}
+	}

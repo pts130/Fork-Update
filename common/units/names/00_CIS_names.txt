@@ -1,0 +1,16 @@
+﻿CIS = {
+	carrier = {
+		prefix = "CIS"
+		generic = { "Cruiser" }
+	}
+
+	destroyer = {
+		prefix = "CIS"
+		generic = { "Corvette" }
+	}
+
+	light_cruiser = {
+		prefix = "CIS"
+		generic = { "Frigate" }
+	}
+}

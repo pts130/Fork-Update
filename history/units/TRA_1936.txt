@@ -1,0 +1,32 @@
+﻿division_template = {
+	name = "Trandoshan Militia"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+	division= {	
+		name = "Trandoshan Militia"
+		location = 2078 #trandosha
+		division_template = "Trandoshan Militia"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Trandoshan Militia"
+		location = 1978 #trandosha
+		division_template = "Trandoshan Militia"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Trandoshan Militia"
+		location = 2116 #trandosha
+		division_template = "Trandoshan Militia"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+}

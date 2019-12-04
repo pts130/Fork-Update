@@ -1,0 +1,6 @@
+﻿air_wings = {
+	2207 = {														
+		### Y-wing souport (ha soup... its late dont judge me)###
+		cv_CAS_equipment_2 =  { owner = "REP" amount = 400 }				
+	}
+}

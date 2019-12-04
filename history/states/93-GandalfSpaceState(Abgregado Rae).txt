@@ -1,0 +1,18 @@
+#GandalfSpaceState(Abgregado Rae)
+state={
+	id=93
+	name="STATE_93"
+	provinces={
+		3953 4170 4208 4328 4416 4627 4633 4750 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = REP
+	add_core_of = REP
+		}
+	}

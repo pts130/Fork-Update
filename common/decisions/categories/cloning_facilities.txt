@@ -1,0 +1,10 @@
+cloning_facilities = {
+     icon = generic_prospect_for_resources
+	
+available = { 
+	REP = {controls_state = 39}
+     }
+allowed = {
+		original_tag = REP
+	}
+}

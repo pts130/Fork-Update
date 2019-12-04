@@ -1,0 +1,3118 @@
+﻿division_template = {
+	name = "Battle Droid Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Separatist Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Tank Division"
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }	
+		medium_armor = { x = 0 y = 1 }		
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 1 y = 2 }
+
+	}
+	support = {
+			recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+	division= {	
+		name = "Separatist Garrison"
+		location = 1372
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1883
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 58
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2519
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 556
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 589
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1363
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1533
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 308
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1856
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 3108
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2511
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 281
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 460
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1601
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 264
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 992
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1824
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+	division= {	
+		name = "Separatist Garrison"
+		location = 1372
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1883
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 58
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2519
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 556
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 589
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1363
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1533
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 308
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1856
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 3108
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2511
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 281
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 460
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1601
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 264
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 992
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1824
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+	division= {	
+		name = "Separatist Garrison"
+		location = 1372
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1883
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 58
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2519
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 556
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 589
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1363
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1533
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 308
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1856
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 3108
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2511
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 281
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 460
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1601
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 264
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 992
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1824
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+	division= {	
+		name = "Separatist Garrison"
+		location = 1372
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1883
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 58
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2519
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 556
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 589
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1363
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1533
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 308
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1856
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 3108
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2511
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 281
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 460
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1601
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 264
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 992
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1824
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+	division= {	
+		name = "Separatist Garrison"
+		location = 1372
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1883
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 58
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2519
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 556
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 589
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1363
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1533
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 308
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1856
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 3108
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2511
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 281
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 460
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1601
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 264
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 992
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1824
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+	division= {	
+		name = "Separatist Garrison"
+		location = 1372
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1883
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 58
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2519
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 556
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 589
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1363
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1533
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 308
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1856
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 3108
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2511
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 281
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 460
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1601
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 264
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 992
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1824
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+	division= {	
+		name = "Separatist Garrison"
+		location = 1372
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1883
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 58
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2519
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 556
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 589
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1363
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1533
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 308
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1856
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 3108
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2511
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 281
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 460
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1601
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 264
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 992
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1824
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+	division= {	
+		name = "Separatist Garrison"
+		location = 1372
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1883
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 58
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2519
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 556
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 589
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1363
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1533
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 308
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1856
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 3108
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2511
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 281
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 460
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1601
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 264
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 992
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1824
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+	division= {	
+		name = "Separatist Garrison"
+		location = 1372
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1883
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 58
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2519
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 556
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 589
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1363
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1533
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 308
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1856
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 3108
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2511
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 281
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 460
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1601
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 264
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 992
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1824
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+	division= {	
+		name = "Separatist Garrison"
+		location = 1372
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1883
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 58
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2519
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 556
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 589
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1363
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1533
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 308
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1856
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 3108
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2511
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 281
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 460
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1601
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 264
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 992
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1824
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+	division= {	
+		name = "Separatist Garrison"
+		location = 1372
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1883
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 58
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2519
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 556
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 589
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1363
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1533
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 308
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 1856
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 3108
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 2511
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 281
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Garrison"
+		location = 460
+		division_template = "Separatist Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+
+
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1601
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 264
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 992
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Separatist Tank Division"
+		location = 1824
+		division_template = "Tank Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}	
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "1. Battledroid Division"
+		location = 788
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Battledroid Division"
+		location = 719
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Battledroid Division"
+		location = 1125
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "4. Battledroid Division"
+		location = 319
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "5. Battledroid Division"
+		location = 2531
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+
+	division= {	
+		name = "6. Battledroid Division"
+		location = 175
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "7. Battledroid Division"
+		location = 1008
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "8. Battledroid Division"
+		location = 3200
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "9. Battledroid Division"
+		location = 2902
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "10. Battledroid Division"
+		location = 580
+		division_template = "Battle Droid Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+		####navy#####
+	navy = {					
+		name = "Core Fleet"				
+		base = 2512
+		location = 2512 #Foerost
+		ship = { name = "Commerce" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Invincible" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+
+	}
+
+	navy = {					
+		name = "Outer Rim Fleet"				
+		base = 3213
+		location = 3213 #Geonosis
+		ship = { name = "Invisible Hand" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Trident" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+
+	}
+
+	navy = {					
+		name = "Outer Rim Fleet"				
+		base = 3213
+		location = 3213 #Geonosis
+		ship = { name = "Invisible Hand" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Trident" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+
+	}
+
+	navy = {					
+		name = "Outer Rim Fleet"				
+		base = 3213
+		location = 3213 #Geonosis
+		ship = { name = "Invisible Hand" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Trident" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+
+	}
+
+	navy = {					
+		name = "Outer Rim Fleet"				
+		base = 3213
+		location = 3213 #Geonosis
+		ship = { name = "Invisible Hand" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Trident" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+
+	}
+
+
+
+	navy = {					
+		name = "3rd Fleet"				
+		base = 1685
+		location = 1685 #Minntoine
+		ship = { name = "Spirit of the Outer Rim" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Merchant" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+
+	}
+	navy = {					
+		name = "Core Fleet"				
+		base = 2512
+		location = 2512 #Foerost
+		ship = { name = "Commerce" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Invincible" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "CIS" amount = 80 } # historical: 16
+				cv_CAS_equipment_1 =  { owner = "CIS" amount = 140 } # historical: 30
+				cv_nav_bomber_equipment_1 =  { owner = "CIS" amount = 80 } # historical: 12
+			}
+		}
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+
+		ship = { name = "Marauder-class" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+		ship = { name = "Munificent-Class" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CIS } } 
+		}
+
+	}
+
+
+}
+
+

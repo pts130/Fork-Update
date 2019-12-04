@@ -1,0 +1,385 @@
+Kuat_drive_yards = {
+
+
+###########Corvettes###################
+		REP_destroyer1 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = early_destroyer
+		}	
+
+		cost = 40
+
+		visible = {
+				tag = REP
+			has_tech = early_destroyer
+			}
+
+
+		complete_effect = {
+				load_oob = rep_destroyer1
+		}
+		ai_will_do = {
+			factor = 8
+		}
+	}
+		REP_destroyer2 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = basic_destroyer
+		}	
+
+		cost = 50
+
+		visible = {
+				tag = REP
+			has_tech = basic_destroyer
+			}
+
+
+		complete_effect = {
+				load_oob = rep_destroyer2
+		}
+		ai_will_do = {
+			factor = 8
+		}
+	}
+		REP_destroyer3 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = improved_destroyer
+		}	
+
+		cost = 60
+
+		visible = {
+				tag = REP
+			has_tech = improved_destroyer
+			}
+
+
+		complete_effect = {
+				load_oob = rep_destroyer3
+		}
+		ai_will_do = {
+			factor = 8
+		}
+	}
+		REP_destroyer4 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = advanced_destroyer
+		}	
+
+		cost = 40
+
+		visible = {
+				tag = REP
+			has_tech = advanced_destroyer
+			}
+
+
+		complete_effect = {
+				load_oob = rep_destroyer4
+		}
+		ai_will_do = {
+			factor = 8
+		}
+	}
+##########Frigates############
+
+
+		REP_lc1 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = early_light_cruiser
+		}	
+
+		cost = 80
+
+		visible = {
+				tag = REP
+			has_tech = early_light_cruiser
+			}
+
+
+		complete_effect = {
+				load_oob = rep_lc1
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+		REP_lc2 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = basic_light_cruiser
+		}	
+
+		cost = 100
+
+		visible = {
+				tag = REP
+			has_tech = basic_light_cruiser
+			}
+
+
+		complete_effect = {
+				load_oob = rep_lc2
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+		REP_lc3 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = improved_light_cruiser
+		}	
+
+		cost = 110
+
+		visible = {
+				tag = REP
+			has_tech = improved_light_cruiser
+			}
+
+
+		complete_effect = {
+				load_oob = rep_lc3
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+		REP_lc4 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = advanced_light_cruiser
+		}	
+
+		cost = 130
+
+		visible = {
+				tag = REP
+				has_tech = advanced_light_cruiser
+			}
+
+
+		complete_effect = {
+				load_oob = rep_lc4
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+
+
+############cruisers############
+
+		REP_carrier1 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = early_carrier
+		}	
+
+		cost = 170
+
+		visible = {
+				tag = REP
+			has_tech = early_carrier
+			}
+
+
+		complete_effect = {
+				load_oob = rep_carrier1
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+		REP_carrier2 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = basic_carrier
+		}	
+
+		cost = 200
+
+		visible = {
+				tag = REP
+			has_tech = basic_carrier
+			}
+
+
+		complete_effect = {
+				load_oob = rep_carrier2
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+		REP_carrier3 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = improved_carrier
+		}	
+
+		cost = 220
+
+		visible = {
+				tag = REP
+			has_tech = improved_carrier
+			}
+
+
+		complete_effect = {
+				load_oob = rep_carrier3
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+		REP_carrier4 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = advanced_carrier
+		}	
+
+		cost = 220
+
+		visible = {
+				tag = REP
+			has_tech = advanced_carrier
+			}
+
+
+		complete_effect = {
+				load_oob = rep_carrier4
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+		REP_Mandator = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = early_battlecruiser
+		}	
+
+		cost = 2000
+
+		visible = {
+			tag = REP
+			has_tech = early_battlecruiser
+			}
+
+
+		complete_effect = {
+				load_oob = rep_mandator
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+}

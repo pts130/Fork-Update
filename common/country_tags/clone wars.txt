@@ -1,0 +1,38 @@
+ALD = "countries/alderaan.txt"
+ATZ = "countries/atzerri.txt"
+BOT = "countries/bothan.txt"
+BRN = "countries/Brentaal.txt"
+CAR = "countries/carida.txt"
+CIS = "countries/cis.txt"
+CRL = "countries/corellia.txt"
+CLG = "countries/corulag.txt"
+FON = "countries/fondor.txt"
+HON = "countries/honoghr.txt"
+HUT = "countries/hutt.txt"
+ITH = "countries/ithor.txt"
+KYK = "countries/kashyyyk.txt"
+MAN = "countries/newmand.txt"
+REP = "countries/Republic.txt"
+RYL = "countries/ryloth.txt"
+TLZ = "countries/alzociii.txt"
+TRA = "countries/Trandosha.txt"
+
+# Gandalf's Ghost Nations for UI/Interface Purposes
+ZAA = "countries/ZAA.txt"
+ZBA = "countries/ZBA.txt"
+ZBB = "countries/ZBB.txt"
+ZCB = "countries/ZCB.txt"
+ZCC = "countries/ZCC.txt"
+ZDC = "countries/ZDC.txt"
+ZDD = "countries/ZDD.txt"
+ZED = "countries/ZED.txt"
+ZEE = "countries/ZEE.txt"
+ZFE = "countries/ZFE.txt"
+ZFF = "countries/ZFF.txt"
+ZGF = "countries/ZGF.txt"
+ZGG = "countries/ZGG.txt"
+
+# Gandalf's Event-Based Nations
+ALK = "countries/AlkharaBandits.txt"
+
+# I'm sick and tired of errors

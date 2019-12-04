@@ -1,0 +1,18 @@
+#GandalfSpaceState(NalHutta)
+state={
+	id=97
+	name="STATE_97"
+	provinces={
+		3472 3514 3901 4128 4513 4588 4829 4832   
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = HUT
+	add_core_of = HUT
+		}
+	}

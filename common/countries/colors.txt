@@ -1,0 +1,86 @@
+REP = {
+	color = rgb { 175 15 57 }
+	color_ui = rgb { 220 25 50 }
+}
+
+CIS = {
+	color = rgb { 20 20 228 }
+	color_ui = rgb { 40 40 255 }
+}
+
+RYL = {
+	color = rgb { 195 35 77 }
+	color_ui = rgb { 215 55 97 }
+}
+
+KYK = {
+	color = rgb { 91 114 0 }
+	color_ui = rgb { 112 134 0 }
+}
+
+ALK = {
+	color = rgb { 91 114 0 }
+	color_ui = rgb { 112 134 0 }
+}
+
+TRA = {
+	color = rgb { 198 172 0 }
+	color_ui = rgb { 218 154 0 }
+}
+
+ALD = {
+	color = rgb { 195 55 07 }
+	color_ui = rgb { 215 75 27 }
+}
+TLZ = {
+	color = rgb { 145 05 90 }
+	color_ui = rgb { 165 25 110 }
+}
+MAN = {
+	color = rgb { 20 20 100 }
+	color_ui = rgb { 40 40 120 }
+} 
+ATZ = {
+	color = rgb { 200 30 40 }
+	color_ui = rgb { 220 60 140 }
+} 
+BOT = {
+	color = rgb { 30 10 140 }
+	color_ui = rgb { 50 30 160 }
+}
+BRN = {
+	color = rgb { 15 15 10 }
+	color_ui = rgb { 35 35 30 }
+}  
+CAR = {
+	color = rgb { 195 35 07 }
+	color_ui = rgb { 215 55 27 }
+}
+CRL = {
+	color = rgb { 200 35 07 }
+	color_ui = rgb { 220 55 27 }
+}
+CLG = {
+	color = rgb { 100 55 07 }
+	color_ui = rgb { 120 75 27 }
+}
+FON = {
+	color = rgb { 15 15 120 }
+	color_ui = rgb { 35 35 140 }
+}
+HON = {
+	color = rgb { 190 190 10 }
+	color_ui = rgb { 200 200 30 }
+}
+HUT = {
+	color = rgb { 177 145 46 }
+	color_ui = rgb { 200 200 30 }
+}
+ITH = {
+	color = rgb { 155 55 07 }
+	color_ui = rgb { 175 75 27 }
+}
+HON = {
+	color = rgb { 190 200 10 }
+	color_ui = rgb { 210 220 30 }
+}

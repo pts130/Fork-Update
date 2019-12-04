@@ -1,0 +1,37 @@
+###Honoghr
+state={
+	id=26
+	name="STATE_26"
+	provinces={
+		33 69 252 415 478 493 529 588 624 712 726 745 796 852 904 1033 1068 1122 1141 1164 1191 1199 1249 1264 1349 1369 1431 1492 2397 2398 2400 2402 2411 2416 2417 2427 2432 2433 2436 2443 2446 2447 2448 2450 2459 2461 2466 2472 2473 2475 2476 2485 2486 2492 2493 2496 2497 2499 2501 2502 2503 2504 2505 2506 2507 2508 2509 2510 
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+    state_category = rural
+	resources={
+		steel = 10
+		aluminium = 10
+		rubber = 10
+		tungsten = 10
+		oil = 10
+	}
+    history = {
+	owner = HON
+	buildings = {
+		infrastructure = 5
+		arms_factory = 2
+		industrial_complex = 6
+		dockyard = 2
+		2433 = {
+		     naval_base = 2
+			}
+		1492 = {
+		     naval_base = 2
+			}
+		}
+	add_core_of = HON
+	victory_points = {
+		2476 30
+	}
+	}
+}

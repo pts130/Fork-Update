@@ -1,0 +1,10 @@
+﻿units = {
+navy = {					
+		name = "Minntoine Delivery"				
+		base = 1685
+		location = 1685
+		ship = { name = "Hammerclass Pickett" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CIS } } 
+		}
+
+	}
+}

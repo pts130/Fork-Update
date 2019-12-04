@@ -1,0 +1,12 @@
+﻿units = {
+navy = {					
+		name = "Minntoine Delivery"				
+		base = 1685
+		location = 1685 #Minntoine
+		ship = { name = "Providence-class" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CIS } } 
+			air_wings = {
+			}
+		}
+
+	}
+}

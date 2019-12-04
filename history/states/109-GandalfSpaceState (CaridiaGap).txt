@@ -1,0 +1,18 @@
+#GandalfSpaceState(CaridiaGap)
+state={
+	id=109
+	name="STATE_109"
+	provinces={
+		3560 3564 4613 4760 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+	}
+  	history = {
+
+	owner = REP
+	add_core_of = REP
+		}
+	}

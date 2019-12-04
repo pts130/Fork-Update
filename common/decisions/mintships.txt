@@ -1,0 +1,328 @@
+mintships = {
+
+
+###########Corvettes###################
+		CIS_destroyer1 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 5}
+			has_tech = early_destroyer
+		}	
+
+		cost = 40
+
+		visible = {
+				tag = CIS
+			has_tech = early_destroyer
+			}
+
+
+		complete_effect = {
+				load_oob = CIS_destroyer1
+		}
+		ai_will_do = {
+			factor = 8
+		}
+	}
+		CIS_destroyer2 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 5}
+			has_tech = basic_destroyer
+		}	
+
+		cost = 50
+
+		visible = {
+				tag = CIS
+			has_tech = basic_destroyer
+			}
+
+
+		complete_effect = {
+				load_oob = CIS_destroyer2
+		}
+		ai_will_do = {
+			factor = 8
+		}
+	}
+		CIS_destroyer3 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 5}
+			has_tech = improved_destroyer
+		}	
+
+		cost = 60
+
+		visible = {
+				tag = CIS
+			has_tech = improved_destroyer
+			}
+
+
+		complete_effect = {
+				load_oob = CIS_destroyer3
+		}
+		ai_will_do = {
+			factor = 8
+		}
+	}
+##########Frigates############
+
+
+		CIS_lc1 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 5}
+			has_tech = early_light_cruiser
+		}	
+
+		cost = 80
+
+		visible = {
+				tag = CIS
+			has_tech = early_light_cruiser
+			}
+
+
+		complete_effect = {
+				load_oob = CIS_lc1
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+
+		CIS_lc2 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 5}
+			has_tech = basic_light_cruiser
+		}	
+
+		cost = 200
+
+		visible = {
+				tag = CIS
+			has_tech = basic_light_cruiser
+			}
+
+
+		complete_effect = {
+				load_oob = CIS_lc2
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+
+		CIS_lc3 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 5}
+			has_tech = improved_light_cruiser
+		}	
+
+		cost = 110
+
+		visible = {
+				tag = CIS
+			has_tech = improved_light_cruiser
+			}
+
+
+		complete_effect = {
+				load_oob = CIS_lc3
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+
+		CIS_lc4 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 5}
+			has_tech = advanced_light_cruiser
+		}	
+
+		cost = 130
+
+		visible = {
+				tag = CIS
+				has_tech = advanced_light_cruiser
+			}
+
+
+		complete_effect = {
+				load_oob = CIS_lc4
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+
+
+
+############cruisers############
+
+		CIS_carrier1 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 5}
+			has_tech = early_carrier
+		}	
+
+		cost = 170
+
+		visible = {
+				tag = CIS
+			has_tech = early_carrier
+			}
+
+
+		complete_effect = {
+				load_oob = CIS_carrier1
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+
+		CIS_carrier2 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 5}
+			has_tech = basic_carrier
+		}	
+
+		cost = 200
+
+		visible = {
+				tag = CIS
+			has_tech = basic_carrier
+			}
+
+
+		complete_effect = {
+				load_oob = CIS_carrier2
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+
+		CIS_carrier3 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 5}
+			has_tech = improved_carrier
+		}	
+
+		cost = 220
+
+		visible = {
+				tag = CIS
+			has_tech = improved_carrier
+			}
+
+
+		complete_effect = {
+				load_oob = CIS_carrier3
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+
+		CIS_dist = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = CIS
+		}
+
+		available = {
+			CIS = {owns_state = 5}
+			has_tech = early_battlecruiser
+		}	
+
+		cost = 2000
+
+		visible = {
+			tag = CIS
+			has_tech = early_battlecruiser
+			}
+
+
+		complete_effect = {
+				load_oob = CIS_mandator
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+
+}

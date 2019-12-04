@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 *.blend
 *.obj
 *.dae
 *.png
 *.DAE
 *.
+=======
+
+.DS_Store
+>>>>>>> parent of 03ff915... New models commit

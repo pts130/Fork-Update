@@ -1,0 +1,33 @@
+###tatooine
+state={
+	id=46
+	name="STATE_46"
+	provinces={
+		18 84 205 269 290 332 355 369 371 447 513 570 829 833 942 956 996 1074 1089 1090 1112 1124 1186 1189 1336 1392 1409 1472 1491 3179 3180 3181 3187 3188 3190 3191 3201 3203 3207 3212 3215 3218 3223 3225 3229 3233 3235 3242 3246 3256 3259 3260 3261 3266 3269 3270 3279 3301 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+    state_category = wasteland
+	resources={
+		steel = 40
+		rubber = 20
+		oil = 30
+	}
+   	history = {
+		owner = HUT
+	buildings = {
+		infrastructure = 2
+		arms_factory = 3
+		industrial_complex = 4
+		dockyard = 3
+		air_base = 2
+		3181 = {
+		     naval_base = 4
+			}
+		3207 = {
+		     naval_base = 4
+			}
+		}
+		add_core_of = HUT
+	}
+}

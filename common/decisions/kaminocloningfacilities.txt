@@ -1,0 +1,59 @@
+cloning_facilities = {
+
+		REP_clonedivision = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = early_destroyer
+		}	
+
+		cost = 30
+
+		visible = {
+				tag = REP
+			}
+
+
+		complete_effect = {
+				load_oob = clonedivision
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+		REP_clonedivision3 = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = REP
+		}
+
+		available = {
+			REP = {owns_state = 24}
+			has_tech = early_destroyer
+		}	
+
+		cost = 90
+
+		visible = {
+				tag = REP
+			}
+
+
+		complete_effect = {
+				load_oob = clonedivision3
+		}
+		ai_will_do = {
+			factor = 7
+		}
+	}
+
+}
