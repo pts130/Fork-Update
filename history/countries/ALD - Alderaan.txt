@@ -62,3 +62,36 @@ create_country_leader = {
 		
 	}
 }
+
+create_field_marshal = {
+	name = "Carlist Rieekan"
+	portrait_path = "\gfx\leaders\ALD\ALD_riekan.tga"
+	traits = { defensive_doctrine trait_cautious armor_officer harsh_leader }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Raymus Antilles"
+	portrait_path = "\gfx\leaders\ALD\ALD_raymus.tga"
+	traits = { trait_mountaineer hill_fighter }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Vanden Willard"
+	portrait_path = "\gfx\leaders\ALD\ALD_willard.tga"
+	traits = { brilliant_strategist }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}

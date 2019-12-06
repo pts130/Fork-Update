@@ -1,4 +1,17 @@
 spriteTypes = {
+###Unit icons###
+   spriteType = { 
+     name = "GFX_unit_ALD_unit_guard_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/ALD_unit_guard_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_ALD_unit_guard_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_ALD_unit_guard_icon.dds" 
+     noOfFrames = 2
+   }
+
 ####Focus icons###
 	spriteType = {
 		name = "GFX_focus_net_deal_republic" 

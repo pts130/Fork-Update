@@ -3,7 +3,7 @@
 oob = "KYK_1936"
 set_research_slots = 2
 set_stability = 0.6
-set_war_support = .1
+set_war_support = .05
 
 set_technology = {
 	infantry_weapons = 1
@@ -45,7 +45,7 @@ create_country_leader = {
 	desc = "wookie_tribe_leader_desc"
 	picture = "gfx/leaders/KYK/KYK_Grakchawwaa.tga"
 	expire = "2020.1.1"
-	ideology = neutrality
+	ideology = conservatism
 	traits = {
 		
 	}

@@ -1,6 +1,9 @@
 ﻿l_english:
 ###Leaders desc###
 wookie_tribe_leader_desc: "Grakchawwaa was a male Wookiee who served as King of Kashyyyk in the last years of the Galactic Republic. He fought in the Clone Wars, alongside warriors such as Alrrark."
+###Units loc##
+ALD_unit_guard: "Alderaan Guard"
+ALD_unit_guard_desc: "The Alderaan guard was a security force responsible for the protection of members of the House of Organa, the royal family of the planet Alderaan."
 ###Focuses descriptions###
 ATZ_fortherepublic:0 "For the Republic!"
 ATZ_fortherepublic_desc:0 ""

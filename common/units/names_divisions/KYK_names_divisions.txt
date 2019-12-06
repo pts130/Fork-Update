@@ -84,7 +84,7 @@ KYK_INF_01 =
 	}
 }
 
-KYK_CAV_01 = 
+AFG_CAV_01 = 
 {
 	name = "Cavalry Divisions"
 
@@ -137,7 +137,7 @@ KYK_CAV_01 =
 	}
 }
 
-KYK_MOT_01 = 
+AFG_MOT_01 = 
 {
 	name = "Motorised Divisions"
 
@@ -190,7 +190,7 @@ KYK_MOT_01 =
 	}
 }
 
-KYK_ARM_01 = 
+AFG_ARM_01 = 
 {
 	name = "Armored Divisions"
 
@@ -243,7 +243,7 @@ KYK_ARM_01 =
 	}
 }
 
-KYK_MEC_01 = 
+AFG_MEC_01 = 
 {
 	name = "Mechanised Divisions"
 
@@ -296,7 +296,7 @@ KYK_MEC_01 =
 	}
 }
 
-KYK_GAR_01 = 
+AFG_GAR_01 = 
 {
 	name = "Garrison Divisions"
 
@@ -349,7 +349,7 @@ KYK_GAR_01 =
 	}
 }
 
-KYK_MAR_01 = 
+AFG_MAR_01 = 
 {
 	name = "Marine Divisions"
 
@@ -402,7 +402,7 @@ KYK_MAR_01 =
 	}
 }
 
-KYK_MTN_01 = 
+AFG_MTN_01 = 
 {
 	name = "Mountain Divisions"
 
@@ -455,7 +455,7 @@ KYK_MTN_01 =
 	}
 }
 
-KYK_PAR_01 = 
+AFG_PAR_01 = 
 {
 	name = "Paratrooper Divisions"
 
