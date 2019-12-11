@@ -45,7 +45,7 @@ create_country_leader = {
 	desc = "wookie_tribe_leader_desc"
 	picture = "gfx/leaders/KYK/KYK_Grakchawwaa.tga"
 	expire = "2020.1.1"
-	ideology = conservatism
+	ideology = centrism
 	traits = {
 		
 	}
