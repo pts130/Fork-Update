@@ -4,4 +4,8 @@ spriteTypes = {
  name = "GFX_naboocrisisescalates" 
  texturefile = "gfx/interface/event_gfx/GFX_naboocrisisescalates.tga" 
  } 
+  SpriteType = { 
+ name = "GFX_dorvallaincident" 
+ texturefile = "gfx/interface/event_gfx/dorvallaincident.dds" 
+ }
  }

@@ -1,0 +1,27 @@
+add_namespace = swpg
+## 376ATC/24BBY
+# Dorvalla Incident
+news_event = {
+	id = swpg.1
+	title = swpg.1.title
+	desc = swpg.1.desc
+	picture = GFX_dorvallaincident
+	fire_only_once = yes
+	major = yes
+	mean_time_to_happen = {
+		days = 5
+	}
+}
+
+##Event: Naboo Crisis Escalates!
+news_event = {
+	id = swpg.1
+	title = cis.1.title
+	desc = cis.1.desc
+	picture = GFX_naboocrisisescalates
+	fire_only_once = yes
+	major = yes
+	mean_time_to_happen = {
+		days = 5
+	}
+}
