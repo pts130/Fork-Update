@@ -4,6 +4,8 @@ wookie_tribe_leader_desc: "Grakchawwaa was a male Wookiee who served as King of 
 ###Units loc##
 ALD_unit_guard: "Alderaan Guard"
 ALD_unit_guard_desc: "The Alderaan guard was a security force responsible for the protection of members of the House of Organa, the royal family of the planet Alderaan."
+NAB_unit_guard: "Security Force"
+NAB_unit_guard_desc: "The Royal Naboo Security Forces, also called the Naboo Security Forces or Naboo Royal Guards, were the corps responsible for policing the planet of Naboo as well as protecting its monarch and people."
 ###Focuses descriptions###
 ATZ_fortherepublic:0 "For the Republic!"
 ATZ_fortherepublic_desc:0 ""

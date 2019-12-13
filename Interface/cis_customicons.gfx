@@ -1,0 +1,7 @@
+spriteTypes = { 
+##Icon For: Naboo Crisis Escalates!
+ SpriteType = { 
+ name = "GFX_naboocrisisescalates" 
+ texturefile = "gfx/interface/event_gfx/GFX_naboocrisisescalates.tga" 
+ } 
+ }

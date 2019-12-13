@@ -1,0 +1,35 @@
+﻿division_template = {
+	name = "Royal Naboo Security Forces"
+
+	regiments = {
+		NAB_unit_guard = { x = 0 y = 0 }
+		NAB_unit_guard = { x = 0 y = 1 }
+		NAB_unit_guard = { x = 1 y = 0 }
+		NAB_unit_guard = { x = 1 y = 1 }
+		NAB_unit_guard = { x = 2 y = 0 }
+		NAB_unit_guard = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	division= {	
+		name = "Royal Security Forces"
+		location = 2766 #naboo
+		division_template = "Royal Naboo Security Forces"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	
+	division= {	
+		name = "Security Guard"
+		location = 2766 #naboo
+		division_template = "Royal Naboo Security Forces"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Palace Guard"
+		location = 2766 #naboo
+		division_template = "Royal Naboo Security Forces"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+}

@@ -16,6 +16,7 @@ REP = "countries/Republic.txt"
 RYL = "countries/ryloth.txt"
 TLZ = "countries/alzociii.txt"
 TRA = "countries/Trandosha.txt"
+NAB = "countries/naboo.txt"
 
 # Gandalf's Ghost Nations for UI/Interface Purposes
 ZAA = "countries/ZAA.txt"
