@@ -88,10 +88,43 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Vanden Willard"
 	portrait_path = "\gfx\leaders\ALD\ALD_willard.tga"
-	traits = { brilliant_strategist }
+	traits = { brilliant_strategist armor_officer }
 	skill = 4
 	attack_skill = 5
 	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Tash Scrambas"
+	portrait_path = "\gfx\leaders\ALD\ALD_tash.tga"
+	traits = { old_guard politically_connected }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Pello Scrambas"
+	portrait_path = "\gfx\leaders\ALD\ALD_pello.tga"
+	traits = { career_officer trait_reckless }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Galen Torg"
+	portrait_path = "\gfx\leaders\ALD\ALD_torg.tga"
+	traits = { harsh_leader infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
 }

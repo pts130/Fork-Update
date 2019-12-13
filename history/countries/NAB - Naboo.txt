@@ -51,3 +51,113 @@ create_country_leader = {
 		
 	}
 }
+
+create_country_leader = {
+	name = "Rugor Nass"
+	desc = "Gungan High Council Boss"
+	picture = "gfx/leaders/NAB/NAB_nass.dds"
+	expire = "2020.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "Quarsh Panaka"
+	portrait_path = "\gfx\leaders\NAB\NAB_quarsh.dds"
+	traits = { logistics_wizard offensive_doctrine }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Danzal Galak Sr."
+	portrait_path = "\gfx\leaders\NAB\NAB_galak.dds"
+	traits = { defensive_doctrine fast_planner }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Maris Magneta"
+	portrait_path = "\gfx\leaders\NAB\NAB_maris.dds"
+	traits = { thorough_planner aggressive_assaulter }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Mariek Panaka"
+	portrait_path = "\gfx\leaders\NAB\ALD_raymus.dds"
+	traits = { hill_fighter skilled_staffer  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Tonra"
+	portrait_path = "\gfx\leaders\NAB\NAB_tonra.dds"
+	traits = { trickster }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Gregar Typho"
+	portrait_path = "\gfx\leaders\NAB\NAB_gregar.dds"
+	traits = { adaptable ambusher }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Nathaniel Camaran"
+	portrait_path = "\gfx\leaders\NAB\NAB_nathaniel.dds"
+	traits = { skirmisher }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Chamberlyn"
+	portrait_path = "\gfx\leaders\NAB\NAB_chamberlyn.dds"
+	traits = { naval_liason }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Chrin"
+	portrait_path = "\gfx\leaders\NAB\NAB_chrin.dds"
+	traits = { expert_improviser }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+}
