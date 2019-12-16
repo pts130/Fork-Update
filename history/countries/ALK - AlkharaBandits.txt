@@ -40,8 +40,8 @@ set_popularities = {
 
 give_military_access = HUT
 create_country_leader = {
-	name = "Brentaal Council Chairman"
-	desc = "Chairman of the Brentaal Council"
+	name = "Alkharan Bandit"
+	desc = "Alkharan Bandit"
 	picture = "gfx/leaders/BRN/brent.dds"
 	expire = "2020.1.1"
 	ideology = stalinism

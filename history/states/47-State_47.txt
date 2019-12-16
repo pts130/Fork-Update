@@ -18,7 +18,7 @@ state={
 	}
 
   	history = {
-	owner = CIS
+	owner = REP
 	buildings = {
 		infrastructure = 2
 		arms_factory = 10
@@ -36,7 +36,12 @@ state={
 			}
 
 	}
-		add_core_of = CIS
+		add_core_of = REP
+		3678.1.1 = {
+			owner = CIS
+			controller = CIS
+			add_core_of = CIS
+		}
 		victory_points = {
 			3276 110
 		}
