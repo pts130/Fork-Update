@@ -32,9 +32,9 @@ state={
 		}
 		add_core_of = REP
 		3678.1.1 = {
-			owner = CIS
-			controller = CIS
-			add_core_of = CIS
+			owner = REP
+			controller = REP
+			add_core_of = REP
 		}
 		victory_points = {
 			925 30
