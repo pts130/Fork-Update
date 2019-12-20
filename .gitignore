@@ -5,6 +5,8 @@
 *.dae
 *.png
 *.DAE
+*.mtl
+gfx/models/*.tga
 *.
 =======
 

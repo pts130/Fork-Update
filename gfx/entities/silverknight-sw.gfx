@@ -35,6 +35,23 @@ objectTypes = {
 		file = "gfx/models/units/silverknight/sw/characters/darthmaul/darthmaul.mesh"
 	}
 
+### Neutrals
+	pdxmesh = {
+		name = "wookie_mesh"
+		file = "gfx/models/units/silverknight/sw/units/wookie/chewy.mesh"
+	}
+
+### Imperials
+	pdxmesh = {
+		name = "tarkin_mesh"
+		file = "gfx/models/units/silverknight/sw/characters/tarkin/tarkin.mesh"
+	}
+### Rebels
+	pdxmesh = {
+		name = "rebelpilot_mesh"
+		file = "gfx/models/units/silverknight/sw/units/rebelpilot/GER_infantry.mesh"
+	}
+
 ### Buildings
 	pdxmesh = {
 		name = "building_bunker"
