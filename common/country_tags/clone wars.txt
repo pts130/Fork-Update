@@ -1,5 +1,6 @@
 ALD = "countries/alderaan.txt"
 ATZ = "countries/atzerri.txt"
+ANA = "countries/Anaxes.txt"
 BOT = "countries/bothan.txt"
 BRN = "countries/Brentaal.txt"
 CAR = "countries/carida.txt"

@@ -19,16 +19,92 @@ news_event = {
 		name = swpg.1.b
 		trigger = { TAG = REP }
 	}
+}
+
+# Valorums Proposal
+news_event = {
+	id = swpg.2
+	title = swpg.2.title
+	desc = swpg.2.desc
+	picture = GFX_valorumsproposal
+	
+	fire_only_once = yes
+	
+	major = yes
+	
 	option = {
-		name = swpg.1.c
-		trigger = {
-			NOT = {
-				TAG = JAP
-				TAG = CHI
-			}
-		}
+		name = swpg.2.a
+		trigger = { TAG = REP }
+	}
+	option = {
+		name = swpg.2.b
+		trigger = { TAG = REP }
 	}
 }
+
+# Eriadu Trade Summit Annouced
+news_event = {
+	id = swpg.3
+	title = swpg.3.title
+	desc = swpg.3.desc
+	picture = GFX_eriadutradesummitannouced
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = {
+		name = swpg.3.a
+		trigger = { TAG = REP }
+	}
+	option = {
+		name = swpg.3.b
+		trigger = { TAG = REP }
+	}
+}
+
+# Eriadu Trade Summit Underway
+news_event = {
+	id = swpg.4
+	title = swpg.4.title
+	desc = swpg.4.desc
+	picture = GFX_eriadutradesummitunderway
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = {
+		name = swpg.4.a
+		trigger = { TAG = REP }
+	}
+	option = {
+		name = swpg.4.b
+		trigger = { TAG = REP }
+	}
+}
+
+# Crisis on Eriadu!
+news_event = {
+	id = swpg.5
+	title = swpg.5.title
+	desc = swpg.5.desc
+	picture = GFX_crisisoneriadu
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = {
+		name = swpg.5.a
+		trigger = { TAG = REP }
+	}
+	option = {
+		name = swpg.5.b
+		trigger = { TAG = REP }
+	}
+}
+
 
 ##Event: Naboo Crisis Escalates!
 news_event = {

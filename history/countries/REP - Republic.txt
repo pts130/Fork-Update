@@ -55,6 +55,7 @@ add_to_faction = CAR
 add_to_faction = CLG
 add_to_faction = CRL
 add_to_faction = TLZ
+add_to_faction = ANA
 
 give_guarantee = ALD
 give_military_access = ALD
