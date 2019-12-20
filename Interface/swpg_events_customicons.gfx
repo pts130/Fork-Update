@@ -1,37 +1,11 @@
 spriteTypes = { 
- #Icon For: Naboo Crisis Escalates!
- spriteType = { 
+##Icon For: Naboo Crisis Escalates!
+ SpriteType = { 
  name = "GFX_naboocrisisescalates" 
- texturefile = "gfx/event_pictures/naboocrisisescalates.tga" 
+ texturefile = "gfx/interface/event_gfx/GFX_naboocrisisescalates.tga" 
  } 
- #Icon For: Dorvalla Incident
- spriteType = { 
+  SpriteType = { 
  name = "GFX_dorvallaincident" 
- texturefile = "gfx/event_pictures/dorvallaincident.dds" 
+ texturefile = "gfx/interface/event_gfx/dorvallaincident.dds" 
  }
- #Icon For: Valorums Proposal
- spriteType = { 
- name = "GFX_valorumsproposal" 
- texturefile = "gfx/event_pictures/valorumsproposal.dds" 
- }
- #Icon For: Eriadu Trade Summit Annouced
- spriteType = { 
- name = "GFX_eriadutradesummitannouced" 
- texturefile = "gfx/event_pictures/eriadutradesummitannouced.dds" 
- } 
- #Icon For: Eriadu Trade Summit Underway
- spriteType = { 
- name = "GFX_eriadutradesummitunderway" 
- texturefile = "gfx/event_pictures/eriadutradesummitunderway.dds" 
- } 
- #Icon For: Crisis on Eriadu!
- spriteType = { 
- name = "GFX_crisisoneriadu" 
- texturefile = "gfx/event_pictures/crisisoneriadu.dds" 
- } 
-
- spriteType = {
-		name = "GFX_valorumsproposal"
-		texturefile = "gfx/event_pictures/report_event_generic_funeral.dds"
-	}
  }

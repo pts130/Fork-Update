@@ -1,6 +1,5 @@
 ALD = "countries/alderaan.txt"
 ATZ = "countries/atzerri.txt"
-ANA = "countries/Anaxes.txt"
 BOT = "countries/bothan.txt"
 BRN = "countries/Brentaal.txt"
 CAR = "countries/carida.txt"
@@ -18,6 +17,7 @@ RYL = "countries/ryloth.txt"
 TLZ = "countries/alzociii.txt"
 TRA = "countries/Trandosha.txt"
 NAB = "countries/naboo.txt"
+ANA = "countries/Anaxes.txt"
 
 # Gandalf's Ghost Nations for UI/Interface Purposes
 ZAA = "countries/ZAA.txt"

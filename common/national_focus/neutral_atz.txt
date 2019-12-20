@@ -855,7 +855,7 @@ focus_tree = {
 	#Focus for Artillery Doctrine
 	focus = {
 		id = ATZ_artillerydoctrine
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_army_artillery
 		x = 43
 		y = 2
 		cost = 10
@@ -877,7 +877,7 @@ focus_tree = {
 	#Focus for General Staff
 	focus = {
 		id = ATZ_generalstaff
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_position_armies
 		x = 44
 		y = 4
 		cost = 10
@@ -891,7 +891,7 @@ focus_tree = {
 	#Focus for Officer Academies
 	focus = {
 		id = ATZ_officeracademies
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_mission
 		x = 47
 		y = 4
 		cost = 10
@@ -922,7 +922,7 @@ focus_tree = {
 	#Focus for Tactical Doctrine
 	focus = {
 		id = ATZ_tacticaldoctrine
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_treaty
 		x = 40
 		y = 2
 		cost = 10
@@ -1172,7 +1172,7 @@ focus_tree = {
 	#Focus for Blaster equipment
 	focus = {
 		id = ATZ_blasterequipment
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_blaster_equipment
 		x = 37
 		y = 2
 		cost = 10
@@ -1195,7 +1195,7 @@ focus_tree = {
 	#Focus for Import Foreign Vehicles
 	focus = {
 		id = ATZ_importforeignvehicles
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_equip_import
 		x = 41
 		y = 4
 		cost = 10
@@ -1209,7 +1209,7 @@ focus_tree = {
 	#Focus for Support our troops
 	focus = {
 		id = ATZ_supportourtroops
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_academy
 		x = 38
 		y = 4
 		cost = 10
