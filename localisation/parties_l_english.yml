@@ -23,6 +23,10 @@
  NAB_neutrality_party_long:0"Royal House of Naboo"
  NAB_democratic_party:0 "Gungan High Council"
  NAB_democratic_party_long:0 "Otoh Gunga Honourable High Council"
+ 
+ ##Custom Ideologies##
+ sith_order_id:0 "Order of the Sith Lords"
+ sith_order_id_desc:0 "The Order of the Sith Lords, also known as Bane's Sith Order, Banite Sith, or simply the Sith, was an ancient organization of Force-sensitives who utilized the dark side of the Force."
 
  communism:0 "Consortiumn"
  communism_noun:0 "Consortium"

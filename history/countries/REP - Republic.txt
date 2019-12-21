@@ -30,7 +30,15 @@ set_technology = {
 }
 
 
-
+	add_ideas = {
+		jedi_order
+		human_leaders
+		jedi_question
+		looming_enemy
+		clone_reliance
+		internal_corruption
+		core_world_markets
+	}
 
 add_political_power = 50
 set_convoys = 2000

@@ -1,0 +1,109 @@
+ideas = {
+	country = {
+		jedi_order = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = jedi_order
+			
+			modifier = {
+			
+			}
+		}
+		human_leaders = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = human_leaders
+			
+			modifier = {
+			army_org_Factor = 0.1
+            planning_speed = 0.25
+            army_morale_factor = 0.1
+            army_attack_factor = 0.05
+            army_defence_factor= 0.05
+            army_speed_factor = 0.1
+			}
+		}
+		jedi_question = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = unknown
+			
+			modifier = {
+			political_power_gain = -0.5
+            war_support_factor = 0.1
+			}
+		}
+		looming_enemy = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = unknown
+			
+			modifier = {
+			stability_factor = -0.2
+			}
+		}
+		clone_reliance = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = unknown
+			
+			modifier = {
+			stability_factor = 0.15
+			}
+		}
+		internal_corruption = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = unknown
+			
+			modifier = {
+			stability_factor = -0.3
+            political_power_gain = -0.25
+			}
+		}
+		core_world_markets = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			picture = unknown
+			
+			modifier = {
+			political_power_gain = 1.20
+			}
+		}
+	}
+}

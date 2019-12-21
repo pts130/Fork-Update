@@ -5,6 +5,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_export_focus.dds"
 	}
 
+####Republic ideas###
+	
+	spriteType = {
+		name = "GFX_idea_sith_order"
+		texturefile = "gfx/interface/ideas/idea_sith_order.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_jedi_order"
+		texturefile = "gfx/interface/ideas/idea_jedi_order.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_human_leaders"
+		texturefile = "gfx/interface/ideas/idea_human_leaders.dds"
+	}	
+
 ###Neutral Ideas icons####
 	spriteType = {
 		name = "GFX_idea_neutral_industry"
