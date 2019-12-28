@@ -1,0 +1,2061 @@
+focus_tree = {
+	id = 3
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = REP
+		}
+	}
+	#Focus for Prioritize The Outer Rim
+	focus = {
+		id = Republic_Completely_Revised_prioritizetheouterrim
+		icon = GFX_focus_usa_focus_on_asia
+		x = 39
+		y = 8
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_WpRQxNDL }
+		mutually_exclusive = { focus = Republic_Completely_Revised_prioritizethemidrim }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for First Delivery from Kamino
+	focus = {
+		id = Republic_Completely_Revised_firstdeliveryfromkamino
+		icon = GFX_goal_generic_trade
+		x = 46
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Establish the Clone Army
+	focus = {
+		id = Republic_Completely_Revised_establishtheclonearmy
+		icon = GFX_establishtheclonearmy
+		x = 46
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_firstdeliveryfromkamino }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Salvage the Technology
+	focus = {
+		id = Republic_Completely_Revised_salvagethetechnology
+		icon = GFX_goal_generic_scientific_exchange
+		x = 45
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_securegeonosis }
+		mutually_exclusive = { focus = Republic_Completely_Revised_salvagethewreckage }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Purge the Senate
+	focus = {
+		id = Republic_Completely_Revised_purgethesenate
+		icon = GFX_goal_generic_war_with_comintern
+		x = 13
+		y = 5
+		cost = 15
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_aftermathofcivilwar }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Senate Question
+	focus = {
+		id = Republic_Completely_Revised_thesenatequestion
+		icon = GFX_thesenatequestion
+		x = 11
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_secureconfidence }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Power To Senate
+	focus = {
+		id = Republic_Completely_Revised_powertosenate
+		icon = GFX_powertosenate
+		x = 9
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_purgethesenate 
+			focus = Republic_Completely_Revised_thesenatequestion 
+		}
+		mutually_exclusive = { focus = Republic_Completely_Revised_powertochancellor }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Power To Chancellor
+	focus = {
+		id = Republic_Completely_Revised_powertochancellor
+		icon = GFX_powertochancellor
+		x = 15
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_purgethesenate 
+			focus = Republic_Completely_Revised_thesenatequestion 
+		}
+		mutually_exclusive = { focus = Republic_Completely_Revised_powertosenate }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Valorum Constitution
+	focus = {
+		id = Republic_Completely_Revised_valorumconstitution
+		icon = GFX_focus_YUG_banovina_of_croatia
+		x = 18
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_powertochancellor }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Revise the Senate
+	focus = {
+		id = Republic_Completely_Revised_revisethesenate
+		icon = GFX_goal_support_fascism
+		x = 18
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_valorumconstitution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for United Republic
+	focus = {
+		id = Republic_Completely_Revised_unitedrepublic
+		icon = GFX_focus_usa_union_representation_act
+		x = 9
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_negotiatewiththeconfederacy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expand the Council
+	focus = {
+		id = Republic_Completely_Revised_expandthecouncil
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 34
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_doordonotinsertyodagfx }
+		mutually_exclusive = { focus = Republic_Completely_Revised_disbandthecouncil }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Galactic Intervention
+	focus = {
+		id = Republic_Completely_Revised_galacticintervention
+		icon = GFX_goal_generic_major_war
+		x = 33
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_theclonewars }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Clone Wars
+	focus = {
+		id = Republic_Completely_Revised_theclonewars
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 33
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_thereisnotry }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Placeholder
+	focus = {
+		id = Republic_Completely_Revised_placeholder
+		icon = GFX_goal_unknown
+		x = 72
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Placeholder
+	focus = {
+		id = Republic_Completely_Revised_placeholder
+		icon = GFX_goal_unknown
+		x = 13
+		y = 25
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Jedi Question
+	focus = {
+		id = Republic_Completely_Revised_thejediquestion
+		icon = GFX_goal_tfv_can_compromise_with_quebec
+		x = 33
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for There is no Try
+	focus = {
+		id = Republic_Completely_Revised_thereisnotry
+		icon = GFX_goal_generic_propaganda
+		x = 33
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_expandthecouncil 
+			focus = Republic_Completely_Revised_disbandthecouncil 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Emergency Powers
+	focus = {
+		id = Republic_Completely_Revised_emergencypowers
+		icon = GFX_emergencypowers
+		x = 26
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_envoytonaboo 
+		}
+		prerequisite = { 
+			focus = Republic_Completely_Revised_militarycreationact 
+		}
+		prerequisite = { 
+			focus = Republic_Completely_Revised_convincejarjar 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Aftermath of Naboo Blockcade
+	focus = {
+		id = Republic_Completely_Revised_aftermathofnabooblockcade
+		icon = GFX_aftermathofnabooblockcade
+		x = 20
+		y = 0
+		cost = 2
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 50
+		}
+	}
+
+	#Focus for Vote of No Confidence
+	focus = {
+		id = Republic_Completely_Revised_voteofnoconfidence
+		icon = GFX_voteofnoconfidence
+		x = 20
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_aftermathofnabooblockcade }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 150
+		}
+	}
+
+	#Focus for Assassinate Palpatine
+	focus = {
+		id = Republic_Completely_Revised_assassinatepalpatine
+		icon = GFX_assassinatepalpatine
+		x = 12
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_valorum }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Envoy to Naboo
+	focus = {
+		id = Republic_Completely_Revised_envoytonaboo
+		icon = GFX_envoytonaboo
+		x = 24
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_palpatine }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Palpatine
+	focus = {
+		id = Republic_Completely_Revised_palpatine
+		icon = GFX_palpatine
+		x = 26
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_voteofnoconfidence }
+		mutually_exclusive = { focus = Republic_Completely_Revised_valorum }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Valorum
+	focus = {
+		id = Republic_Completely_Revised_valorum
+		icon = GFX_valorum
+		x = 12
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_voteofnoconfidence }
+		mutually_exclusive = { focus = Republic_Completely_Revised_palpatine }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Military Creation Act
+	focus = {
+		id = Republic_Completely_Revised_militarycreationact
+		icon = GFX_militarycreationact
+		x = 26
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_palpatine }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Convince Jar Jar
+	focus = {
+		id = Republic_Completely_Revised_convincejarjar
+		icon = GFX_convincejarjar
+		x = 28
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_palpatine }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Disband the Council
+	focus = {
+		id = Republic_Completely_Revised_disbandthecouncil
+		icon = GFX_goal_generic_forceful_treaty
+		x = 32
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_doordonotinsertyodagfx }
+		mutually_exclusive = { focus = Republic_Completely_Revised_expandthecouncil }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Do, or Do not (insert yoda gfx)
+	focus = {
+		id = Republic_Completely_Revised_doordonotinsertyodagfx
+		icon = GFX_goal_unknown
+		x = 33
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_thejediquestion }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Go for Geonosis
+	focus = {
+		id = Republic_Completely_Revised_goforgeonosis
+		icon = GFX_goforgeonosis
+		x = 36
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_galacticintervention }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Core World Focus
+	focus = {
+		id = Republic_Completely_Revised_coreworldfocus
+		icon = GFX_coreworldfocus
+		x = 26
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_emergencypowers }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Second battle of Geonosis
+	focus = {
+		id = Republic_Completely_Revised_secondbattleofgeonosis
+		icon = GFX_secondbattleofgeonosis
+		x = 44
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_exposedplans }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Exposed Plans
+	focus = {
+		id = Republic_Completely_Revised_exposedplans
+		icon = GFX_goal_generic_dangerous_deal
+		x = 44
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secure Geonosis
+	focus = {
+		id = Republic_Completely_Revised_securegeonosis
+		icon = GFX_goal_generic_construction2
+		x = 44
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_goforthefactory 
+			focus = Republic_Completely_Revised_goforpoggle 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Salvage the Wreckage
+	focus = {
+		id = Republic_Completely_Revised_salvagethewreckage
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 43
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_securegeonosis }
+		mutually_exclusive = { focus = Republic_Completely_Revised_salvagethetechnology }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Go for Poggle
+	focus = {
+		id = Republic_Completely_Revised_goforpoggle
+		icon = GFX_goal_generic_propaganda
+		x = 45
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_secondbattleofgeonosis }
+		mutually_exclusive = { focus = Republic_Completely_Revised_goforthefactory }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Go for Mygeeto
+	focus = {
+		id = Republic_Completely_Revised_goformygeeto
+		icon = GFX_goal_generic_political_pressure
+		x = 13
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_goforfondor }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Go for Muunilist
+	focus = {
+		id = Republic_Completely_Revised_goformuunilist
+		icon = GFX_goal_generic_political_pressure
+		x = 15
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_goforthyferra }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Go For Fondor
+	focus = {
+		id = Republic_Completely_Revised_goforfondor
+		icon = GFX_goal_generic_political_pressure
+		x = 13
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_corefocus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Core Focus
+	focus = {
+		id = Republic_Completely_Revised_corefocus
+		icon = GFX_corefocus
+		x = 14
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_AgzJeTLi }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Go for Geonosis
+	focus = {
+		id = Republic_Completely_Revised_goforgeonosis
+		icon = GFX_goforgeonosis
+		x = 14
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_convertbrentaal 
+		}
+		prerequisite = { 
+			focus = Republic_Completely_Revised_convertfoerost 
+		}
+		prerequisite = { 
+			focus = Republic_Completely_Revised_convertduro 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Convert Foerost
+	focus = {
+		id = Republic_Completely_Revised_convertfoerost
+		icon = GFX_goal_generic_dangerous_deal
+		x = 12
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_dismantletheconfederacy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Convert Brentaal
+	focus = {
+		id = Republic_Completely_Revised_convertbrentaal
+		icon = GFX_goal_generic_dangerous_deal
+		x = 14
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Convert Duro
+	focus = {
+		id = Republic_Completely_Revised_convertduro
+		icon = GFX_goal_generic_dangerous_deal
+		x = 16
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_dismantletheconfederacy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Outer Rim Sieges
+	focus = {
+		id = Republic_Completely_Revised_outerrimsieges
+		icon = GFX_goal_generic_position_armies
+		x = 37
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_fortifyraxus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Go for Raxus
+	focus = {
+		id = Republic_Completely_Revised_goforraxus
+		icon = GFX_goal_generic_political_pressure
+		x = 37
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_prioritizetheouterrim }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Power to the senators
+	focus = {
+		id = Republic_Completely_Revised_powertothesenators
+		icon = GFX_powertothesenators
+		x = 23
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_reinforcetherepublic }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Envoy to the IBC
+	focus = {
+		id = Republic_Completely_Revised_envoytotheibc
+		icon = GFX_goal_tripartite_pact
+		x = 22
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_powertothesenators }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Prioritize The Mid Rim
+	focus = {
+		id = Republic_Completely_Revised_prioritizethemidrim
+		icon = GFX_focus_usa_focus_on_europe
+		x = 33
+		y = 8
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_goforgeonosis }
+		mutually_exclusive = { focus = Republic_Completely_Revised_prioritizetheouterrim }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Release the Client States
+	focus = {
+		id = Republic_Completely_Revised_releasetheclientstates
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 22
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_crackdownoncorruption 
+		}
+		prerequisite = { 
+			focus = Republic_Completely_Revised_envoytotheibc 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Crackdown on Corruption
+	focus = {
+		id = Republic_Completely_Revised_crackdownoncorruption
+		icon = GFX_goal_generic_forceful_treaty
+		x = 24
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_powertothesenators }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve the Outer Rim
+	focus = {
+		id = Republic_Completely_Revised_improvetheouterrim
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 22
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_releasetheclientstates }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for March On Umbara
+	focus = {
+		id = Republic_Completely_Revised_marchonumbara
+		icon = GFX_marchonumbara
+		x = 33
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_prioritizethemidrim }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Befriend The Wookies
+	focus = {
+		id = Republic_Completely_Revised_befriendthewookies
+		icon = GFX_goal_generic_major_alliance
+		x = 32
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_marchonumbara }
+		mutually_exclusive = { focus = Republic_Completely_Revised_crushthewookies }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Crush The Wookies
+	focus = {
+		id = Republic_Completely_Revised_crushthewookies
+		icon = GFX_goal_generic_secret_weapon
+		x = 34
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_marchonumbara }
+		mutually_exclusive = { focus = Republic_Completely_Revised_befriendthewookies }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Develop Coruscant
+	focus = {
+		id = Republic_Completely_Revised_developcoruscant
+		icon = GFX_developcoruscant
+		x = 26
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_warrearmament }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for War Rearmament
+	focus = {
+		id = Republic_Completely_Revised_warrearmament
+		icon = GFX_warrearmament
+		x = 26
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_reinforcetherepublic }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Go for Trandosha
+	focus = {
+		id = Republic_Completely_Revised_gofortrandosha
+		icon = GFX_goal_generic_political_pressure
+		x = 33
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_crushthewookies 
+			focus = Republic_Completely_Revised_befriendthewookies 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expand Markets
+	focus = {
+		id = Republic_Completely_Revised_expandmarkets
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 26
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_developcoruscant }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Integrate Slaves
+	focus = {
+		id = Republic_Completely_Revised_integrateslaves
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 24
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_expandmarkets }
+		mutually_exclusive = { focus = Republic_Completely_Revised_rsHMvfUF }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reject Slaves
+	focus = {
+		id = Republic_Completely_Revised_rejectslaves
+		icon = GFX_goal_support_democracy
+		x = 26
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_expandmarkets }
+		mutually_exclusive = { focus = Republic_Completely_Revised_integrateslaves }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fortify Mid Rim
+	focus = {
+		id = Republic_Completely_Revised_fortifymidrim
+		icon = GFX_goal_generic_construction2
+		x = 33
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_gofortrandosha }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Kamino Fortifications
+	focus = {
+		id = Republic_Completely_Revised_kaminofortifications
+		icon = GFX_goal_generic_construct_military
+		x = 35
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_prioritizethemidrim }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mon Calamari Security
+	focus = {
+		id = Republic_Completely_Revised_moncalamarisecurity
+		icon = GFX_goal_generic_fortify_city
+		x = 37
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_outerrimsieges }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Outer Rim Politics
+	focus = {
+		id = Republic_Completely_Revised_outerrimpolitics
+		icon = GFX_goal_tripartite_pact
+		x = 42
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_prioritizetheouterrim }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Negotiate with The Hutt Cartel
+	focus = {
+		id = Republic_Completely_Revised_negotiatewiththehuttcartel
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 39
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_outerrimpolitics }
+		mutually_exclusive = { focus = Republic_Completely_Revised_crushthehutts }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Negotiate with Free Ryloth
+	focus = {
+		id = Republic_Completely_Revised_negotiatewithfreeryloth
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 45
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_outerrimpolitics }
+		mutually_exclusive = { focus = Republic_Completely_Revised_crushryloth }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve Research Facilities
+	focus = {
+		id = Republic_Completely_Revised_improveresearchfacilities
+		icon = GFX_goal_generic_scientific_exchange
+		x = 26
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_rejectslaves 
+			focus = Republic_Completely_Revised_integrateslaves 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Arrest the Chancellor
+	focus = {
+		id = Republic_Completely_Revised_arrestthechancellor
+		icon = GFX_goal_generic_propaganda
+		x = 30
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_QIujWhLp 
+		}
+		prerequisite = { 
+			focus = Republic_Completely_Revised_EofgRWzc 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Crush the Hutts
+	focus = {
+		id = Republic_Completely_Revised_crushthehutts
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 41
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_outerrimpolitics }
+		mutually_exclusive = { focus = Republic_Completely_Revised_negotiatewiththehuttcartel }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Crush Ryloth
+	focus = {
+		id = Republic_Completely_Revised_crushryloth
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 43
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_outerrimpolitics }
+		mutually_exclusive = { focus = Republic_Completely_Revised_negotiatewithfreeryloth }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for War Plan Grey
+	focus = {
+		id = Republic_Completely_Revised_warplangrey
+		icon = GFX_focus_attack_germany
+		x = 31
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_galacticintervention }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Eliminate the Neutrals
+	focus = {
+		id = Republic_Completely_Revised_eliminatetheneutrals
+		icon = GFX_eliminatetheneutrals
+		x = 31
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_warplangrey }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Internal Defenses
+	focus = {
+		id = Republic_Completely_Revised_internaldefenses
+		icon = GFX_goal_generic_defence
+		x = 30
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Clone Tactics
+	focus = {
+		id = Republic_Completely_Revised_clonetactics
+		icon = GFX_goal_generic_army_doctrines
+		x = 46
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_establishtheclonearmy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Compare CIS designs
+	focus = {
+		id = Republic_Completely_Revised_comparecisdesigns
+		icon = GFX_goal_generic_navy_battleship
+		x = 28
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_increaserepublicfunding }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Siege of Coruscant
+	focus = {
+		id = Republic_Completely_Revised_siegeofcoruscant
+		icon = GFX_siegeofcoruscant
+		x = 30
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_internaldefenses }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support Equipment
+	focus = {
+		id = Republic_Completely_Revised_supportequipment
+		icon = GFX_goal_generic_army_artillery2
+		x = 40
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_superiorfirepower }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Kamino Military Academy
+	focus = {
+		id = Republic_Completely_Revised_kaminomilitaryacademy
+		icon = GFX_goal_generic_position_armies
+		x = 46
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_clonetactics }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rescue the Chancellor
+	focus = {
+		id = Republic_Completely_Revised_rescuethechancellor
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 30
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_siegeofcoruscant }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Superior Firepower
+	focus = {
+		id = Republic_Completely_Revised_superiorfirepower
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 43
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_establishtheclonearmy }
+		mutually_exclusive = { focus = Republic_Completely_Revised_strengthinnumbers }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Strength in Numbers
+	focus = {
+		id = Republic_Completely_Revised_strengthinnumbers
+		icon = GFX_goal_generic_production2
+		x = 49
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_establishtheclonearmy }
+		mutually_exclusive = { focus = Republic_Completely_Revised_superiorfirepower }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mass Mobilize Civilian Vessels
+	focus = {
+		id = Republic_Completely_Revised_massmobilizecivilianvessels
+		icon = GFX_focus_generic_destroyer
+		x = 59
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_putdockyardsintomilitaryservice }
+		mutually_exclusive = { focus = Republic_Completely_Revised_standardizethegalacticfleet }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Put Dockyards into Military Service
+	focus = {
+		id = Republic_Completely_Revised_putdockyardsintomilitaryservice
+		icon = GFX_goal_generic_amphibious_assault
+		x = 57
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Enhanced Cloning Vats
+	focus = {
+		id = Republic_Completely_Revised_enhancedcloningvats
+		icon = GFX_goal_generic_air_production
+		x = 48
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_strengthinnumbers }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Phase II upgrade
+	focus = {
+		id = Republic_Completely_Revised_phaseiiupgrade
+		icon = GFX_goal_rhineland
+		x = 46
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_outsiderecruitment 
+			focus = Republic_Completely_Revised_oldrepublicdata 
+			focus = Republic_Completely_Revised_droidcountermeasures 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Specialized Clones
+	focus = {
+		id = Republic_Completely_Revised_specializedclones
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 42
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_superiorfirepower }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Venator Class
+	focus = {
+		id = Republic_Completely_Revised_venatorclass
+		icon = GFX_focus_generic_navy_battleship2
+		x = 55
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_standardizethegalacticfleet }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Basic Fleet Tactics
+	focus = {
+		id = Republic_Completely_Revised_basicfleettactics
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 57
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_putdockyardsintomilitaryservice }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Desparate Measures
+	focus = {
+		id = Republic_Completely_Revised_desparatemeasures
+		icon = GFX_goal_generic_propaganda
+		x = 49
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Integrate Droids
+	focus = {
+		id = Republic_Completely_Revised_integratedroids
+		icon = GFX_goal_generic_production2
+		x = 49
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_desparatemeasures }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Escort Designs
+	focus = {
+		id = Republic_Completely_Revised_escortdesigns
+		icon = GFX_focus_generic_cruiser2
+		x = 59
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_massmobilizecivilianvessels }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Airborne Clones
+	focus = {
+		id = Republic_Completely_Revised_airborneclones
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 38
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_specializedclones }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Build More Venators (Venator Gfx)
+	focus = {
+		id = Republic_Completely_Revised_buildmorevenatorsvenatorgfx
+		icon = GFX_goal_unknown
+		x = 56
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_venatorclass }
+		mutually_exclusive = { focus = Republic_Completely_Revised_focusonthemandatorinsertmandatorgfx }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Galactic Marines
+	focus = {
+		id = Republic_Completely_Revised_galacticmarines
+		icon = GFX_goal_generic_occupy_states_coastal
+		x = 40
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mountain Troopers
+	focus = {
+		id = Republic_Completely_Revised_mountaintroopers
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 42
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_specializedclones }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Armor Designs
+	focus = {
+		id = Republic_Completely_Revised_armordesigns
+		icon = GFX_goal_generic_army_tanks
+		x = 44
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_superiorfirepower }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Endless Production
+	focus = {
+		id = Republic_Completely_Revised_endlessproduction
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 48
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_enhancedcloningvats }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Fleet in Being
+	focus = {
+		id = Republic_Completely_Revised_afleetinbeing
+		icon = GFX_focus_generic_cruiser2
+		x = 55
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_buildmorevenatorsvenatorgfx 
+			focus = Republic_Completely_Revised_focusonthemandatorinsertmandatorgfx 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Simplified Designs
+	focus = {
+		id = Republic_Completely_Revised_simplifieddesigns
+		icon = GFX_goal_generic_construction2
+		x = 50
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_blastechimprovements }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Old Republic data
+	focus = {
+		id = Republic_Completely_Revised_oldrepublicdata
+		icon = GFX_goal_generic_cavalry
+		x = 46
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_kaminomilitaryacademy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for StarFighter Program
+	focus = {
+		id = Republic_Completely_Revised_starfighterprogram
+		icon = GFX_goal_generic_air_fighter2
+		x = 63
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_republicstarfightercorps }
+		mutually_exclusive = { focus = Republic_Completely_Revised_starbomberprogram }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for StarBomber Program
+	focus = {
+		id = Republic_Completely_Revised_starbomberprogram
+		icon = GFX_goal_generic_occupy_start_war
+		x = 65
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_republicstarfightercorps }
+		mutually_exclusive = { focus = Republic_Completely_Revised_starfighterprogram }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Outside Recruitment
+	focus = {
+		id = Republic_Completely_Revised_outsiderecruitment
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 50
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_simplifieddesigns 
+			focus = Republic_Completely_Revised_endlessproduction 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Republic Star Fighter Corps
+	focus = {
+		id = Republic_Completely_Revised_republicstarfightercorps
+		icon = GFX_focus_YUG_ikarus
+		x = 64
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Growing Doubts
+	focus = {
+		id = Republic_Completely_Revised_growingdoubts
+		icon = GFX_goal_generic_national_unity
+		x = 28
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_rescuethechancellor }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A new Chancellor
+	focus = {
+		id = Republic_Completely_Revised_anewchancellor
+		icon = GFX_goal_tripartite_pact
+		x = 28
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_uywNCozn }
+		mutually_exclusive = { focus = Republic_Completely_Revised_rEvUWmxG }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Sith in Office?
+	focus = {
+		id = Republic_Completely_Revised_sithinoffice
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 32
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_rescuethechancellor }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Starfighters for Ground Assault
+	focus = {
+		id = Republic_Completely_Revised_starfightersforgroundassault
+		icon = GFX_goal_poland_goal
+		x = 65
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_starbomberprogram }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Master Windu
+	focus = {
+		id = Republic_Completely_Revised_masterwindu
+		icon = GFX_goal_generic_dangerous_deal
+		x = 30
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_arrestthechancellor }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Order 66
+	focus = {
+		id = Republic_Completely_Revised_order66
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 36
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_masterwindu }
+		mutually_exclusive = { focus = Republic_Completely_Revised_anewchancellor }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Starfighters For Space Combat
+	focus = {
+		id = Republic_Completely_Revised_starfightersforspacecombat
+		icon = GFX_goal_generic_air_fighter2
+		x = 63
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_starfighterprogram }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Appease the Populace
+	focus = {
+		id = Republic_Completely_Revised_appeasethepopulace
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 33
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_order66 }
+		mutually_exclusive = { focus = Republic_Completely_Revised_RuqZlCeD }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Purge the Opposition
+	focus = {
+		id = Republic_Completely_Revised_purgetheopposition
+		icon = GFX_goal_generic_political_pressure
+		x = 39
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_order66 }
+		mutually_exclusive = { focus = Republic_Completely_Revised_appeasethepopulace }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reinforce the Republic
+	focus = {
+		id = Republic_Completely_Revised_reinforcetherepublic
+		icon = GFX_goal_generic_national_unity
+		x = 26
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_coreworldfocus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Go for Felucia
+	focus = {
+		id = Republic_Completely_Revised_goforfelucia
+		icon = GFX_goal_generic_political_pressure
+		x = 35
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_outerrimsieges }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Go for Minntooine
+	focus = {
+		id = Republic_Completely_Revised_goforminntooine
+		icon = GFX_goal_generic_political_pressure
+		x = 39
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_outerrimsieges }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for True Symbol of Democracy
+	focus = {
+		id = Republic_Completely_Revised_truesymbolofdemocracy
+		icon = GFX_goal_support_democracy
+		x = 22
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_improvetheouterrim }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Shipyards of Kuat
+	focus = {
+		id = Republic_Completely_Revised_shipyardsofkuat
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 28
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_warrearmament }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fortify Raxus
+	focus = {
+		id = Republic_Completely_Revised_fortifyraxus
+		icon = GFX_goal_generic_construction2
+		x = 37
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_goforraxus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Increase Republic Funding
+	focus = {
+		id = Republic_Completely_Revised_increaserepublicfunding
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 28
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_shipyardsofkuat }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Blastech Improvements
+	focus = {
+		id = Republic_Completely_Revised_blastechimprovements
+		icon = GFX_goal_generic_small_arms
+		x = 50
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_strengthinnumbers }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Standardize The Galactic Fleet
+	focus = {
+		id = Republic_Completely_Revised_standardizethegalacticfleet
+		icon = GFX_goal_generic_navy_battleship
+		x = 55
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_putdockyardsintomilitaryservice }
+		mutually_exclusive = { focus = Republic_Completely_Revised_massmobilizecivilianvessels }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Clone Commandos
+	focus = {
+		id = Republic_Completely_Revised_clonecommandos
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 44
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_specializedclones }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Droid Countermeasures
+	focus = {
+		id = Republic_Completely_Revised_droidcountermeasures
+		icon = GFX_goal_generic_small_arms
+		x = 42
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_airborneclones 
+			focus = Republic_Completely_Revised_clonecommandos 
+			focus = Republic_Completely_Revised_galacticmarines 
+			focus = Republic_Completely_Revised_mountaintroopers 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Focus on The Mandator (Insert Mandator Gfx)
+	focus = {
+		id = Republic_Completely_Revised_focusonthemandatorinsertmandatorgfx
+		icon = GFX_goal_unknown
+		x = 54
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_venatorclass }
+		mutually_exclusive = { focus = Republic_Completely_Revised_buildmorevenatorsvenatorgfx }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Guerrilla Fleet Tactics
+	focus = {
+		id = Republic_Completely_Revised_guerrillafleettactics
+		icon = GFX_goal_generic_navy_anti_submarine
+		x = 59
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_escortdesigns }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Dropships
+	focus = {
+		id = Republic_Completely_Revised_dropships
+		icon = GFX_focus_secret_rearmament
+		x = 59
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_guerrillafleettactics }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Dissolve the Senate
+	focus = {
+		id = Republic_Completely_Revised_dissolvethesenate
+		icon = GFX_goal_support_fascism
+		x = 39
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_purgetheopposition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Navy Integration
+	focus = {
+		id = Republic_Completely_Revised_navyintegration
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 63
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_starfightersforspacecombat }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Army Integration
+	focus = {
+		id = Republic_Completely_Revised_armyintegration
+		icon = GFX_armyintegration
+		x = 65
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_starfightersforgroundassault }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Complete Integration
+	focus = {
+		id = Republic_Completely_Revised_completeintegration
+		icon = GFX_goal_generic_navy_carrier
+		x = 64
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = Republic_Completely_Revised_navyintegration 
+			focus = Republic_Completely_Revised_armyintegration 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Aftermath Of Civil War
+	focus = {
+		id = Republic_Completely_Revised_aftermathofcivilwar
+		icon = GFX_goal_anti_comintern_pact
+		x = 13
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_assassinatepalpatine }
+		mutually_exclusive = { focus = Republic_Completely_Revised_secureconfidence }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secure Confidence
+	focus = {
+		id = Republic_Completely_Revised_secureconfidence
+		icon = GFX_secureconfidence
+		x = 11
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_assassinatepalpatine }
+		mutually_exclusive = { focus = Republic_Completely_Revised_aftermathofcivilwar }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Negotiate with The Confederacy
+	focus = {
+		id = Republic_Completely_Revised_negotiatewiththeconfederacy
+		icon = GFX_goal_tripartite_pact
+		x = 9
+		y = 7
+		cost = 15
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_powertosenate }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Paranoid Chancellor
+	focus = {
+		id = Republic_Completely_Revised_paranoidchancellor
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 14
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_powertochancellor }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Dismantle The Confederacy
+	focus = {
+		id = Republic_Completely_Revised_dismantletheconfederacy
+		icon = GFX_goal_generic_major_alliance
+		x = 14
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_paranoidchancellor }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Galactic Empire
+	focus = {
+		id = Republic_Completely_Revised_galacticempire
+		icon = GFX_focus_ger_return_of_the_kaiser
+		x = 18
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_revisethesenate }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Go For Thyferra
+	focus = {
+		id = Republic_Completely_Revised_goforthyferra
+		icon = GFX_goal_generic_political_pressure
+		x = 15
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_corefocus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Go for the Factory
+	focus = {
+		id = Republic_Completely_Revised_goforthefactory
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 43
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Republic_Completely_Revised_secondbattleofgeonosis }
+		mutually_exclusive = { focus = Republic_Completely_Revised_goforpoggle }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

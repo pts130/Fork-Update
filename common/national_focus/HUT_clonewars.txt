@@ -1,0 +1,133 @@
+focus_tree = {
+	id = clonewars
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUT
+		}
+	}
+	#Focus for Nal Hutta Shipyards Project
+	focus = {
+		id = HUT_nalhuttashipyardsproject
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 22
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = HUT_gerbrieltender }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Gerbriel Tender
+	focus = {
+		id = HUT_gerbrieltender
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 18
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = HUT_nalhuttashipyardsproject }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for New Hutt Fleet
+	focus = {
+		id = HUT_newhuttfleet
+		icon = GFX_goal_generic_navy_battleship
+		x = 20
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Republican Diplomatic Envoy
+	focus = {
+		id = HUT_republicandiplomaticenvoy
+		icon = GFX_goal_support_democracy
+		x = 4
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Brood Day Massacre
+	focus = {
+		id = HUT_brooddaymassacre
+		icon = GFX_goal_generic_secret_weapon
+		x = 1
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expand Tatooine Operation
+	focus = {
+		id = HUT_expandtatooineoperation
+		icon = GFX_focus_mex_jefe_maximo
+		x = 11
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_consolidatejabbaspower }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Consolidate Jabba's Power
+	focus = {
+		id = HUT_consolidatejabbaspower
+		icon = GFX_focus_smiling_buddha
+		x = 11
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_thefutureofthecouncil }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Future of the Council
+	focus = {
+		id = HUT_thefutureofthecouncil
+		icon = GFX_goal_support_communism
+		x = 4
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Gardulla's Inserrection
+	focus = {
+		id = HUT_gardullasinserrection
+		icon = GFX_goal_generic_secret_weapon
+		x = 2
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_thefutureofthecouncil }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

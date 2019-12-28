@@ -22,6 +22,30 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_human_leaders.dds"
 	}	
 
+	spriteType = {
+		name = "GFX_idea_jedi_question"
+		texturefile = "gfx/interface/ideas/idea_jedi_question.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_looming_enemy"
+		texturefile = "gfx/interface/ideas/idea_looming_enemy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_clone_reliance"
+		texturefile = "gfx/interface/ideas/idea_clone_reliance.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_internal_corruption"
+		texturefile = "gfx/interface/ideas/idea_internal_corruption.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_core_world_markets"
+		texturefile = "gfx/interface/ideas/idea_core_world_markets.dds"
+	}
 ###Neutral Ideas icons####
 	spriteType = {
 		name = "GFX_idea_neutral_industry"
