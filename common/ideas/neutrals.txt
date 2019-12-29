@@ -174,7 +174,52 @@ ideas = {
 				army_core_defence_factor = 0.1
 			    industrial_capacity_factory = 0.10
 			}
-		}		
+		}
+
+		NET_house_organa = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = net_organa
+			
+			modifier = {
+			consumer_goods_factor = 0.05
+			production_speed_infrastructure_factor = 0.1
+			conscription = 0.005
+			army_core_defence_factor = 0.1
+			industrial_capacity_factory = 0.10
+			war_support_weekly = 0.01
+			}
+		}
+		royal_house_naboo = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = net_naboo_house
+			
+			modifier = {
+			army_core_defence_factor = -0.1
+			war_support_weekly = 0.3
+			drift_defence_factor = 0.5
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+					}
+				}
+			planning_speed = 0.1
+			political_advisor_cost_factor = -0.25
+			trade_laws_cost_factor = -0.25
+			economy_cost_factor = -0.25
+			}
+		}			
 	}
 }	
 		

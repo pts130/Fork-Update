@@ -27,6 +27,7 @@ set_technology = {
 
 add_political_power = 75
 set_convoys = 50
+add_ideas = royal_house_naboo
 
 set_politics = {
 	ruling_party = neutrality

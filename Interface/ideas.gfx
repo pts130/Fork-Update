@@ -83,8 +83,16 @@ spriteTypes = {
 		name = "GFX_idea_NET_neutral_focus"
 		texturefile = "gfx/interface/ideas/idea_neutral_alignment.dds"
 	}
-	spriteType = {
+	spriteType = {	
 		name = "GFX_idea_NET_volunters_send"
 		texturefile = "gfx/interface/ideas/idea_net_volunteers_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_net_organa"
+		texturefile = "gfx/interface/ideas/idea_net_organa.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_net_naboo_house"
+		texturefile = "gfx/interface/ideas/idea_net_naboo_house.dds"
 	}		
 }
