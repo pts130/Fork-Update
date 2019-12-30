@@ -41,7 +41,7 @@ focus_tree = {
 	#Focus for A new era
 	focus = {
 		id = ATZ_anewera
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_forceful_treaty
 		x = 16
 		y = 4
 		cost = 10
@@ -73,7 +73,7 @@ focus_tree = {
 	#Focus for Fortifications
 	focus = {
 		id = ATZ_fortifications
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_fortify_city
 		x = 26
 		y = 5
 		cost = 10
@@ -331,7 +331,7 @@ focus_tree = {
 	#Focus for Secret Nuclear Weapons
 	focus = {
 		id = ATZ_secretnuclearweapons
-		icon = GFX_goal_unknown
+		icon = GFX_focus_wonderweapons
 		x = 7
 		y = 6
 		cost = 10
@@ -495,7 +495,7 @@ focus_tree = {
 	#Focus for Liberty Alignment
 	focus = {
 		id = ATZ_libertyalignment
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_light_alignment
 		x = 18
 		y = 2
 		cost = 10
@@ -556,6 +556,16 @@ focus_tree = {
 		prerequisite = { focus = ATZ_expandstarshipsdevelopment }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = net_bombers
+				bonus = 3.0
+				uses = 1
+				category = cat_strategic_bomber
+				category = tactical_bomber
+				category = naval_air
+			}
 		}
 	}
 
@@ -702,7 +712,7 @@ focus_tree = {
 	#Focus for National Security
 	focus = {
 		id = ATZ_nationalsecurity
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_def_against_influence
 		x = 25
 		y = 6
 		cost = 10
@@ -753,12 +763,24 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = net_fighters
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+			}
+		}
 	}
 
 	#Focus for Reforms
 	focus = {
 		id = ATZ_reforms
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_positive_trade_relations
 		x = 16
 		y = 5
 		cost = 10
@@ -1083,7 +1105,7 @@ focus_tree = {
 	#Focus for Separatist Alignment
 	focus = {
 		id = ATZ_separatistalignment
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_dark_alignment
 		x = 23
 		y = 2
 		cost = 10
@@ -1132,7 +1154,7 @@ focus_tree = {
 	#Focus for Political Speeches
 	focus = {
 		id = ATZ_politicalspeeches
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_propaganda
 		x = 16
 		y = 3
 		cost = 10
