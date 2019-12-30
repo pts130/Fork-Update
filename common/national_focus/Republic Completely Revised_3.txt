@@ -15,7 +15,7 @@ focus_tree = {
 		y = 8
 		cost = 1
 		available_if_capitulated = yes
-		prerequisite = { focus = Republic_Completely_Revised_WpRQxNDL }
+		prerequisite = { focus = Republic_Completely_Revised_hJMIGfbd }
 		mutually_exclusive = { focus = Republic_Completely_Revised_prioritizethemidrim }
 		ai_will_do = {
 			factor = 1
@@ -25,7 +25,7 @@ focus_tree = {
 	#Focus for First Delivery from Kamino
 	focus = {
 		id = Republic_Completely_Revised_firstdeliveryfromkamino
-		icon = GFX_goal_generic_trade
+		icon = GFX_firstdeliveryfromkamino
 		x = 46
 		y = 0
 		cost = 10
@@ -591,7 +591,7 @@ focus_tree = {
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = Republic_Completely_Revised_AgzJeTLi }
+		prerequisite = { focus = Republic_Completely_Revised_GhDVjfAl }
 		ai_will_do = {
 			factor = 1
 		}
@@ -890,7 +890,7 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Republic_Completely_Revised_expandmarkets }
-		mutually_exclusive = { focus = Republic_Completely_Revised_rsHMvfUF }
+		mutually_exclusive = { focus = Republic_Completely_Revised_dxFWSQOR }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1023,10 +1023,10 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = Republic_Completely_Revised_QIujWhLp 
+			focus = Republic_Completely_Revised_QgxpIrSF 
 		}
 		prerequisite = { 
-			focus = Republic_Completely_Revised_EofgRWzc 
+			focus = Republic_Completely_Revised_rqmSEuWB 
 		}
 		ai_will_do = {
 			factor = 1
@@ -1107,7 +1107,7 @@ focus_tree = {
 	#Focus for Clone Tactics
 	focus = {
 		id = Republic_Completely_Revised_clonetactics
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_clonetactics
 		x = 46
 		y = 3
 		cost = 10
@@ -1149,7 +1149,7 @@ focus_tree = {
 	#Focus for Support Equipment
 	focus = {
 		id = Republic_Completely_Revised_supportequipment
-		icon = GFX_goal_generic_army_artillery2
+		icon = GFX_supportequipment
 		x = 40
 		y = 3
 		cost = 10
@@ -1163,7 +1163,7 @@ focus_tree = {
 	#Focus for Kamino Military Academy
 	focus = {
 		id = Republic_Completely_Revised_kaminomilitaryacademy
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_kaminomilitaryacademy
 		x = 46
 		y = 4
 		cost = 10
@@ -1191,7 +1191,7 @@ focus_tree = {
 	#Focus for Superior Firepower
 	focus = {
 		id = Republic_Completely_Revised_superiorfirepower
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = GFX_superiorfirepower
 		x = 43
 		y = 2
 		cost = 10
@@ -1206,7 +1206,7 @@ focus_tree = {
 	#Focus for Strength in Numbers
 	focus = {
 		id = Republic_Completely_Revised_strengthinnumbers
-		icon = GFX_goal_generic_production2
+		icon = GFX_strengthinnumbers
 		x = 49
 		y = 2
 		cost = 10
@@ -1249,7 +1249,7 @@ focus_tree = {
 	#Focus for Enhanced Cloning Vats
 	focus = {
 		id = Republic_Completely_Revised_enhancedcloningvats
-		icon = GFX_goal_generic_air_production
+		icon = GFX_enhancedcloningvats
 		x = 48
 		y = 3
 		cost = 10
@@ -1263,7 +1263,7 @@ focus_tree = {
 	#Focus for Phase II upgrade
 	focus = {
 		id = Republic_Completely_Revised_phaseiiupgrade
-		icon = GFX_goal_rhineland
+		icon = GFX_phaseiiupgrade
 		x = 46
 		y = 6
 		cost = 10
@@ -1281,7 +1281,7 @@ focus_tree = {
 	#Focus for Specialized Clones
 	focus = {
 		id = Republic_Completely_Revised_specializedclones
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = GFX_specializedclones
 		x = 42
 		y = 3
 		cost = 10
@@ -1323,7 +1323,7 @@ focus_tree = {
 	#Focus for Desparate Measures
 	focus = {
 		id = Republic_Completely_Revised_desparatemeasures
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_desparatemeasures
 		x = 49
 		y = 0
 		cost = 10
@@ -1336,7 +1336,7 @@ focus_tree = {
 	#Focus for Integrate Droids
 	focus = {
 		id = Republic_Completely_Revised_integratedroids
-		icon = GFX_goal_generic_production2
+		icon = GFX_integratedroids
 		x = 49
 		y = 1
 		cost = 10
@@ -1364,7 +1364,7 @@ focus_tree = {
 	#Focus for Airborne Clones
 	focus = {
 		id = Republic_Completely_Revised_airborneclones
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_airborneclones
 		x = 38
 		y = 4
 		cost = 10
@@ -1393,7 +1393,7 @@ focus_tree = {
 	#Focus for Galactic Marines
 	focus = {
 		id = Republic_Completely_Revised_galacticmarines
-		icon = GFX_goal_generic_occupy_states_coastal
+		icon = GFX_galacticmarines
 		x = 40
 		y = 4
 		cost = 10
@@ -1406,7 +1406,7 @@ focus_tree = {
 	#Focus for Mountain Troopers
 	focus = {
 		id = Republic_Completely_Revised_mountaintroopers
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = GFX_mountaintroopers
 		x = 42
 		y = 4
 		cost = 10
@@ -1420,7 +1420,7 @@ focus_tree = {
 	#Focus for Armor Designs
 	focus = {
 		id = Republic_Completely_Revised_armordesigns
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_armordesigns
 		x = 44
 		y = 3
 		cost = 10
@@ -1434,7 +1434,7 @@ focus_tree = {
 	#Focus for Endless Production
 	focus = {
 		id = Republic_Completely_Revised_endlessproduction
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_endlessproduction
 		x = 48
 		y = 4
 		cost = 10
@@ -1465,7 +1465,7 @@ focus_tree = {
 	#Focus for Simplified Designs
 	focus = {
 		id = Republic_Completely_Revised_simplifieddesigns
-		icon = GFX_goal_generic_construction2
+		icon = GFX_simplifieddesigns
 		x = 50
 		y = 4
 		cost = 10
@@ -1479,7 +1479,7 @@ focus_tree = {
 	#Focus for Old Republic data
 	focus = {
 		id = Republic_Completely_Revised_oldrepublicdata
-		icon = GFX_goal_generic_cavalry
+		icon = GFX_oldrepublicdata
 		x = 46
 		y = 5
 		cost = 10
@@ -1523,7 +1523,7 @@ focus_tree = {
 	#Focus for Outside Recruitment
 	focus = {
 		id = Republic_Completely_Revised_outsiderecruitment
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = GFX_outsiderecruitment
 		x = 50
 		y = 5
 		cost = 10
@@ -1572,8 +1572,8 @@ focus_tree = {
 		y = 18
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = Republic_Completely_Revised_uywNCozn }
-		mutually_exclusive = { focus = Republic_Completely_Revised_rEvUWmxG }
+		prerequisite = { focus = Republic_Completely_Revised_RYhGNXCA }
+		mutually_exclusive = { focus = Republic_Completely_Revised_dTVLKNQr }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1659,7 +1659,7 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Republic_Completely_Revised_order66 }
-		mutually_exclusive = { focus = Republic_Completely_Revised_RuqZlCeD }
+		mutually_exclusive = { focus = Republic_Completely_Revised_eWZhlTdD }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1781,7 +1781,7 @@ focus_tree = {
 	#Focus for Blastech Improvements
 	focus = {
 		id = Republic_Completely_Revised_blastechimprovements
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_blastechimprovements
 		x = 50
 		y = 3
 		cost = 10
@@ -1810,7 +1810,7 @@ focus_tree = {
 	#Focus for Clone Commandos
 	focus = {
 		id = Republic_Completely_Revised_clonecommandos
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_clonecommandos
 		x = 44
 		y = 4
 		cost = 10
@@ -1824,7 +1824,7 @@ focus_tree = {
 	#Focus for Droid Countermeasures
 	focus = {
 		id = Republic_Completely_Revised_droidcountermeasures
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_droidcountermeasures
 		x = 42
 		y = 5
 		cost = 10

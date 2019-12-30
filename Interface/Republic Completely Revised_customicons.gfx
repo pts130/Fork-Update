@@ -1,5 +1,9 @@
 spriteTypes = { 
-##Icon For: 1586269
+##Icon For: 1586273
+ SpriteType = { 
+ name = "GFX_firstdeliveryfromkamino" 
+ texturefile = "gfx/interface/goals/GFX_firstdeliveryfromkamino.tga" 
+ }##Icon For: 1586269
  SpriteType = { 
  name = "GFX_establishtheclonearmy" 
  texturefile = "gfx/interface/goals/GFX_establishtheclonearmy.tga" 
@@ -91,10 +95,94 @@ spriteTypes = {
  SpriteType = { 
  name = "GFX_eliminatetheneutrals" 
  texturefile = "gfx/interface/goals/GFX_eliminatetheneutrals.tga" 
+ }##Icon For: 1661085
+ SpriteType = { 
+ name = "GFX_clonetactics" 
+ texturefile = "gfx/interface/goals/GFX_clonetactics.tga" 
  }##Icon For: 1661090
  SpriteType = { 
  name = "GFX_siegeofcoruscant" 
  texturefile = "gfx/interface/goals/GFX_siegeofcoruscant.tga" 
+ }##Icon For: 1661093
+ SpriteType = { 
+ name = "GFX_supportequipment" 
+ texturefile = "gfx/interface/goals/GFX_supportequipment.tga" 
+ }##Icon For: 1661095
+ SpriteType = { 
+ name = "GFX_kaminomilitaryacademy" 
+ texturefile = "gfx/interface/goals/GFX_kaminomilitaryacademy.tga" 
+ }##Icon For: 1661097
+ SpriteType = { 
+ name = "GFX_superiorfirepower" 
+ texturefile = "gfx/interface/goals/GFX_superiorfirepower.tga" 
+ }##Icon For: 1661098
+ SpriteType = { 
+ name = "GFX_strengthinnumbers" 
+ texturefile = "gfx/interface/goals/GFX_strengthinnumbers.tga" 
+ }##Icon For: 1661103
+ SpriteType = { 
+ name = "GFX_enhancedcloningvats" 
+ texturefile = "gfx/interface/goals/GFX_enhancedcloningvats.tga" 
+ }##Icon For: 1661109
+ SpriteType = { 
+ name = "GFX_phaseiiupgrade" 
+ texturefile = "gfx/interface/goals/GFX_phaseiiupgrade.tga" 
+ }##Icon For: 1661113
+ SpriteType = { 
+ name = "GFX_specializedclones" 
+ texturefile = "gfx/interface/goals/GFX_specializedclones.tga" 
+ }##Icon For: 1661117
+ SpriteType = { 
+ name = "GFX_desparatemeasures" 
+ texturefile = "gfx/interface/goals/GFX_desparatemeasures.tga" 
+ }##Icon For: 1661118
+ SpriteType = { 
+ name = "GFX_integratedroids" 
+ texturefile = "gfx/interface/goals/GFX_integratedroids.tga" 
+ }##Icon For: 1661123
+ SpriteType = { 
+ name = "GFX_airborneclones" 
+ texturefile = "gfx/interface/goals/GFX_airborneclones.tga" 
+ }##Icon For: 1661125
+ SpriteType = { 
+ name = "GFX_galacticmarines" 
+ texturefile = "gfx/interface/goals/GFX_galacticmarines.tga" 
+ }##Icon For: 1661127
+ SpriteType = { 
+ name = "GFX_mountaintroopers" 
+ texturefile = "gfx/interface/goals/GFX_mountaintroopers.tga" 
+ }##Icon For: 1661145
+ SpriteType = { 
+ name = "GFX_armordesigns" 
+ texturefile = "gfx/interface/goals/GFX_armordesigns.tga" 
+ }##Icon For: 1661156
+ SpriteType = { 
+ name = "GFX_endlessproduction" 
+ texturefile = "gfx/interface/goals/GFX_endlessproduction.tga" 
+ }##Icon For: 1661163
+ SpriteType = { 
+ name = "GFX_simplifieddesigns" 
+ texturefile = "gfx/interface/goals/GFX_simplifieddesigns.tga" 
+ }##Icon For: 1661164
+ SpriteType = { 
+ name = "GFX_oldrepublicdata" 
+ texturefile = "gfx/interface/goals/GFX_oldrepublicdata.tga" 
+ }##Icon For: 1661173
+ SpriteType = { 
+ name = "GFX_outsiderecruitment" 
+ texturefile = "gfx/interface/goals/GFX_outsiderecruitment.tga" 
+ }##Icon For: 1661086
+ SpriteType = { 
+ name = "GFX_blastechimprovements" 
+ texturefile = "gfx/interface/goals/GFX_blastechimprovements.tga" 
+ }##Icon For: 1661131
+ SpriteType = { 
+ name = "GFX_clonecommandos" 
+ texturefile = "gfx/interface/goals/GFX_clonecommandos.tga" 
+ }##Icon For: 1661128
+ SpriteType = { 
+ name = "GFX_droidcountermeasures" 
+ texturefile = "gfx/interface/goals/GFX_droidcountermeasures.tga" 
  }##Icon For: 1661566
  SpriteType = { 
  name = "GFX_armyintegration" 
