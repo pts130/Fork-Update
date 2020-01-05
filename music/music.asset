@@ -1,15 +1,15 @@
 
 # MAIN THEME
 music = {
-	name = "maintheme"
-	file = "rots.ogg"
+	name = "mainmenutheme"
+	file = "Anakin Sees His Future.ogg"
 	volume = 0.65
 }
 
 # General Peace:
 music = {
 	name = "general_peace_1"
-	file = "add.ogg"
+	file = "Across the Stars (Love Theme from Star Wars Attack of the Clones).ogg"
 	volume = 0.65
 }
 music = {
@@ -36,104 +36,104 @@ music = {
 }
 
 
-# Allies Peace:
+# Republic Peace:
 music = {
-	name = "allies_peace_1"
-	file = "allies_peace_morningofdday.ogg"
+	name = "republic_peace_1"
+	file = "Jedi Order Theme.ogg"
 	volume = 0.65
 }
 music = {
-	name = "allies_peace_2"
+	name = "republic_peace_2"
 	file = "endofthetour.ogg"
 	volume = 0.65
 }
 
 
-# Allies War:
+# Republic War:
 music = {
-	name = "allies_war_1"
-	file = "wearesoldiers.ogg"
+	name = "republic_war_1"
+	file = "Republic Clone Army March.ogg"
 	volume = 0.65
 }
 music = {
-	name = "allies_war_2"
-	file = "allies_war_theroyalairforce.ogg"
+	name = "republic_war_2"
+	file = "Anakins Betrayal.ogg"
 	volume = 0.65
 }
 
 
-# Axis Peace:
+# CIS Peace:
 music = {
-	name = "axis_peace_1"
+	name = "cis_peace_1"
 	file = "axis_peace_krakow.ogg"
 	volume = 0.65
 }
 music = {
-	name = "axis_peace_2"
+	name = "cis_peace_2"
 	file = "luftwaffemarch_reprise.ogg"
 	volume = 0.65
 }
 
 
-# Axis War:
+# CIS War:
 music = {
-	name = "axis_war_1"
-	file = "axistheme.ogg"
+	name = "cis_war_1"
+	file = "Droid Army March.ogg"
 	volume = 0.65
 }
 music = {
-	name = "axis_war_2"
+	name = "cis_war_2"
 	file = "heavywater.ogg"
 	volume = 0.65
 }
 music = {
-	name = "axis_war_3"
+	name = "cis_war_3"
 	file = "operationbarbarossa.ogg"
 	volume = 0.65
 }
 music = {
-	name = "axis_war_4"
+	name = "cis_war_4"
 	file = "war_axis_1_daysofthunder.ogg"
 	volume = 0.65
 }
 
 
-# Comintern Peace:
+# Hutt/Consortium Peace Songs
 
 music = {
-	name = "comintern_peace_1"
+	name = "hutt_peace_1"
 	file = "motherrussia.ogg"
 	volume = 0.65
 }
 
 music = {
-	name = "comintern_peace_2"
+	name = "hutt_peace_2"
 	file = "theredarmy.ogg"
 	volume = 0.65
 }
 
 music = {
-	name = "comintern_peace_3"
+	name = "hutt_peace_3"
 	file = "sovietvictory.ogg"
 	volume = 0.65
 }
 
-# Comintern War:
+# Hutt/Consortium War Songs
 
 music = {
-	name = "comintern_war_1"
+	name = "hutt_war_1"
 	file = "themightofsovietunion.ogg"
 	volume = 0.65
 }
 
 music = {
-	name = "comintern_war_2"
+	name = "hutt_war_2"
 	file = "cominterntheme.ogg"
 	volume = 0.65
 }
 
 music = {
-	name = "comintern_war_3"
+	name = "hutt_war_3"
 	file = "thegreatpatrioticwar.ogg"
 	volume = 0.65
 }

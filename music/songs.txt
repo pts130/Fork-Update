@@ -46,7 +46,7 @@ music = {
 }
 
 music = {
-	song = "allies_peace_1"
+	song = "republic_peace_1"
 	
 	chance = {
 		modifier = {
@@ -59,7 +59,7 @@ music = {
 }
 
 music = {
-	song = "allies_peace_2"
+	song = "republic_peace_2"
 	
 	chance = {
 		modifier = {
@@ -72,7 +72,7 @@ music = {
 }
 
 music = {
-	song = "axis_peace_1"
+	song = "cis_peace_1"
 	
 	chance = {
 		modifier = {
@@ -85,7 +85,7 @@ music = {
 }
 
 music = {
-	song = "axis_peace_2"
+	song = "cis_peace_2"
 	
 	chance = {
 		modifier = {
