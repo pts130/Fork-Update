@@ -7,15 +7,30 @@ focus_tree = {
 			tag = HUT
 		}
 	}
-	#Focus for Nal Hutta Shipyards Project
+	#Focus for Cult of Personality
 	focus = {
-		id = HUT_nalhuttashipyardsproject
-		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 22
-		y = 1
+		id = HUT_cultofpersonality
+		icon = GFX_focus_mex_support_general_cedillo
+		x = 5
+		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		mutually_exclusive = { focus = HUT_gerbrieltender }
+		prerequisite = { focus = HUT_brooddaymassacre }
+		mutually_exclusive = { focus = HUT_anewhuttidentity }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Align the Syndicates
+	focus = {
+		id = HUT_alignthesyndicates
+		icon = GFX_goal_generic_position_armies
+		x = 4
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_establishthehuttmillitary }
 		ai_will_do = {
 			factor = 1
 		}
@@ -25,11 +40,11 @@ focus_tree = {
 	focus = {
 		id = HUT_gerbrieltender
 		icon = GFX_goal_generic_intelligence_exchange
-		x = 18
+		x = 22
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		mutually_exclusive = { focus = HUT_nalhuttashipyardsproject }
+		prerequisite = { focus = HUT_newhuttfleet }
 		ai_will_do = {
 			factor = 1
 		}
@@ -39,21 +54,8 @@ focus_tree = {
 	focus = {
 		id = HUT_newhuttfleet
 		icon = GFX_goal_generic_navy_battleship
-		x = 20
+		x = 22
 		y = 0
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Republican Diplomatic Envoy
-	focus = {
-		id = HUT_republicandiplomaticenvoy
-		icon = GFX_goal_support_democracy
-		x = 4
-		y = 2
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -65,10 +67,11 @@ focus_tree = {
 	focus = {
 		id = HUT_brooddaymassacre
 		icon = GFX_goal_generic_secret_weapon
-		x = 1
+		x = 3
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
+		prerequisite = { focus = HUT_gardullasinserrection }
 		ai_will_do = {
 			factor = 1
 		}
@@ -78,21 +81,21 @@ focus_tree = {
 	focus = {
 		id = HUT_expandtatooineoperation
 		icon = GFX_focus_mex_jefe_maximo
-		x = 11
+		x = 19
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = HUT_consolidatejabbaspower }
+		prerequisite = { focus = HUT_expandingstateinfluence }
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
-	#Focus for Consolidate Jabba's Power
+	#Focus for Nal Hutta Leadership Summit
 	focus = {
-		id = HUT_consolidatejabbaspower
+		id = HUT_nalhuttaleadershipsummit
 		icon = GFX_focus_smiling_buddha
-		x = 11
+		x = 5
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -106,7 +109,7 @@ focus_tree = {
 	focus = {
 		id = HUT_thefutureofthecouncil
 		icon = GFX_goal_support_communism
-		x = 4
+		x = 5
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
@@ -119,11 +122,583 @@ focus_tree = {
 	focus = {
 		id = HUT_gardullasinserrection
 		icon = GFX_goal_generic_secret_weapon
-		x = 2
+		x = 3
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_nalhuttaleadershipsummit }
+		mutually_exclusive = { focus = HUT_maintainthestatusquo }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Infiltrate Forigen Corporations
+	focus = {
+		id = HUT_infiltrateforigencorporations
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 9
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_corporateespionage }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Strong Arm Competition
+	focus = {
+		id = HUT_strongarmcompetition
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		x = 11
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_corporateespionage }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Adopt Republican Human Rights Charter
+	focus = {
+		id = HUT_adoptrepublicanhumanrightscharter
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 0
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_requestsenatetenure }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Grant Hutt Monopoly Charters
+	focus = {
+		id = HUT_granthuttmonopolycharters
+		icon = GFX_goal_generic_air_production
+		x = 12
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HUT_limitcorporateinfluence 
+		}
+		prerequisite = { 
+			focus = HUT_expandingstateinfluence 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Limit Corporate Influence
+	focus = {
+		id = HUT_limitcorporateinfluence
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		x = 11
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = HUT_thefutureofthecouncil }
+		prerequisite = { focus = HUT_structuralreform }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support the Nebula Front
+	focus = {
+		id = HUT_supportthenebulafront
+		icon = GFX_focus_mex_privatisation
+		x = 7
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_corporateespionage }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expanding State Influence
+	focus = {
+		id = HUT_expandingstateinfluence
+		icon = GFX_goal_generic_CAS
+		x = 15
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_structuralreform }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Structural Reform
+	focus = {
+		id = HUT_structuralreform
+		icon = GFX_focus_usa_honor_the_confederacy
+		x = 13
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mos Eisley Renovations
+	focus = {
+		id = HUT_moseisleyrenovations
+		icon = GFX_focus_jap_cast_the_die
+		x = 19
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HUT_directintergration 
+			focus = HUT_firsttatooinerepublic 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Establish the Hutt Millitary
+	focus = {
+		id = HUT_establishthehuttmillitary
+		icon = GFX_focus_secret_rearmament
+		x = 5
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_gardullasfist }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A New Hutt Identity
+	focus = {
+		id = HUT_anewhuttidentity
+		icon = GFX_goal_generic_national_unity
+		x = 1
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_brooddaymassacre }
+		mutually_exclusive = { focus = HUT_cultofpersonality }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Call on Republican Intervention
+	focus = {
+		id = HUT_callonrepublicanintervention
+		icon = GFX_goal_generic_attack_allies
+		x = 2
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_demandonenation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for 2nd Hutt Empire
+	focus = {
+		id = HUT_2ndhuttempire
+		icon = GFX_focus_prc_proclaim_the_peoples_republic
+		x = 5
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HUT_alignthesyndicates 
+		}
+		prerequisite = { 
+			focus = HUT_crushthepiraterepublics 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Gardulla's Fist
+	focus = {
+		id = HUT_gardullasfist
+		icon = GFX_goal_generic_demand_territory
+		x = 5
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_cultofpersonality }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Crush the Pirate Republics
+	focus = {
+		id = HUT_crushthepiraterepublics
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 6
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_establishthehuttmillitary }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Two-Nation Solution
+	focus = {
+		id = HUT_twonationsolution
+		icon = GFX_focus_usa_voter_registration_act
+		x = 0
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_huttspaceunificationsummit }
+		mutually_exclusive = { focus = HUT_demandonenation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Request Senate Tenure
+	focus = {
+		id = HUT_requestsenatetenure
+		icon = GFX_focus_hol_the_fourth_ally
+		x = 1
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HUT_demandonenation 
+			focus = HUT_twonationsolution 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Hutt Space Free Trade Agreement
+	focus = {
+		id = HUT_huttspacefreetradeagreement
+		icon = GFX_goal_generic_forceful_treaty
+		x = 2
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_requestsenatetenure }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Placeholder
+	focus = {
+		id = HUT_placeholder
+		icon = GFX_goal_unknown
+		x = 49
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Hutt Space Unification Summit
+	focus = {
+		id = HUT_huttspaceunificationsummit
+		icon = GFX_goal_generic_improve_relations
+		x = 1
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_anewhuttidentity }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Demand One Nation
+	focus = {
+		id = HUT_demandonenation
+		icon = GFX_goal_generic_secret_weapon
+		x = 2
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_huttspaceunificationsummit }
+		mutually_exclusive = { focus = HUT_twonationsolution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Direct Intergration
+	focus = {
+		id = HUT_directintergration
+		icon = GFX_goal_generic_demand_territory
+		x = 18
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_tatooineprovisionalgovernment }
+		mutually_exclusive = { focus = HUT_firsttatooinerepublic }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for First Tatooine Republic
+	focus = {
+		id = HUT_firsttatooinerepublic
+		icon = GFX_goal_support_democracy
+		x = 20
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_tatooineprovisionalgovernment }
+		mutually_exclusive = { focus = HUT_directintergration }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Hakaki Plan
+	focus = {
+		id = HUT_hakakiplan
+		icon = GFX_focus_mex_privatisation
+		x = 21
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_expandtatooineoperation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Tatooine Provisional Government
+	focus = {
+		id = HUT_tatooineprovisionalgovernment
+		icon = GFX_goal_generic_national_unity
+		x = 19
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HUT_crushthewarlords 
+		}
+		prerequisite = { 
+			focus = HUT_hakakiplan 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Nal Hutta Colonists Package
+	focus = {
+		id = HUT_nalhuttacolonistspackage
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = 19
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_moseisleyrenovations }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Crush the Warlords
+	focus = {
+		id = HUT_crushthewarlords
+		icon = GFX_goal_generic_secret_weapon
+		x = 19
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_expandtatooineoperation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Subjugate Nimban
+	focus = {
+		id = HUT_subjugatenimban
+		icon = GFX_goal_generic_position_armies
+		x = 13
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_covertinterventiondivison }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Subjugate Troydaria
+	focus = {
+		id = HUT_subjugatetroydaria
+		icon = GFX_goal_generic_position_armies
+		x = 17
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_covertinterventiondivison }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Verpyun Arms
+	focus = {
+		id = HUT_verpyunarms
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 9
+		y = 5
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_granthuttmonopolycharters }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Nal Hutta Bank
+	focus = {
+		id = HUT_nalhuttabank
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 13
+		y = 5
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_granthuttmonopolycharters }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Covert Intervention Divison
+	focus = {
+		id = HUT_covertinterventiondivison
+		icon = GFX_goal_anti_comintern_pact
+		x = 15
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_expandingstateinfluence }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Nar Shadda Transportation
+	focus = {
+		id = HUT_narshaddatransportation
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 11
+		y = 5
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_granthuttmonopolycharters }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Subjugate Roche
+	focus = {
+		id = HUT_subjugateroche
+		icon = GFX_goal_generic_position_armies
+		x = 15
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_covertinterventiondivison }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Corporate Espionage
+	focus = {
+		id = HUT_corporateespionage
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 9
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_limitcorporateinfluence }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Maintain the Status Quo
+	focus = {
+		id = HUT_maintainthestatusquo
+		icon = GFX_goal_generic_national_unity
+		x = 7
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_nalhuttaleadershipsummit }
+		mutually_exclusive = { focus = HUT_gardullasinserrection }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Join the Confederacy
+	focus = {
+		id = HUT_jointheconfederacy
+		icon = GFX_goal_generic_attack_allies
+		x = 5
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_2ndhuttempire }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Hagfuh Rydonium
+	focus = {
+		id = HUT_hagfuhrydonium
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 15
+		y = 5
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_granthuttmonopolycharters }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Leak Trade Secrets
+	focus = {
+		id = HUT_leaktradesecrets
+		icon = GFX_goal_generic_radar
+		x = 9
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = HUT_infiltrateforigencorporations }
 		ai_will_do = {
 			factor = 1
 		}
