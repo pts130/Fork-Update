@@ -105,3 +105,25 @@ muundroids_desc:0 "Purchase ground forces from the Muunilinst Droid Factories."
 CIS_droiddivisionm:0 "Battledroid Division (x1)"
 CIS_droiddivision3m:0 "Battledroid Division (x3)"
 CIS_tankdivisionm:0 "Tank Division"
+
+
+##Republic Decisions###
+REP_501st_legion:0 "Deploy the 501st"
+REP_501st_legion_desc:0 "We will form an elite unit from the best clones around."
+501st_units_tt: "The 501st will be deployed."
+
+REP_221st_legion:0 "Deploy the 212th"
+REP_221st_legion_desc:0 "We will form the 212th Attack Battalion."
+221st_units_tt: "The 212th will be deployed."
+
+REP_41st_legion:0 "Deploy the 41st Division"
+REP_41st_legion_desc:0 "We will form the 41st Ranger Platoon."
+41st_units_tt: "The 41st Ranger Platoon is at your disposal."
+
+REP_7th_legion:0 "Deploy the 7th Sky Corps."
+REP_7th_legion_desc:0 "We will form the 7th Sky Corps."
+7th_units_tt: "The 7th Sky Corps is at your disposal."
+
+REP_13th_legion:0 "Deploy the 13th Battalion."
+REP_13th_legion_desc:0 "We will form the 13th Battalion."
+13th_units_tt: "The 13th Clone Battalion is at your disposal."

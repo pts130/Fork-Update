@@ -1,0 +1,161 @@
+### #  # ###  #  #  ### ### ###  #   #    ###  #### #     ##   ##   ##  ### ###  ##  #  #
+ #  ## # #  # #  # #     #  #  #  # #     #  # #    #    #  # #  # #  #  #   #  #  # ## #
+ #  # ## #  # #  #   #   #  ###    #      ###  ##   #    #  # #    ####  #   #  #  # # ##
+ #  #  # #  # #  #    #  #  #  #   #      #  # #    #    #  # #  # #  #  #   #  #  # #  #
+### #  # ###   ##  ###   #  #  #   #      #  # #### ####  ##   ##  #  #  #  ###  ##  #  #
+
+#
+
+operations = {
+
+	REP_501st_legion = {
+	
+		icon = 501st_legion
+
+		allowed = {
+			original_tag = REP
+		}
+
+		available = {
+			has_war_with = CIS
+		}
+
+		cost = 300
+		fire_only_once = yes
+		
+		visible = {
+			has_war = no
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = 501st_units_tt
+			hidden_effect = {
+				load_oob = 501st_units
+			}
+	}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	REP_221st_legion = {
+	
+		icon = 221st_legion
+
+		allowed = {
+			original_tag = REP
+		}
+
+		available = {
+			has_war_with = CIS
+		}
+
+		cost = 300
+		fire_only_once = yes
+		
+		visible = {
+			has_war = no
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = 221st_units_tt
+			hidden_effect = {
+				load_oob = 221st_units
+			}
+	}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	REP_41st_legion = {
+	
+		icon = 41st_legion
+
+		allowed = {
+			original_tag = REP
+		}
+
+		available = {
+			has_war_with = CIS
+		}
+
+		cost = 300
+		fire_only_once = yes
+		
+		visible = {
+			has_war = no
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = 41st_units_tt
+			hidden_effect = {
+				load_oob = 41st_units
+			}
+	}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	REP_7th_legion = {
+	
+		icon = 7th_legion
+
+		allowed = {
+			original_tag = REP
+		}
+
+		available = {
+			has_war_with = CIS
+		}
+
+		cost = 300
+		fire_only_once = yes
+		
+		visible = {
+			has_war = no
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = 7th_units_tt
+			hidden_effect = {
+				load_oob = 7th_units
+			}
+	}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	REP_13th_legion = {
+	
+		icon = 13th_legion
+
+		allowed = {
+			original_tag = REP
+		}
+
+		available = {
+			has_war_with = CIS
+		}
+
+		cost = 300
+		fire_only_once = yes
+		
+		visible = {
+			has_war = no
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = 13th_units_tt
+			hidden_effect = {
+				load_oob = 13th_units
+			}
+	}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

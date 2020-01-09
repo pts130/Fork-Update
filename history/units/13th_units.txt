@@ -1,0 +1,23 @@
+﻿division_template = {
+	name = "13th Clone Division"
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+units = {
+
+	division = {
+		name = "13th Battalion"
+		location = 3009
+		division_template = "13th Clone Division"
+		start_experience_factor = 3
+		start_equipment_factor = 1.0
+	}
+}
