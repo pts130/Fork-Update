@@ -1,10 +1,8 @@
-name="Star Wars: The Clone Wars (Dev Build)"
-path="C:/Users/Parke/Documents/Paradox Interactive/Hearts of Iron IV/mod/hydrabeta"
+name="testingmap"
+path="mod/hydrabeta"
+replace_path="history/states"
 tags={
-	"Alternative History"
 	"Map"
-	"Gameplay"
-	"Graphics"
+	"Utilities"
 }
-supported_version="1.8.1"
-remote_file_id="1911868794"
+supported_version="1.5.*"

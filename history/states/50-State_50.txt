@@ -1,37 +1,9 @@
-###Ryloth
 state={
 	id=50
 	name="STATE_50"
 	provinces={
-		43 60 64 66 295 305 328 375 392 399 471 535 622 696 863 899 907 1136 1144 1171 1172 1198 1246 1346 1358 1359 1451 3320 3323 3329 3330 3338 3340 3341 3344 3346 3347 3352 3355 3356 3360 3361 3362 3367 3369 3370 3371 3375 3381 3386 3391 3396 3399 3401 3410 3411 3413 3420 3422 3424 3425 3426 3431 3435 3439 3440 3443 3446 
+		199 229 300 345 465 502 522 615 661 698 750 763 772 945 968 980 1852 1853 1858 1867 1869 1876 1877 1878 1879 1886 1887 1894 1899 1905 1909 1915 
 	}
-	manpower=15000000000
+	manpower=0
 	buildings_max_level_factor=1.000
-    state_category = town
-	resources={
-		steel = 40
-		aluminium = 10
-		rubber = 20
-		tungsten = 10
-		oil = 30
-	}
-   	history = {
-	owner = RYL
-	buildings = {
-		infrastructure = 2
-		arms_factory = 1
-		industrial_complex = 2
-		dockyard = 2
-		air_base = 1
-		863 = {
-		     naval_base = 2
-			}
-		3330 = {
-		     naval_base = 2
-			}
-		}
-		add_core_of = RYL
-		victory_points = {
-			3381 30
-	}
 }
