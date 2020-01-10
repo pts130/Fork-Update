@@ -1,3 +1,4 @@
+#Naboo
 state={
 	id=58
 	name="STATE_58"
@@ -6,4 +7,7 @@ state={
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+  	history = {
+		owner = NAB
+	}
 }

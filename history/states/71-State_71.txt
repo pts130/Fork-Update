@@ -1,3 +1,4 @@
+#Geonosis
 state={
 	id=71
 	name="STATE_71"
@@ -6,4 +7,7 @@ state={
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+  	history = {
+		owner = GEO
+	}
 }
