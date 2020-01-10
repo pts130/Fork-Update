@@ -55,7 +55,7 @@ focus_tree = {
 	#Focus for Volunteers
 	focus = {
 		id = ATZ_volunteers
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_little_entente
 		x = 25
 		y = 4
 		cost = 10
@@ -548,7 +548,7 @@ focus_tree = {
 	#Focus for Bombers Construction
 	focus = {
 		id = ATZ_bombersconstruction
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_bombers
 		x = 33
 		y = 2
 		cost = 10
@@ -726,7 +726,7 @@ focus_tree = {
 	#Focus for Advanced Fighters
 	focus = {
 		id = ATZ_advancedfighters
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_adv_fighter
 		x = 29
 		y = 3
 		cost = 10
@@ -735,12 +735,20 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = NET_heavy_fighter_project
+				bonus = 1
+				uses = 1
+				category = cat_heavy_fighter
+			}
+		}
 	}
 
 	#Focus for Close Bombardment Effort
 	focus = {
 		id = ATZ_closebombardmenteffort
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_adv_bombardment
 		x = 33
 		y = 3
 		cost = 10
@@ -748,13 +756,22 @@ focus_tree = {
 		prerequisite = { focus = ATZ_bombersconstruction }
 		ai_will_do = {
 			factor = 1
+			}
+		completion_reward = {
+		air_experience = 25
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 1
+				uses = 1
+				category = air_doctrine
+			}
 		}
 	}
 
 	#Focus for Fighters Efforts
 	focus = {
 		id = ATZ_fightersefforts
-		icon = GFX_goal_unknown
+		icon = GFX_focus_net_fighters
 		x = 29
 		y = 2
 		cost = 10
@@ -835,6 +852,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		add_equipment_to_stockpile = { type = light_tank_equipment amount = 150 producer = REP }
+		add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 300 producer = REP }
+		add_equipment_to_stockpile = { type = support_equipment_1 amount = 50 producer = REP }
+		add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 50 producer = REP }
+		}
 	}
 
 	#Focus for Separatist Cooperation
@@ -854,6 +877,12 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		add_equipment_to_stockpile = { type = light_tank_equipment amount = 150 producer = CIS }
+		add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 300 producer = CIS }
+		add_equipment_to_stockpile = { type = support_equipment_1 amount = 50 producer = CIS }
+		add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 50 producer = CIS }
 		}
 	}
 
@@ -888,7 +917,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_tech_bonus = {
-				name = ROM_artillery_modernization
+				name = NET_artillery_modernization
 				bonus = 0.5
 				uses = 1
 				category = artillery
@@ -908,6 +937,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			army_experience = 20
+		every_army_leader = {
+			add_logistics = 1
+			}
+		}
 	}
 
 	#Focus for Officer Academies
@@ -922,6 +957,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+	completion_reward = {
+		every_army_leader = {
+			add_defense = 1
+			add_planning = 1
+			add_logistics = 1
+		}	
+	}
 	}
 
 	#Focus for Invite Republic Investors
