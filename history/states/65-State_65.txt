@@ -1,4 +1,4 @@
-#Ryloth
+#Rothana
 state={
 	id=65
 	name="STATE_65"
@@ -8,6 +8,6 @@ state={
 	manpower=0
 	buildings_max_level_factor=1.000
   	history = {
-		owner = RYL
+		owner = 
 	}
 }

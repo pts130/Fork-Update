@@ -1,6 +1,6 @@
-﻿capital = 51
+capital = 66
 
-oob = "ATZ_3677"
+oob = "MUS_3677"
 set_research_slots = 2
 set_stability = 0.9
 set_war_support = .01
@@ -37,17 +37,4 @@ set_politics = {
 set_popularities = {
 	democratic = 99
 	communism = 1
-}
-
-give_military_access = REP
-
-create_country_leader = {
-	name = "Talz"
-	desc = "Leader of the Talz"
-	picture = "gfx/leaders/TLZ/talz.dds"
-	expire = "2020.1.1"
-	ideology = conservatism
-	traits = {
-		
-	}
 }

@@ -1,9 +1,9 @@
-﻿capital = 51
+﻿capital = 62
 
-oob = "ATZ_3677"
+oob = "HOT_3677"
 set_research_slots = 2
-set_stability = 0.9
-set_war_support = .01
+set_stability = 0.7
+set_war_support = .6
 
 set_technology = {
 	infantry_weapons = 1
@@ -25,29 +25,17 @@ set_technology = {
 
 }
 
-add_political_power = 75
-set_convoys = 50
+add_political_power = 50
+set_convoys = 20
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1932.11.8"
 	election_frequency = 240
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	neutrality = 100
 }
 
-give_military_access = REP
 
-create_country_leader = {
-	name = "Talz"
-	desc = "Leader of the Talz"
-	picture = "gfx/leaders/TLZ/talz.dds"
-	expire = "2020.1.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}

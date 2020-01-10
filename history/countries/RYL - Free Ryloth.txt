@@ -1,6 +1,6 @@
-﻿capital = 50
+﻿capital = 74
 
-oob = "RYL_1936"
+oob = "RYL_3677"
 set_research_slots = 2
 set_stability = 0.6
 set_war_support = .05
