@@ -1,7 +1,7 @@
 # Majors
-REP = "countries/GalaticRepublic.txt"
-CIS = "countries/ConfederacyOfIndependentSystems.txt"
-HUT = "countries/HuttConsortium.txt"
+REP = "countries/Republic.txt"
+CIS = "countries/CIS.txt"
+HUT = "countries/Hutt.txt"
 
 # Other
 ABR = "countries/Abregado-Rae.txt"
@@ -73,8 +73,8 @@ TAR = "countries/Taris.txt"
 TAT = "countries/Tatooine.txt"
 TET = "countries/Teth.txt"
 THY = "countries/Thyferra.txt"
+TRA = "countries/Trandosha.txt"
 TRO = "countries/Troydaria.txt"
-TRA = "countries/Transdosha.txt"
 UMB = "countries/Umbara.txt"
 UTU = "countries/Utupau.txt"
 VER = "countries/Vergesso.txt" # Asteroids
