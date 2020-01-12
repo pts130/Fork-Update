@@ -14,7 +14,6 @@ BES = "countries/Bespin.txt"
 BTN = "countries/Bestine.txt"
 BOT = "countries/Bothawui.txt"
 BOZ = "countries/BozPity.txt"
-BRN = "countries/Brentaal.txt"
 BYS = "countries/Byss.txt"
 CAR = "countries/Carida.txt"
 CAT = "countries/CatoNeimoidia.txt" # Secondary Trade Federation Planet
@@ -98,5 +97,5 @@ ZGG = "countries/ZGG.txt"
 # Gandalf's Event-Based Nations
 ALK = "countries/AlkharaBandits.txt"
 
-# I'm sick and tired of errors
+# I'm sick and tired of errors -Gandalf
 # Weiner - PTS

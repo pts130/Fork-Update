@@ -1,4 +1,4 @@
-capital = 38
+capital = 75
 
 oob = "ALZ_3677"
 set_research_slots = 2

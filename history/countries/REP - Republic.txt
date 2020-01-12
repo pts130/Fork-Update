@@ -1,4 +1,4 @@
-﻿capital = 21
+﻿capital = 17
 
 oob = "REP_1936"
 set_research_slots = 3
