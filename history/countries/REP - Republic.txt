@@ -254,6 +254,69 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 2
 }
+create_corps_commander = {
+ 	name = "Commander Bacara"
+ 	portrait_path = "gfx/leaders/REP/Bacara_P1.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Commander Bly"
+ 	portrait_path = "gfx/leaders/REP/Bly_P1.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Commander Cody"
+ 	portrait_path = "gfx/leaders/REP/Cody_P1.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Commander Fox"
+ 	portrait_path = "gfx/leaders/REP/Fox_P1.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Commander Gree"
+ 	portrait_path = "gfx/leaders/REP/Gree_P1.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Commander Rex"
+ 	portrait_path = "gfx/leaders/REP/Rex_P1.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Commander Wolffe"
+ 	portrait_path = "gfx/leaders/REP/Woffe_P1.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
 create_navy_leader = {
 	name = "Naval Officer"
     picture = "officer.dds"
