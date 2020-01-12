@@ -1,385 +1,86 @@
-#Majors
 REP = {
 	color = rgb { 175 15 57 }
 	color_ui = rgb { 220 25 50 }
 }
+
 CIS = {
 	color = rgb { 20 20 228 }
 	color_ui = rgb { 40 40 255 }
 }
-HUT = {
-	color = rgb { 177 145 46 }
-	color_ui = rgb { 200 200 30 }
+
+RYL = {
+	color = rgb { 195 35 77 }
+	color_ui = rgb { 215 55 97 }
 }
-#
-#
-#
-#Other
-ABR = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
+
+KYK = {
+	color = rgb { 91 114 0 }
+	color_ui = rgb { 112 134 0 }
 }
+
+ALK = {
+	color = rgb { 91 114 0 }
+	color_ui = rgb { 112 134 0 }
+}
+
+TRA = {
+	color = rgb { 198 172 0 }
+	color_ui = rgb { 218 154 0 }
+}
+
 ALD = {
 	color = rgb { 195 55 07 }
 	color_ui = rgb { 215 75 27 }
 }
-ALZ = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
+TLZ = {
+	color = rgb { 145 05 90 }
+	color_ui = rgb { 165 25 110 }
 }
-ANA = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
+MAN = {
+	color = rgb { 20 20 100 }
+	color_ui = rgb { 40 40 120 }
+} 
 ATZ = {
 	color = rgb { 200 30 40 }
 	color_ui = rgb { 220 60 140 }
-}
-BAK = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-BES = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-BTN = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
+} 
 BOT = {
 	color = rgb { 30 10 140 }
 	color_ui = rgb { 50 30 160 }
 }
-BOZ = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
 BRN = {
 	color = rgb { 15 15 10 }
 	color_ui = rgb { 35 35 30 }
-}
-BYS = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
+}  
 CAR = {
 	color = rgb { 195 35 07 }
 	color_ui = rgb { 215 55 27 }
 }
-CAT = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
+CRL = {
+	color = rgb { 200 35 07 }
+	color_ui = rgb { 220 55 27 }
 }
-CHR = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-CLA = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-CLA = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-COR = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-DAG = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-DAN = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-DAT = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-DUR = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-END = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ERI = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-FEL = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
+CLG = {
+	color = rgb { 100 55 07 }
+	color_ui = rgb { 120 75 27 }
 }
 FON = {
 	color = rgb { 15 15 120 }
 	color_ui = rgb { 35 35 140 }
 }
-FRE = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-GEO = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
 HON = {
 	color = rgb { 190 190 10 }
 	color_ui = rgb { 200 200 30 }
 }
-HOT = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-HYP = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ILL = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
+HUT = {
+	color = rgb { 177 145 46 }
+	color_ui = rgb { 200 200 30 }
 }
 ITH = {
 	color = rgb { 155 55 07 }
 	color_ui = rgb { 175 75 27 }
 }
-JAB = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-KAM = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-KYK = {
-	color = rgb { 91 114 0 }
-	color_ui = rgb { 112 134 0 }
-}
-KES = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-KOR = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-KUA = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-MAL = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-MAN = {
-	color = rgb { 20 20 100 }
-	color_ui = rgb { 40 40 120 }
-}
-MIM = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-CAL = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-MUS = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-MUN = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-MYG = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-NAB = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-NEI = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-NIM = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-OND = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ORD = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-POL = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-RAK = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-RAT = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-RAX = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-REN = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-RHE = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-RIS = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ROC = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ROD = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ROT = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-RUS = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-RYL = {
-	color = rgb { 195 35 77 }
-	color_ui = rgb { 215 55 97 }
-}
-SAL = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-SLU = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-SUL = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-TAR = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-TAT = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-TET = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-THY = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-TRO = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-TRA = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-UMB = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-UTU = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-VER = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-YAV = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-#
-#
-#
-#Ghost nations
-ZAA = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ZBA = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ZBB = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ZCB = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ZCC = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ZDC = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ZDD = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ZED = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ZEE = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ZFE = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ZFF = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ZGF = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-ZGG = {
-	color = rgb { 195 55 07 }
-	color_ui = rgb { 215 75 27 }
-}
-#
-#
-#
-#Event based nations
-ALK = {
-	color = rgb { 91 114 0 }
-	color_ui = rgb { 112 134 0 }
+HON = {
+	color = rgb { 190 200 10 }
+	color_ui = rgb { 210 220 30 }
 }

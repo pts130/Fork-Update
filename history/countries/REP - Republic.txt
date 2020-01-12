@@ -1,6 +1,6 @@
 ﻿capital = 17
 
-oob = "REP_1936"
+oob = "REP_3677"
 set_research_slots = 3
 set_stability = 0.7
 set_war_support = .10
