@@ -5,9 +5,23 @@ state={
 	provinces={
 		81 190 293 508 534 558 814 822 855 883 959 963 1275 1281 1284 1285 1287 1289 1291 1292 1296 1297 1298 1299 1300 1301 1302 1303 1304 1305 1306 1307 
 	}
-	manpower=0
+	manpower=4000000
 	buildings_max_level_factor=1.000
+   	state_category = large_town
   	history = {
 		owner = MAN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 6
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 2
+			293 = {
+			     naval_base = 2
+				}
+			1307 = {
+			     naval_base = 2
+				}
+		}
 	}
 }

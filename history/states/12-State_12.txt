@@ -5,9 +5,31 @@ state={
 	provinces={
 		270 271 309 351 714 765 787 824 869 947 948 987 1010 1252 1253 1256 1261 1263 1265 1270 1271 1276 1277 1280 1282 1283 1288 1293 1294 1295 
 	}
-	manpower=0
+	manpower=10000000
 	buildings_max_level_factor=1.000
+   	state_category = rural
+	resources={
+		steel = 10
+		aluminium = 10
+		rubber = 14
+		tungsten = 5
+	}
+
   	history = {
 		owner = FEL
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 0
+			air_base = 2
+			947 = {
+				naval_base = 2
+				}
+			1295 = {
+				naval_base = 2
+				}
+
+		}
 	}
 }

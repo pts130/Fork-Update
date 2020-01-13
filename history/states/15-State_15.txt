@@ -5,8 +5,15 @@ state={
 	provinces={
 		50 70 495 566 646 681 838 864 865 874 973 1000 1004 1079 1084 1308 1309 1310 1311 1312 1314 1315 1316 1317 1320 1321 1324 1325 1330 
 	}
-	manpower=0
+	manpower=600
 	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
   	history = {
 		owner = RHE
 	}

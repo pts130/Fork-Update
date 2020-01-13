@@ -7,6 +7,11 @@ state={
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	resources={
+		steel = 30
+		rubber = 15
+		oil = 10
+	}
   	history = {
 		owner = THY
 	}

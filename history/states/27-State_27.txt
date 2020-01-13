@@ -5,8 +5,15 @@ state={
 	provinces={
 		78 84 108 134 302 328 428 438 452 524 555 577 715 841 842 910 1021 1056 1517 1531 1532 1536 1537 1541 1542 1543 1545 1547 1554 
 	}
-	manpower=0
+	manpower=400000000
 	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
   	history = {
 		owner = NEI
 	}

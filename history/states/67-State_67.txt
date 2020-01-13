@@ -7,6 +7,13 @@ state={
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	resources={
+		steel = 30
+		aluminium = 40
+		rubber = 15
+		tungsten = 40
+		oil = 50
+	}
   	history = {
 		owner = SLU
 	}

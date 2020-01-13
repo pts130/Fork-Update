@@ -5,8 +5,15 @@ state={
 	provinces={
 		54 85 112 140 305 444 492 505 597 627 894 996 1050 1054 1844 1845 1848 1854 1857 1862 1864 1866 1873 1884 1885 1888 1892 1898 1904 1906 
 	}
-	manpower=0
+	manpower=30000000
 	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
   	history = {
 		owner = END
 	}

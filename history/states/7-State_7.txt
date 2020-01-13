@@ -5,8 +5,15 @@ state={
 	provinces={
 		7 109 182 186 308 322 368 425 459 544 766 967 982 1015 1179 1186 1189 1191 1195 1199 1204 1206 1210 1212 1214 1215 1217 1218 1219 
 	}
-	manpower=0
+	manpower=800
 	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
   	history = {
 		owner = DAT
 	}

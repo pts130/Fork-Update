@@ -5,8 +5,15 @@ state={
 	provinces={
 		96 100 334 385 417 448 494 510 629 780 827 882 927 1563 1569 1571 1573 1576 1581 1582 1585 1587 1588 1591 1600 1603 1606 1607 1609 1613 1614 1619 
 	}
-	manpower=0
+	manpower=45000000
 	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
   	history = {
 		owner = TET
 	}

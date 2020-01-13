@@ -5,9 +5,31 @@ state={
 	provinces={
 		6 89 162 276 405 437 542 575 606 612 655 830 919 1177 1178 1180 1181 1184 1187 1188 1196 1197 1198 1202 1203 1207 1208 1209 1213 1216 
 	}
-	manpower=0
+	manpower=4000000000
 	buildings_max_level_factor=1.000
-  	history = {
-		owner = ORD
+	state_category = large_city
+	resources={
+		steel = 40
+		aluminium = 20
+		rubber = 20
+		tungsten = 20
+		oil = 30
+	}
+   	 history = {
+	owner = ORD
+	buildings = {
+		infrastructure = 6
+		arms_factory = 2
+		industrial_complex = 4
+		dockyard = 2
+		air_base = 3
+		276 = {
+		     naval_base = 2
+			}
+		655 = {
+		     naval_base = 2
+			}
+
+		}
 	}
 }

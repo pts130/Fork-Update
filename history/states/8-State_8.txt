@@ -5,8 +5,15 @@ state={
 	provinces={
 		152 167 172 201 301 520 610 659 677 697 727 884 964 1045 1182 1183 1185 1190 1192 1193 1194 1200 1201 1205 1211 1220 
 	}
-	manpower=0
+	manpower=4000
 	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
   	history = {
 		owner = KOR
 	}

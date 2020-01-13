@@ -5,9 +5,38 @@ state={
 	provinces={
 		26 41 77 289 362 400 424 695 762 768 831 941 954 981 1076 1121 1123 1125 1126 1128 1130 1131 1134 1135 1136 1137 1138 1139 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
+	resources={
+		steel = 20
+		aluminium = 20
+		rubber = 10
+		tungsten = 20
+		oil = 20
+	}
+	manpower=19000000
+	buildings_max_level_factor=1.000
+	state_category = city
+	resources={
+		steel = 20
+		aluminium = 20
+		rubber = 10
+		tungsten = 20
+		oil = 20
+	}
   	history = {
 		owner = MYG
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 0
+			air_base = 3
+			1076 = {
+			     naval_base = 2
+				}
+			1128 = {
+			     naval_base = 2
+				}
+		}
 	}
 }

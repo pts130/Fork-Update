@@ -5,9 +5,39 @@ state={
 	provinces={
 		8 46 197 220 256 360 414 723 748 895 932 993 1035 1334 1336 1339 1340 1341 1342 1351 1354 1356 1357 1358 1363 1367 1368 1369 1376 1378 1381 1383 
 	}
-	manpower=0
+	manpower = 999999999
 	buildings_max_level_factor=1.000
-  	history = {
-		owner = REP
+	state_category = megalopolis
+	resources={
+		steel = 60
+		aluminium = 60
+		rubber = 60
+		tungsten = 60
+		oil = 80
+	}
+   	history = {
+	owner = REP
+	buildings = {
+		infrastructure = 8
+		arms_factory = 2
+		industrial_complex = 10
+		dockyard = 4
+		air_base = 6
+		748 = {
+		     naval_base = 2
+			}
+		8 = {
+		     naval_base = 2
+			}
+		1351 = {
+		     naval_base = 2
+			}
+		1334 = {
+		     naval_base = 2
+			}
+		}
+		add_core_of = REP
+		victory_points = {
+			256 120
 	}
 }

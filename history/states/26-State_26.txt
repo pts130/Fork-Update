@@ -5,8 +5,15 @@ state={
 	provinces={
 		69 150 164 261 319 450 707 776 795 899 961 1071 1072 1488 1489 1492 1498 1501 1502 1508 1509 1514 1515 1516 1518 1519 1520 1521 1523 1524 1525 1527 
 	}
-	manpower=0
+	manpower=100000000
 	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
   	history = {
 		owner = JAB
 	}
