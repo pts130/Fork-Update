@@ -5,8 +5,9 @@ state={
 	provinces={
 		348 364 481 484 512 712 767 815 829 834 889 906 991 1059 1075 1880 1890 1891 1897 1903 1910 1912 1918 1919 1923 1924 1926 1927 1929 1930 1931 
 	}
-	manpower=0
+	manpower=40000000
 	buildings_max_level_factor=1.000
+    state_category = city
 	resources={
 		steel = 30
 		aluminium = 30
@@ -14,7 +15,20 @@ state={
 		tungsten = 30
 		oil = 40
 	}
-  	history = {
-		owner = ATZ
+   	history = {
+	owner = ATZ
+	buildings = {
+		infrastructure = 6
+		arms_factory = 1
+		industrial_complex = 3
+		dockyard = 0
+		air_base = 2
+		712 = {
+		     naval_base = 2
+			}
+		1929 = {
+		     naval_base = 2
+			}
+		}
 	}
 }

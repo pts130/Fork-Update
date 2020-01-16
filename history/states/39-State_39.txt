@@ -5,8 +5,9 @@ state={
 	provinces={
 		25 68 103 148 204 266 283 372 373 449 754 784 798 808 868 921 953 1002 1070 1705 1706 1707 1710 1712 1713 1725 1728 1737 
 	}
-	manpower=0
+	manpower=1850000000
 	buildings_max_level_factor=1.000
+	state_category = city
 	resources={
 		steel = 10
 		aluminium = 30
@@ -14,7 +15,20 @@ state={
 		tungsten = 30
 		oil = 50
 	}
-  	history = {
-		owner = DUR
+   	history = {
+	owner = DUR
+	buildings = {
+		infrastructure = 5
+		arms_factory = 1
+		industrial_complex = 4
+		dockyard = 2
+		air_base = 4
+		798 = {
+		     naval_base = 2
+			}
+		103 = {
+		     naval_base = 2
+			}
+		}
 	}
 }

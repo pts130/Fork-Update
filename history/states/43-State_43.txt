@@ -5,8 +5,9 @@ state={
 	provinces={
 		17 39 61 212 234 244 402 422 451 579 638 704 878 912 1081 1721 1727 1738 1743 1750 1756 1761 1765 1767 1772 1775 1776 1784 1785 
 	}
-	manpower=0
+	manpower=5000000000
 	buildings_max_level_factor=1.000
+    state_category = large_city
 	resources={
 		steel = 20
 		aluminium = 24
@@ -14,7 +15,20 @@ state={
 		tungsten = 24
 		oil = 40
 	}
-  	history = {
-		owner = FON
+   	history = {
+	owner = FON
+	buildings = {
+		infrastructure = 6
+		arms_factory = 2
+		industrial_complex = 6
+		dockyard = 2
+		air_base = 2
+		878 = {
+		     naval_base = 2
+			}
+		1785 = {
+		     naval_base = 2
+			}
+		}
 	}
 }

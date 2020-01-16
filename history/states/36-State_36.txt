@@ -5,8 +5,9 @@ state={
 	provinces={
 		74 92 97 99 215 222 228 369 427 513 589 631 673 717 1629 1630 1635 1642 1654 1659 1660 1662 1667 1677 1679 1684 1685 1686 1689 1690 1696 
 	}
-	manpower=0
+	manpower=30000000
 	buildings_max_level_factor=1.000
+    state_category = rural
 	resources={
 		steel = 80
 		aluminium = 80
@@ -14,7 +15,20 @@ state={
 		tungsten = 80
 		oil = 80
 	}
-  	history = {
-		owner = KYK
+   	history = {
+	owner = KYK
+	buildings = {
+		infrastructure = 1
+		arms_factory = 0
+		industrial_complex = 0
+		dockyard = 0
+		air_base = 2
+		717 = {
+		     naval_base = 2
+			}
+		1684 = {
+		     naval_base = 2
+			}
+		}
 	}
 }

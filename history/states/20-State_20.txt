@@ -5,8 +5,9 @@ state={
 	provinces={
 		126 174 206 223 224 295 358 506 550 641 668 931 977 995 1346 1348 1352 1362 1365 1375 1384 1385 1391 1395 1396 1397 1400 1401 1402 1408 
 	}
-	manpower=0
+	manpower=2300000
 	buildings_max_level_factor=1.000
+    state_category = rural
 	resources={
 		steel = 10
 		aluminium = 30
@@ -14,7 +15,20 @@ state={
 		tungsten = 30
 		oil = 50
 	}
-  	history = {
-		owner = FRE
+   	history = {
+	owner = FRE
+	buildings = {
+		infrastructure = 5
+		arms_factory = 0
+		industrial_complex = 4
+		dockyard = 0
+		air_base = 2
+		1346 = {
+		     naval_base = 2
+			}
+		931 = {
+		     naval_base = 2
+			}
+		}
 	}
 }

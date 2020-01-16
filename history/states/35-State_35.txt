@@ -5,8 +5,9 @@ state={
 	provinces={
 		33 67 157 342 429 574 609 614 647 813 986 1009 1616 1617 1622 1625 1628 1631 1632 1638 1639 1645 1648 1655 1658 1661 1671 1672 1680 1681 1682 1688 
 	}
-	manpower=0
+	manpower=3000000000
 	buildings_max_level_factor=1.000
+	state_category = metropolis
 	resources={
 		steel = 10
 		aluminium = 50
@@ -14,7 +15,20 @@ state={
 		tungsten = 50
 		oil = 80
 	}
-  	history = {
-		owner = CLA
+   	history = {
+	owner = CLA
+	buildings = {
+		infrastructure = 6
+		arms_factory = 2
+		industrial_complex = 6
+		dockyard = 2
+		air_base = 4
+		1617 = {
+		     naval_base = 2
+			}
+		1688 = {
+		     naval_base = 2
+			}
+		}
 	}
 }

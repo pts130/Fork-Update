@@ -5,8 +5,9 @@ state={
 	provinces={
 		35 64 125 246 259 272 439 521 752 781 877 905 907 970 1013 1549 1553 1555 1556 1564 1568 1570 1574 1578 1583 1584 1589 1594 1595 1601 1604 
 	}
-	manpower=0
+	manpower=600000000000
 	buildings_max_level_factor=1.000
+	state_category = megalopolis
 	resources={
 		steel = 30
 		aluminium = 45
@@ -14,7 +15,20 @@ state={
 		tungsten = 45
 		oil = 50
 	}
-  	history = {
-		owner = REN
+   	history = {
+	owner = REN
+	buildings = {
+		infrastructure = 6
+		arms_factory = 2
+		industrial_complex = 4
+		dockyard = 6
+		air_base = 2
+		907 = {
+		     naval_base = 2
+			}
+        1604 = {
+		     naval_base = 2
+			}
+		}
 	}
 }

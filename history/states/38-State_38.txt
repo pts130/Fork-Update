@@ -5,8 +5,9 @@ state={
 	provinces={
 		2 18 30 55 132 193 282 382 475 541 685 811 946 1033 1065 1077 1668 1670 1678 1691 1692 1695 1697 1699 1701 1703 1704 1708 1709 1711 
 	}
-	manpower=0
+	manpower=45000000
 	buildings_max_level_factor=1.000
+	state_category = city
 	resources={
 		steel = 30
 		aluminium = 30
@@ -15,7 +16,20 @@ state={
 		chromium = 30
 		oil = 40
 	}
-  	history = {
-		owner = ABR
+   	history = {
+	owner = ABR
+	buildings = {
+		infrastructure = 5
+		arms_factory = 2
+		industrial_complex = 6
+		dockyard = 1
+		air_base = 4
+		1711 = {
+		     naval_base = 2
+			}
+		1701 = {
+		     naval_base = 2
+			}
+		}
 	}
 }

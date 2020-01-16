@@ -5,8 +5,9 @@ state={
 	provinces={
 		13 38 71 145 198 304 435 453 483 547 583 756 851 951 1085 1719 1729 1731 1736 1742 1745 1747 1753 1758 1759 1760 1762 1766 1771 1774 
 	}
-	manpower=0
+	manpower=900000000
 	buildings_max_level_factor=1.000
+    state_category = large_town
 	resources={
 		steel = 30
 		aluminium = 10
@@ -14,7 +15,20 @@ state={
 		tungsten = 10
 		oil = 20
 	}
-  	history = {
-		owner = RAT
+   	history = {
+   	owner = RAT
+	buildings = {
+		infrastructure = 2
+		arms_factory = 1
+		industrial_complex = 3
+		dockyard = 1
+		air_base = 1
+		2768 = {
+		     naval_base = 4
+			}
+		38 = {
+		     naval_base = 4
+			}
+		}
 	}
 }

@@ -5,16 +5,36 @@ state={
 	provinces={
 		156 217 297 355 404 463 690 751 757 843 846 1447 1448 1450 1456 1457 1459 1460 1463 1464 1465 1468 1474 1476 1479 1481 1483 1486 1494 1496 1505 1507 
 	}
-	manpower=0
+	manpower=3600000000
 	buildings_max_level_factor=1.000
+    state_category = metropolis
 	resources={
 		steel = 20
 		aluminium = 50
 		rubber = 20
 		tungsten = 50
-		oil = 100
+		oil = 80
 	}
-  	history = {
-		owner = KUA
+   	history = {
+	owner = KUA
+	buildings = {
+		infrastructure = 6
+		arms_factory = 2
+		industrial_complex = 4
+		dockyard = 8
+		air_base = 4
+		404 = {
+		     naval_base = 2
+			}
+		1448 = {
+		     naval_base = 2
+			}
+		1468 = {
+		     naval_base = 2
+			}
+		751 = {
+		     naval_base = 2
+			}
+		}
 	}
 }

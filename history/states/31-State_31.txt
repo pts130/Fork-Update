@@ -5,13 +5,28 @@ state={
 	provinces={
 		36 48 187 200 208 341 431 458 486 568 586 719 1030 1094 1558 1559 1562 1566 1572 1577 1580 1586 1590 1592 1593 1599 1602 1605 1608 1612 1618 
 	}
-	manpower=0
+	manpower=42000000
 	buildings_max_level_factor=1.000
+    state_category = rural
 	resources={
 		steel = 50
 		rubber = 30
 	}
-  	history = {
-		owner = TRA
+   	history = {
+	owner = TRA
+       	buildings = {
+		infrastructure = 2
+		arms_factory = 2
+		industrial_complex = 4
+		dockyard = 2
+		air_base = 2
+		1605 = {
+		     naval_base = 2
+			}
+		187 = {
+		     naval_base = 2
+			}
+		
+		}
 	}
 }

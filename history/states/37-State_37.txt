@@ -5,9 +5,23 @@ state={
 	provinces={
 		101 119 124 604 663 664 825 854 859 908 924 957 972 1034 1048 1649 1650 1656 1663 1669 1673 1676 1683 1687 1693 1694 1698 1700 1702 
 	}
-	manpower=0
+	manpower=4000000000
 	buildings_max_level_factor=1.000
-  	history = {
-		owner = BOZ
-	}
+	state_category = metropolis
+   	history = {
+	owner = BOZ
+	buildings = {
+		infrastructure = 1
+		arms_factory = 0
+		industrial_complex = 0
+		dockyard = 0
+		air_base = 1
+		1650 = {
+		     naval_base = 2
+			}
+		1702 = {
+		     naval_base = 2
+			}
+		}
+	}	
 }

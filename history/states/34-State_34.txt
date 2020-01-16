@@ -5,14 +5,28 @@ state={
 	provinces={
 		21 189 202 441 594 649 691 738 888 890 1041 1060 1610 1611 1615 1621 1623 1626 1636 1640 1646 1651 1652 1657 1664 1665 1666 1674 1675 
 	}
-	manpower=0
+	manpower=8500000
 	buildings_max_level_factor=1.000
+	state_category = city
 	resources={
 		steel = 10
 		rubber = 15
 		oil = 10
 	}
-  	history = {
-		owner = CAT
+   	history = {
+	owner = CAT
+	buildings = {
+		infrastructure = 6
+		arms_factory = 2
+		industrial_complex = 6
+		dockyard = 3
+		air_base = 2
+		1041 = {
+		     naval_base = 2
+			}
+		202 = {
+		     naval_base = 2
+			}
+		}
 	}
 }

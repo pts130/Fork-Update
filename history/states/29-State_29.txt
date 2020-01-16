@@ -5,13 +5,27 @@ state={
 	provinces={
 		9 31 65 66 93 207 265 303 633 700 708 728 799 805 1001 1529 1530 1538 1548 1551 1557 1560 1561 1565 1567 1575 1579 
 	}
-	manpower=0
+	manpower=14000000000
 	buildings_max_level_factor=1.000
+ 	state_category = town
 	resources={
 		steel = 20
 		rubber = 10
 	}
-  	history = {
-		owner = SAL
+   	history = {
+   		owner = SAL
+       	buildings = {
+		infrastructure = 4
+		arms_factory = 2
+		industrial_complex = 4
+		dockyard = 2
+		air_base = 4
+		700 = {
+		     naval_base = 2
+			}
+		1001 = {
+		     naval_base = 2
+			}
+		}
 	}
 }

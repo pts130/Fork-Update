@@ -5,8 +5,9 @@ state={
 	provinces={
 		1 72 113 221 469 478 582 656 722 839 866 926 1082 1806 1807 1811 1814 1816 1817 1818 1820 1821 1823 1824 1825 1826 1827 1830 1833 1835 
 	}
-	manpower=0
+	manpower=10000000
 	buildings_max_level_factor=1.000
+    state_category = rural
 	resources={
 		steel = 10
 		aluminium = 10
@@ -14,7 +15,19 @@ state={
 		tungsten = 10
 		oil = 10
 	}
-  	history = {
-		owner = HON
+    history = {
+	owner = HON
+	buildings = {
+		infrastructure = 5
+		arms_factory = 2
+		industrial_complex = 6
+		dockyard = 2
+		1816 = {
+		     naval_base = 2
+			}
+		1082 = {
+		     naval_base = 2
+			}
+		}
 	}
 }

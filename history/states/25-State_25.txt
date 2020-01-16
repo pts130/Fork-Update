@@ -5,8 +5,9 @@ state={
 	provinces={
 		59 90 169 176 269 337 470 669 862 893 904 1019 1074 1089 1458 1467 1473 1477 1478 1482 1484 1491 1493 1495 1499 1503 1504 1510 1511 1512 1513 
 	}
-	manpower=0
+	manpower=27000000000
 	buildings_max_level_factor=1.000
+    state_category = large_city
 	resources={
 		steel = 50
 		aluminium = 60
@@ -16,5 +17,18 @@ state={
 	}
   	history = {
 		owner = CAL
+		buildings = {
+			infrastructure = 1
+			arms_factory = 4
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 1
+			1074 = {
+			     naval_base = 2
+				}
+			1089 = {
+			     naval_base = 2
+				}
+		}
 	}
 }
