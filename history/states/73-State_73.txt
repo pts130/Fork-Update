@@ -1,0 +1,20 @@
+#Polis massa
+state={
+	id=73
+	name="STATE_73"
+	provinces={
+		20 37 76 165 210 233 248 296 370 399 498 527 530 603 800 821 828 849 898 920 1032 1053 1083 1087 1092 2219 2223 2227 2230 2231 2232 2241 2245 2251 2254 2259 2260 2261 2263 2267 2268 2273 2274 2275 2276 2277 2279 2280 2281 2283 2285 
+	}
+	manpower=850000
+	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
+  	history = {
+		owner = POL
+	}
+}

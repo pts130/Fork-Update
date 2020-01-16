@@ -1,43 +1,32 @@
-#coruscant
+#Alderaan
 state={
 	id=21
 	name="STATE_21"
 	provinces={
-		47 80 100 102 119 166 200 289 309 340 433 472 601 651 654 666 749 787 879 912 1139 1178 1214 1223 1237 1284 1353 1360 1370 1400 1468 2194 2195 2199 2207 2214 2222 2232 2233 2240 2251 2252 2254 2256 2264 2267 2269 2279 2282 2287 2291 2292 2295 2298 2304 2307 2309 2325 2329 2332 2335 2345 2346 2348 2356 2362 
+		45 123 363 378 398 455 514 557 651 900 1003 1057 1404 1405 1406 1409 1410 1411 1412 1413 1414 1415 1416 1417 1418 1419 1420 1422 1423 1425 1427 1430 
 	}
-	manpower = 999999999
+	manpower=2000000000
 	buildings_max_level_factor=1.000
-	state_category = megalopolis
+	state_category = city
 	resources={
-		steel = 60
-		aluminium = 60
-		rubber = 60
-		tungsten = 60
-		oil = 80
+		steel = 15
+		aluminium = 15
+		oil = 15
 	}
    	history = {
-	owner = REP
+	owner = ALD
 	buildings = {
 		infrastructure = 8
-		arms_factory = 2
-		industrial_complex = 10
-		dockyard = 4
-		air_base = 6
-		1178 = {
+		arms_factory = 1
+		industrial_complex = 8
+		dockyard = 1
+		air_base = 2
+		1409 = {
 		     naval_base = 2
 			}
-		2291 = {
-		     naval_base = 2
-			}
-		2194 = {
-		     naval_base = 2
-			}
-		1237 = {
+		1057 = {
 		     naval_base = 2
 			}
 		}
-		add_core_of = REP
-		victory_points = {
-			2298 120
 	}
 }

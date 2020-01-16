@@ -1,0 +1,20 @@
+#Dagobah
+state={
+	id=70
+	name="STATE_70"
+	provinces={
+		60 184 284 367 388 390 416 430 587 702 718 856 909 984 999 2187 2191 2193 2195 2201 2204 2208 2210 2214 2224 2228 2233 2236 2242 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
+  	history = {
+		owner = DAG
+	}
+}

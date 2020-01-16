@@ -1,0 +1,20 @@
+#Bespin
+state={
+	id=59
+	name="STATE_59"
+	provinces={
+		121 275 335 419 532 548 596 667 675 684 764 844 916 998 1999 2003 2006 2007 2010 2011 2013 2015 2019 2021 2023 2024 2028 2032 2035 2038 2041 2048 2049 2051 
+	}
+	manpower=6000000
+	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
+  	history = {
+		owner = BES
+	}
+}

@@ -1,6 +1,6 @@
-﻿capital = 21
+﻿capital = 17
 
-oob = "REP_1936"
+oob = "REP_3677"
 set_research_slots = 3
 set_stability = 0.7
 set_war_support = .10
@@ -248,6 +248,69 @@ create_corps_commander = {
 create_corps_commander = {
  	name = "Clone Commander"
  	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Commander Bacara"
+ 	portrait_path = "gfx/leaders/REP/Bacara_P1.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Commander Bly"
+ 	portrait_path = "gfx/leaders/REP/Bly_P1.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Commander Cody"
+ 	portrait_path = "gfx/leaders/REP/Cody_P1.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Commander Fox"
+ 	portrait_path = "gfx/leaders/REP/Fox_P1.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Commander Gree"
+ 	portrait_path = "gfx/leaders/REP/Gree_P1.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Commander Rex"
+ 	portrait_path = "gfx/leaders/REP/Rex_P1.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Commander Wolffe"
+ 	portrait_path = "gfx/leaders/REP/Woffe_P1.dds"
  	traits = { panzer_leader fortress_buster }
  	attack_skill = 3
 	defense_skill = 2

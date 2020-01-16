@@ -1,0 +1,31 @@
+#Christophsis
+state={
+	id=61
+	name="STATE_61"
+	provinces={
+		51 118 239 240 314 349 356 397 509 517 879 885 990 1058 2053 2055 2058 2061 2065 2068 2071 2073 2075 2077 2083 2085 2087 2094 2098 2101 2102 
+	}
+	manpower=100000000
+	buildings_max_level_factor=1.000
+	state_category = large_city
+   	history = {
+	owner = CHR
+	buildings = {
+		infrastructure = 6
+		arms_factory = 2
+		industrial_complex = 6
+		dockyard = 2
+		air_base = 2
+		356 = {
+		     naval_base = 2
+			}
+		2102 = {
+		     naval_base = 2
+			}
+		}
+	}
+}
+
+###GO
+###BLUE
+###RAIDERS

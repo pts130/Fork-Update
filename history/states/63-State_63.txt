@@ -1,0 +1,20 @@
+#Eriadu
+state={
+	id=63
+	name="STATE_63"
+	provinces={
+		14 87 107 141 178 209 353 421 479 623 746 769 789 845 2060 2067 2070 2074 2076 2079 2081 2082 2086 2088 2092 2093 2097 2100 2104 2105 2106 
+	}
+	manpower=22000000000
+	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
+  	history = {
+		owner = ERI
+	}
+}

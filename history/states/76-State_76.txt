@@ -1,0 +1,27 @@
+#Utupau
+state={
+	id=76
+	name="STATE_76"
+	provinces={
+		58 94 159 231 375 387 442 482 540 619 630 658 726 755 971 1049 2288 2290 2294 2295 2297 2299 2301 2302 2303 2306 2307 2308 2309 
+	}
+	manpower=100000000
+	buildings_max_level_factor=1.000
+    state_category = town
+   	history = {
+	owner = UTU
+	buildings = {
+		infrastructure = 4
+		arms_factory = 2
+		industrial_complex = 6
+		dockyard = 2
+		air_base = 4
+		2303 = {
+		     naval_base = 2
+			}
+		375 = {
+		     naval_base = 2
+			}
+		}
+	}
+}

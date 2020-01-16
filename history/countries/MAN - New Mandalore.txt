@@ -1,6 +1,6 @@
-﻿capital = 7
+﻿capital = 14
 
-oob = "MAN_1936"
+oob = "MAN_3677"
 set_research_slots = 2
 set_stability = 0.7
 set_war_support = .2

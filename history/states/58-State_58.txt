@@ -1,0 +1,35 @@
+#Naboo
+state={
+	id=58
+	name="STATE_58"
+	provinces={
+		139 151 166 317 323 359 432 560 561 634 654 666 725 786 897 958 966 1993 1994 1998 2000 2005 2017 2018 2022 2025 2027 2033 2034 2043 
+	}
+	manpower=600000000
+	buildings_max_level_factor=1.000
+    state_category = large_town
+	resources={
+		steel = 60
+		aluminium = 30
+		rubber = 30
+		tungsten = 30
+		chromium = 30
+		oil = 50
+	}
+   	history = {
+	owner = NAB
+	buildings = {
+		infrastructure = 7
+		arms_factory = 2
+		industrial_complex = 6
+		dockyard = 2
+		air_base = 3
+		432 = {
+		     naval_base = 2
+			}
+		634 = {
+		     naval_base = 2
+			}
+		}
+	}
+}

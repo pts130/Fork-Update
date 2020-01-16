@@ -1,37 +1,20 @@
-###mechis iii
+#Mimban
 state={
 	id=40
 	name="STATE_40"
 	provinces={
-		2 5 145 220 223 310 334 374 498 602 678 694 767 790 840 886 941 997 1082 1085 1101 1130 1147 1149 1160 1221 1266 1301 1394 1403 1407 1416 1440 1476 2955 2957 2963 2965 2966 2984 2992 3000 3001 3010 3011 3016 3022 3023 3026 3030 3032 3033 3036 3041 3043 3046 3050 3052 3053 3056 3058 3060 3065 3068 3069 
+		135 153 183 253 264 310 339 376 391 625 699 709 740 779 840 896 1715 1717 1720 1724 1726 1730 1734 1739 1741 1748 1754 1755 1777 
 	}
-	manpower=73
+	manpower=1000000
 	buildings_max_level_factor=1.000
-    state_category = metropolis
 	resources={
-		steel = 60
-		aluminium = 40
-		rubber = 10
-		tungsten = 40
-		oil = 40
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
 	}
-   	history = {
-	owner = REP
-	buildings = {
-		infrastructure = 1
-		arms_factory = 6
-		industrial_complex = 0
-		dockyard = 0
-		air_base = 1
-		1394 = {
-		     naval_base = 2
-			}
-		}
-		add_core_of = REP
-		3678.1.1 = {
-			owner = CIS
-			controller = CIS
-			add_core_of = CIS
-		}
+  	history = {
+		owner = MIM
 	}
 }

@@ -1,0 +1,39 @@
+#Geonosis
+state={
+	id=71
+	name="STATE_71"
+	provinces={
+		188 354 401 525 528 552 626 705 736 820 915 923 952 1026 2185 2188 2190 2199 2202 2206 2207 2212 2213 2216 2217 2225 2229 2234 2235 2243 2244 
+	}
+	manpower=100000000000
+	buildings_max_level_factor=1.000
+        state_category = megalopolis
+
+	resources={
+		steel = 80
+		aluminium = 40
+		rubber = 10
+		tungsten = 40
+		oil = 40
+	}
+
+  	history = {
+	owner = GEO
+	buildings = {
+		infrastructure = 2
+		arms_factory = 10
+		industrial_complex = 3
+		dockyard = 1
+		air_base = 2
+		2188 = {
+		     naval_base = 2
+			}
+		626 = {
+		     naval_base = 2
+			}
+		2206 = {
+		     naval_base = 2
+			}
+		}
+	}
+}

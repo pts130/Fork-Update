@@ -1,6 +1,6 @@
-﻿capital = 26
+﻿capital = 46
 
-oob = "HON_1936"
+oob = "HON_3677"
 set_research_slots = 2
 set_stability = 0.7
 set_war_support = .6

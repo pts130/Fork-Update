@@ -1,0 +1,20 @@
+#Rothana
+state={
+	id=65
+	name="STATE_65"
+	provinces={
+		15 44 75 127 529 592 686 832 867 1011 2107 2108 2109 2110 2111 2113 2114 2118 2120 2121 2122 2124 2129 2130 2132 2138 2142 2143 2154 2158 2163 2164 
+	}
+	manpower=6000000000
+	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
+  	history = {
+		owner = ROT
+	}
+}

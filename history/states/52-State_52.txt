@@ -1,0 +1,20 @@
+#Toydaria
+state={
+	id=52
+	name="STATE_52"
+	provinces={
+		29 173 262 288 386 412 567 621 660 683 741 918 928 974 1093 1882 1895 1902 1908 1911 1913 1914 1916 1917 1920 1921 1922 1925 1928 
+	}
+	manpower=11000000
+	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
+  	history = {
+		owner = TRO
+	}
+}

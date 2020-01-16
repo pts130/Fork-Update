@@ -1,0 +1,88 @@
+﻿division_template = {
+	name = "Clone Trooper Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+
+division_template = {
+	name = "Republic Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Tank Division"				
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		
+		light_armor = { x = 0 y = 1 }		
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+	support = {
+			recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+	}
+}
+
+
+###########################################UNITS###########################################
+
+units = {
+	division= {	
+		name = "1. Clone Trooper Division"
+		location = 256 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "2. Clone Trooper Division"
+		location = 748 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "3. Clone Trooper Division"
+		location = 1357 #coruscant
+		division_template = "Clone Trooper Division"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Republic Garrison"
+		location = 1341 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 1336 #coruscant
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+
+	division= {	
+		name = "Republic Garrison"
+		location = 327 #rishimoon
+		division_template = "Republic Garrison"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+	}
+}

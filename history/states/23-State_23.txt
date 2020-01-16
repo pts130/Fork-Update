@@ -1,40 +1,20 @@
-###Umbara
+#Roche asteroids
 state={
 	id=23
 	name="STATE_23"
 	provinces={
-		20 110 122 133 170 217 293 294 323 339 388 414 424 522 555 560 665 668 721 728 780 929 1003 1061 1084 1120 1234 1306 1361 1447 1488 2299 2302 2316 2319 2322 2326 2334 2338 2342 2355 2360 2368 2373 2375 2380 2382 2385 2389 2390 2393 2395 2396 2399 2403 2408 2409 2410 2430 2431 2449 2458 2464 2465 
+		40 110 120 191 226 255 258 279 286 311 312 324 325 332 380 490 504 721 790 803 938 1051 1435 1439 1440 1441 1443 1444 1445 1446 1449 1451 1452 1453 1454 1455 1461 1462 1466 1469 1470 1471 1472 1475 1480 1485 1487 1490 1497 1500 1506 
 	}
-	manpower=90000000
+	manpower=1618000
 	buildings_max_level_factor=1.000
-    state_category = large_city
 	resources={
-		steel = 50
-		aluminium = 70
-		rubber = 25
-		tungsten = 40
-		oil = 100
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
 	}
-   	history = {
-	owner = REP
-	buildings = {
-		infrastructure = 10
-		arms_factory = 6
-		industrial_complex = 8
-		dockyard = 6
-		air_base = 4
-		2360 = {
-		     naval_base = 2
-			}
-		1234 = {
-		     naval_base = 2
-			}
-		}
-		add_core_of = REP
-		3678.1.1 = {
-			owner = CIS
-			controller = CIS
-			add_core_of = CIS
-		}
+  	history = {
+		owner = ROC
 	}
 }

@@ -1,32 +1,30 @@
-###ratattak
+#Kessel
 state={
 	id=41
 	name="STATE_41"
 	provinces={
-		12 22 86 153 182 268 277 301 368 394 525 552 576 698 699 716 784 815 862 873 878 958 961 1034 1170 1240 1276 1334 1351 1384 1445 1450 1480 2978 2980 2982 2985 2990 2991 2995 2999 3002 3003 3004 3012 3014 3015 3019 3027 3028 3029 3037 3038 3040 3042 3051 3055 3057 3063 3064 3067 3071 3072 3074 3075 3079 
+		16 27 83 160 181 241 281 377 379 445 473 501 511 515 585 588 671 682 710 743 836 853 870 903 930 1028 1069 1078 1714 1716 1718 1722 1723 1732 1733 1735 1740 1744 1746 1749 1751 1752 1757 1768 1769 1773 1782 1791 1792 1796 
 	}
-	manpower=900000000
+	manpower=11000
 	buildings_max_level_factor=1.000
-    state_category = large_town
+    state_category = city
 	resources={
-		steel = 30
+		steel = 10
 		aluminium = 10
-		rubber = 15
+		rubber = 10
 		tungsten = 10
-		oil = 20
+		oil = 100
 	}
    	history = {
+	owner = KES
 	buildings = {
-		infrastructure = 2
-		arms_factory = 1
+		infrastructure = 1
+		arms_factory = 0
 		industrial_complex = 3
 		dockyard = 1
-		air_base = 1
-		3075 = {
-		     naval_base = 4
-			}
-		716 = {
-		     naval_base = 4
+		air_base = 2
+		1735 = {
+		     naval_base = 2
 			}
 		}
 	}

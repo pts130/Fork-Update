@@ -1,42 +1,35 @@
-###Felucia
+#muunilinst
 state={
 	id=1
 	name="STATE_1"
 	provinces={
-		39 142 324 354 381 445 514 520 621 634 690 713 729 759 779 803 831 848 871 953 1081 1192 1238 1308 1319 1332 1389 1449 1487 1496 1497 1499 1500 1501 1505 1506 1509 1511 1512 1514 1515 1516 1519 1520 1521 1526 1527 1533 1536 1542 1543 1545 1559 1560 1562 1563 1572 1580 1581 1584 1586 1593 1596 1597 1603 1604 1615 1617 
+		170 306 471 503 563 584 613 657 713 739 922 989 1038 1096 1097 1098 1099 1100 1101 1102 1103 1104 1105 1106 1107 1108 1109 1110 1111 1113 1114 
 	}
-	manpower=10000000
+	manpower=5000000000
 	buildings_max_level_factor=1.000
-   	state_category = rural
+	state_category = metropolis
 	resources={
-		steel = 10
+		steel = 100
 		aluminium = 10
-		rubber = 14
-		tungsten = 5
+		rubber = 60
+		tungsten = 10
+		oil = 40
 	}
-
   	history = {
-		owner = REP
+		owner = MUN
 		buildings = {
-			infrastructure = 1
-			arms_factory = 2
-			industrial_complex = 0
-			dockyard = 0
-			air_base = 2
-			1487 = {
-				naval_base = 2
-				}
-			1526 = {
-				naval_base = 2
-				}
+			infrastructure = 6
+			arms_factory = 6
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 4
+			1113 = {
+				naval_base = 4
+			}
+			1096= {
+				naval_base = 4
+			}
 
 		}
-		add_core_of = REP
-
-		3678.1.1 = {
-			owner = CIS
-			controller = CIS
-			add_core_of = CIS
-		}
-	}
+}
 }

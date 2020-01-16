@@ -40,9 +40,9 @@ set_popularities = {
 
 give_military_access = HUT
 create_country_leader = {
-	name = "Abyssinian Korr"
-	desc = "Alkharan Bandit King"
-	picture = "gfx/leaders/ALK/ALKa.tga"
+	name = "Alkharan Bandit"
+	desc = "Alkharan Bandit"
+	picture = "gfx/leaders/BRN/brent.dds"
 	expire = "2020.1.1"
 	ideology = stalinism
 	traits = {

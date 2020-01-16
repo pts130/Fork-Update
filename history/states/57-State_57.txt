@@ -1,0 +1,20 @@
+#Sullust
+state={
+	id=57
+	name="STATE_57"
+	provinces={
+		57 117 144 242 291 426 590 616 692 848 911 1031 1062 1067 1991 1992 1995 1997 2001 2004 2008 2009 2012 2014 2016 2020 2029 2036 2039 2044 
+	}
+	manpower=18500000000
+	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
+  	history = {
+		owner = SUL
+	}
+}

@@ -1,0 +1,20 @@
+#Malastare
+state={
+	id=55
+	name="STATE_55"
+	provinces={
+		106 195 196 243 260 285 290 440 493 533 652 863 871 875 891 978 1953 1955 1957 1961 1964 1965 1967 1969 1971 1974 1975 1977 1978 1980 
+	}
+	manpower=2000000000
+	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
+  	history = {
+		owner = MAL
+	}
+}

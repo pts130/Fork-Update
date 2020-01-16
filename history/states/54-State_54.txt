@@ -1,0 +1,34 @@
+#Bothawui
+state={
+	id=54
+	name="STATE_54"
+	provinces={
+		180 245 273 329 474 523 565 617 706 801 837 950 992 1948 1949 1950 1951 1952 1954 1956 1958 1959 1960 1962 1963 1966 1968 1970 1972 1973 
+	}
+	manpower=2500000000
+	buildings_max_level_factor=1.000
+	state_category = city
+	resources={
+		steel = 50
+		aluminium = 40
+		rubber = 40
+		tungsten = 40
+		oil = 40
+	}
+   	history = {
+	owner = BOT
+	buildings = {
+		infrastructure = 6
+		arms_factory = 2
+		industrial_complex = 4
+		dockyard = 0
+		air_base = 4
+		1973 = {
+		     naval_base = 2
+			}
+		180 = {
+		     naval_base = 2
+			}
+		}
+	}
+}

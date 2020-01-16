@@ -1,0 +1,34 @@
+#Kamino
+state={
+	id=60
+	name="STATE_60"
+	provinces={
+		49 192 250 278 343 408 413 491 591 758 852 901 914 965 2026 2030 2031 2037 2040 2042 2045 2046 2047 2050 2052 2054 2056 2059 2062 2078 
+	}
+	manpower=999999999
+	buildings_max_level_factor=1.000
+    state_category = metropolis
+	resources={
+		steel = 60
+		aluminium = 10
+		rubber = 30
+		tungsten = 10
+		oil = 30
+	}
+   	history = {
+	owner = KAM
+	buildings = {
+		infrastructure = 2
+		arms_factory = 8
+		industrial_complex = 0
+		dockyard = 1
+		air_base = 1
+		2026 = {
+		     naval_base = 2
+			}
+		914 = {
+		     naval_base = 2
+			}
+		}
+	}
+}

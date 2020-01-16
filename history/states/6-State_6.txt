@@ -1,43 +1,35 @@
-###Mon calamari
+#Ord Mantell
 state={
 	id=6
 	name="STATE_6"
 	provinces={
-		4 28 34 97 106 157 171 183 227 317 410 417 432 477 479 579 657 672 762 860 890 925 932 983 1030 1058 1096 1162 1206 1286 1405 1677 1681 1683 1686 1687 1688 1689 1690 1691 1692 1693 1694 1695 1696 1697 1698 1699 1700 1701 1702 1703 1704 1705 1706 1707 1708 1709 1710 1711 1712 1713 1714 1715 1716 1719 
+		6 89 162 276 405 437 542 575 606 612 655 830 919 1177 1178 1180 1181 1184 1187 1188 1196 1197 1198 1202 1203 1207 1208 1209 1213 1216 
 	}
-	manpower=27000000000
+	manpower=4000000000
 	buildings_max_level_factor=1.000
-    state_category = large_city
+	state_category = large_city
 	resources={
-		steel = 50
-		aluminium = 60
-		rubber = 30
-		tungsten = 60
-		oil = 100
+		steel = 40
+		aluminium = 20
+		rubber = 20
+		tungsten = 20
+		oil = 30
 	}
-  	history = {
-		owner = REP
-		buildings = {
-			infrastructure = 1
-			arms_factory = 4
-			industrial_complex = 4
-			dockyard = 2
-			air_base = 1
-			1695 = {
-			     naval_base = 2
-				}
-			1096 = {
-			     naval_base = 2
-				}
-		}
-		add_core_of = REP
-		3678.1.1 = {
-			owner = REP
-			controller = REP
-			add_core_of = REP
-		}
-		victory_points = {
-			925 30
+   	 history = {
+	owner = ORD
+	buildings = {
+		infrastructure = 6
+		arms_factory = 2
+		industrial_complex = 4
+		dockyard = 2
+		air_base = 3
+		276 = {
+		     naval_base = 2
+			}
+		655 = {
+		     naval_base = 2
+			}
+
 		}
 	}
 }

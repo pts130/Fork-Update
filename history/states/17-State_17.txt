@@ -1,37 +1,43 @@
-###corulag
+#Coruscant
 state={
 	id=17
 	name="STATE_17"
 	provinces={
-		14 19 29 162 185 238 256 273 274 402 444 461 627 764 772 773 781 841 902 950 993 998 1022 1093 1107 1183 1204 1309 1371 1390 1414 1423 1442 1454 1461 2120 2127 2130 2131 2134 2135 2139 2141 2143 2144 2145 2148 2150 2151 2153 2155 2162 2163 2164 2169 2176 2178 2187 2191 2192 2197 2212 
+		8 46 197 220 256 360 414 723 748 895 932 993 1035 1334 1336 1339 1340 1341 1342 1351 1354 1356 1357 1358 1363 1367 1368 1369 1376 1378 1381 1383 
 	}
-	manpower=15000000000
+	manpower = 999999999
 	buildings_max_level_factor=1.000
-	state_category = metropolis
+	state_category = megalopolis
 	resources={
-		steel = 12
-		aluminium = 12
-		rubber = 12
-		tungsten = 12
-		oil = 30
+		steel = 60
+		aluminium = 60
+		rubber = 60
+		tungsten = 60
+		oil = 80
 	}
    	history = {
-	owner = CLG
+	owner = REP
 	buildings = {
-		infrastructure = 9
+		infrastructure = 8
 		arms_factory = 2
-		industrial_complex = 6
-		dockyard = 2
-		air_base = 4
-		444 = {
+		industrial_complex = 10
+		dockyard = 4
+		air_base = 6
+		748 = {
 		     naval_base = 2
 			}
-		185 = {
+		8 = {
+		     naval_base = 2
+			}
+		1351 = {
+		     naval_base = 2
+			}
+		1334 = {
 		     naval_base = 2
 			}
 		}
-		add_core_of = CLG
+		add_core_of = REP
 		victory_points = {
-			461 60
+			256 120
 	}
 }

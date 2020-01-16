@@ -1,36 +1,35 @@
-###Carida
+#Felucia
 state={
 	id=12
 	name="STATE_12"
 	provinces={
-		7 44 94 137 253 270 279 359 366 382 386 434 540 613 618 629 636 709 725 775 867 964 984 1004 1050 1062 1075 1105 1239 1293 1343 1373 1459 1490 1859 1862 1870 1876 1880 1885 1889 1894 1900 1902 1903 1907 1908 1910 1911 1913 1923 1926 1928 1929 1931 1933 1934 1936 1939 1940 1943 1947 1948 1950 1953 1964 
+		270 271 309 351 714 765 787 824 869 947 948 987 1010 1252 1253 1256 1261 1263 1265 1270 1271 1276 1277 1280 1282 1283 1288 1293 1294 1295 
 	}
-	manpower=25000000
+	manpower=10000000
 	buildings_max_level_factor=1.000
-	state_category = town
+   	state_category = rural
 	resources={
-		steel = 30
-		aluminium = 40
-		rubber = 30
-		tungsten = 40
-		oil = 40
+		steel = 10
+		aluminium = 10
+		rubber = 14
+		tungsten = 5
 	}
-   	 history = {
-	owner = CAR
-	buildings = {
-		infrastructure = 1
-		arms_factory = 0
-		industrial_complex = 2
-		dockyard = 0
-		air_base = 1
-		1947 = {
-		     naval_base = 2
-			}
-		382 = {
-		     naval_base = 2
-			}
 
+  	history = {
+		owner = FEL
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 0
+			air_base = 2
+			947 = {
+				naval_base = 2
+				}
+			1295 = {
+				naval_base = 2
+				}
+
+		}
 	}
-		add_core_of = CAR
-}
 }

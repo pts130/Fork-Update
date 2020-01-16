@@ -1,0 +1,20 @@
+#Hoth
+state={
+	id=62
+	name="STATE_62"
+	provinces={
+		32 263 318 464 468 518 553 701 711 771 806 810 818 826 1024 2057 2063 2064 2066 2069 2072 2080 2084 2089 2090 2095 2096 2099 2103 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
+  	history = {
+		owner = HOT
+	}
+}

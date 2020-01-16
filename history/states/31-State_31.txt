@@ -1,37 +1,32 @@
-###duro
+#Trandosha
 state={
 	id=31
 	name="STATE_31"
 	provinces={
-		82 120 264 281 307 346 349 379 425 436 556 646 676 686 687 734 774 804 820 908 963 1019 1254 1269 1281 1294 1342 1456 1458 2647 2649 2651 2653 2657 2659 2662 2663 2664 2666 2668 2672 2674 2675 2681 2682 2685 2686 2687 2690 2691 2693 2694 2695 2697 2700 2701 2702 2704 2705 2709 2710 2711 2712 2713 2717 2718 2720 2724 2727 2730 
+		36 48 187 200 208 341 431 458 486 568 586 719 1030 1094 1558 1559 1562 1566 1572 1577 1580 1586 1590 1592 1593 1599 1602 1605 1608 1612 1618 
 	}
-	manpower=1850000000
+	manpower=42000000
 	buildings_max_level_factor=1.000
-	state_category = city
+    state_category = rural
 	resources={
-		steel = 10
-		aluminium = 30
-		rubber = 20
-		tungsten = 30
-		oil = 50
+		steel = 50
+		rubber = 30
 	}
    	history = {
-	owner = REP
-	buildings = {
-		infrastructure = 5
-		arms_factory = 1
+	owner = TRA
+       	buildings = {
+		infrastructure = 2
+		arms_factory = 2
 		industrial_complex = 4
 		dockyard = 2
-		air_base = 4
-		1458 = {
+		air_base = 2
+		1605 = {
 		     naval_base = 2
 			}
-		}
-		add_core_of = REP
-		3678.1.1 = {
-			owner = CIS
-			controller = CIS
-			add_core_of = CIS
+		187 = {
+		     naval_base = 2
+			}
+		
 		}
 	}
 }

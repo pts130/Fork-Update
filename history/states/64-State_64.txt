@@ -1,0 +1,20 @@
+#Rishi Moon
+state={
+	id=64
+	name="STATE_64"
+	provinces={
+		161 307 327 639 2091 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	resources={
+		steel = 12
+		aluminium = 12
+		rubber = 12
+		tungsten = 12
+		oil = 30
+	}
+  	history = {
+		owner = REP
+	}
+}

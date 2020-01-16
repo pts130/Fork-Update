@@ -1,29 +1,42 @@
-###Ithor
+#Mygeeto
 state={
 	id=3
 	name="STATE_3"
 	provinces={
-		180 193 231 239 333 357 365 377 391 483 500 573 583 640 662 722 727 769 972 994 1027 1051 1059 1106 1137 1148 1202 1215 1303 1380 1410 1436 1465 1484 1523 1529 1530 1539 1544 1553 1554 1555 1573 1574 1594 1614 1624 1626 1628 1637 1639 1641 1642 1648 1651 1652 1656 1659 1662 1669 
+		26 41 77 289 362 400 424 695 762 768 831 941 954 981 1076 1121 1123 1125 1126 1128 1130 1131 1134 1135 1136 1137 1138 1139 
 	}
-	manpower=2000000000
 	buildings_max_level_factor=1.000
-	state_category = metropolis
 	resources={
-		steel = 24
-		aluminium = 24
-		rubber = 24
-		tungsten = 24
-		oil = 24
+		steel = 20
+		aluminium = 20
+		rubber = 10
+		tungsten = 20
+		oil = 20
+	}
+	manpower=19000000
+	buildings_max_level_factor=1.000
+	state_category = city
+	resources={
+		steel = 20
+		aluminium = 20
+		rubber = 10
+		tungsten = 20
+		oil = 20
 	}
   	history = {
-		owner = ITH
+		owner = MYG
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 			arms_factory = 2
-			industrial_complex = 6
-			dockyard = 2
-			air_base = 4
+			industrial_complex = 4
+			dockyard = 0
+			air_base = 3
+			1076 = {
+			     naval_base = 2
+				}
+			1128 = {
+			     naval_base = 2
+				}
 		}
-		add_core_of = ITH
 	}
 }
