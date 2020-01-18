@@ -1,8 +1,8 @@
-name="Dev build"
-path="C:/Users/Parke/Documents/Paradox Interactive/Hearts of Iron IV/mod/hydrabeta"
+version="1.0"
 replace_path="history/states"
 tags={
 	"Map"
 	"Utilities"
 }
-supported_version="1.8.1"
+name="Dev build"
+supported_version="1.8.*"
