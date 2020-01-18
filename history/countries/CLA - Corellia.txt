@@ -45,6 +45,7 @@ set_popularities = {
 	elections_allowed = no
 }
 
+give_guarantee = REP
 give_military_access = REP
 
 create_country_leader = {

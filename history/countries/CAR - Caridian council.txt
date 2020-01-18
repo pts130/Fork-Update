@@ -39,6 +39,7 @@ set_popularities = {
 	communism = 1
 }
 
+give_guarantee = REP
 give_military_access = REP
 
 create_country_leader = {

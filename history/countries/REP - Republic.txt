@@ -55,37 +55,48 @@ set_popularities = {
 }
 
 create_faction = GalacticRepublic
-add_to_faction = REP
+add_to_faction = ABR
 add_to_faction = ALD
-add_to_faction = ATZ
-add_to_faction = BOT
+add_to_faction = ANA
 add_to_faction = CAR
-add_to_faction = CLG
-add_to_faction = CRL
-add_to_faction = TLZ
+add_to_faction = CLA
+add_to_faction = ITH
+add_to_faction = KYK
+add_to_faction = KUA
+add_to_faction = CAL
+add_to_faction = ROD
+add_to_faction = ROT
+
+
+give_guarantee = ABR
+give_military_access = ABR
 
 give_guarantee = ALD
 give_military_access = ALD
 
-give_guarantee = TLZ
-give_military_access = TLZ
-
-give_guarantee = ATZ
-give_military_access = ATZ
-
-
-give_guarantee = BOT
-give_military_access = BOT
-
-
+give_guarantee = ANA
+give_military_access = ANA
+ 
 give_guarantee = CAR
 give_military_access = CAR
 
-give_guarantee = CLG
-give_military_access = CLG
+give_guarantee = CLA
+give_military_access = CLA
 
-give_guarantee = CRL
-give_military_access = CRL
+give_guarantee = ITH
+give_military_access = ITH
+
+give_guarantee = KUA
+give_military_access = KUA
+
+give_guarantee = CAL
+give_military_access = CAL
+
+give_guarantee = ROD
+give_military_access = ROD
+
+give_guarantee = ROT
+give_military_access = ROT
 
 
 create_country_leader = {

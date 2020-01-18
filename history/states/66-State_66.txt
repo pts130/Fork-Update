@@ -29,6 +29,6 @@ state={
 		     		naval_base = 2
 				}
 			}
-	owner = MUS
+	owner = TEC
 		}
 	}
