@@ -39,6 +39,8 @@ set_popularities = {
 	neutrality = 50
 }
 
+
+give_guarantee = REP
 give_military_access = REP
 add_ideas = NET_house_organa
 

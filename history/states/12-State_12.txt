@@ -16,7 +16,7 @@ state={
 	}
 
   	history = {
-		owner = FEL
+		owner = CMG
 		buildings = {
 			infrastructure = 1
 			arms_factory = 2

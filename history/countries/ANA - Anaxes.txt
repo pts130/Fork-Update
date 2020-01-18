@@ -38,6 +38,8 @@ set_popularities = {
 	democratic = 100
 }
 
+
+give_guarantee = REP
 give_military_access = REP
 create_country_leader = {
 	name = "Axan Govenor"
