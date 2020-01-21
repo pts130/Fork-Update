@@ -3,12 +3,13 @@ REP = "countries/Republic.txt"
 CIS = "countries/CIS.txt"
 HUT = "countries/Hutt.txt"
 
-#CIS
+# CIS
 ALL = "countries/corporatealliance.txt"
 FED = "countries/tradefederation.txt"
 CMG = "countries/commerceguild.txt"
 IBC = "countries/intergalacticbankingclan.txt"
 TEC = "countries/technounion.txt"
+
 
 # Other
 ABR = "countries/Abregado-Rae.txt"

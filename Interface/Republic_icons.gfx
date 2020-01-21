@@ -1,0 +1,13 @@
+spriteTypes = {
+###Unit icons###
+   spriteType = { 
+     name = "GFX_unit_REP_clone_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/REP_unit_infantry_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+     noOfFrames = 2
+   }
+   spriteType = { 
+     name = "GFX_unit_REP_clone_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_REP_unit_infantry_icon.dds" 
+     noOfFrames = 2
+   }
+}
