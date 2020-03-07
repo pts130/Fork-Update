@@ -1,0 +1,17 @@
+#80 - GandalfSpaceState (4) (Bestine & Duro)
+state={
+	id=80
+	name="Devaron Lane"
+	provinces={
+		2700
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+    state_category = space
+   	history = {
+	owner = TEC
+	buildings = {
+		infrastructure = 4
+		}
+	}
+}

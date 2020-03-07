@@ -1,0 +1,17 @@
+#81 - GandalfSpaceState (5) (Thyferra & Fondor)
+state={
+	id=81
+	name="Shapani Lane"
+	provinces={
+		3028
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+    state_category = space
+   	history = {
+	owner = TEC
+	buildings = {
+		infrastructure = 4
+		}
+	}
+}

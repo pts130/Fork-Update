@@ -1,0 +1,17 @@
+#82 - GandalfSpaceState (6) (Duro & Mimban)
+state={
+	id=82
+	name="Antar Lane"
+	provinces={
+		2311
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+    state_category = space
+   	history = {
+	owner = FED
+	buildings = {
+		infrastructure = 4
+		}
+	}
+}

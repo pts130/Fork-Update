@@ -1,0 +1,17 @@
+#84 - GandalfSpaceState (8) (Cato Neimoidia & Mimban)
+state={
+	id=84
+	name="Gyndine Lane"
+	provinces={
+		2895
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+    state_category = space
+   	history = {
+	owner = FED
+	buildings = {
+		infrastructure = 4
+		}
+	}
+}

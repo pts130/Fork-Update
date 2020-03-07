@@ -1,0 +1,17 @@
+#85 - GandalfSpaceState (9) (Neimoidia & Onderon)
+state={
+	id=85
+	name="Zeltros Lane"
+	provinces={
+		2708
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+    state_category = space
+   	history = {
+	owner = FED
+	buildings = {
+		infrastructure = 4
+		}
+	}
+}

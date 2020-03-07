@@ -1,0 +1,17 @@
+#83 - GandalfSpaceState (7) (Thyferra & Bestine)
+state={
+	id=83
+	name="Vulvarch Lane"
+	provinces={
+		3218
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+    state_category = space
+   	history = {
+	owner = TEC
+	buildings = {
+		infrastructure = 4
+		}
+	}
+}

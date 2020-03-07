@@ -1,0 +1,17 @@
+#78 - GandalfSpaceState (2) (Coruscant & Anaxes)
+state={
+	id=78
+	name="Teta Lane"
+	provinces={
+		2403
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+    state_category = space
+   	history = {
+	owner = REP
+	buildings = {
+		infrastructure = 4
+		}
+	}
+}

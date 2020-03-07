@@ -1,0 +1,8 @@
+state_categories={
+	space = {
+		local_building_slots = 0
+	
+		color = { 2 2 2 }
+
+	}
+}

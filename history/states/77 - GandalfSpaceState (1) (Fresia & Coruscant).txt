@@ -1,0 +1,17 @@
+#77 - GandalfSpaceState (1) (Fresia & Coruscant)
+state={
+	id=77
+	name="STATE_77"
+	provinces={
+		3453
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+    state_category = space
+   	history = {
+	owner = REP
+	buildings = {
+		infrastructure = 4
+		}
+	}
+}

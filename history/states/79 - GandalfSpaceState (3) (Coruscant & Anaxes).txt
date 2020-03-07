@@ -1,0 +1,17 @@
+#79 - GandalfSpaceState (2) (Byss & Fresia)
+state={
+	id=79
+	name="Farlax Lane"
+	provinces={
+		3142
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+    state_category = space
+   	history = {
+	owner = REP
+	buildings = {
+		infrastructure = 4
+		}
+	}
+}
