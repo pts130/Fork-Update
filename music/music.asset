@@ -2,7 +2,7 @@
 # MAIN THEME
 music = {
 	name = "mainmenutheme"
-	file = "Anakin Sees His Future.ogg"
+	file = "anakinseeshisfuture.ogg"
 	volume = 0.65
 }
 

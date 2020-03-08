@@ -102,7 +102,7 @@ give_military_access = ROT
 create_country_leader = {
 	name = "Sheev Palpatine"
 	desc = "The newly elected Chancellor of the Galactic Republic"
-	picture = "gfx/leaders/REP/palpatine.dds"
+	picture = "gfx/leaders/REP/REP_Palpatine.tga"
 	expire = "2020.1.1"
 	ideology = conservatism
 	traits = {
@@ -121,150 +121,189 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+create_field_marshal = {
+	name = "Mace Windu"
+	id = 500
+	picture = "REP_MaceWindu.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+
+create_field_marshal = {
+	name = "Kit Fisto"
+	id = 501
+	picture = "REP_KitFisto.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+
+create_field_marshal = {
+	name = "Ki Adi Mundi"
+	id = 502
+	picture = "REP_KiAdiMundi.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+
+create_field_marshal = {
+	name = "Obi Wan Kenobi"
+	id = 503
+	picture = "REP_ObiWanKenobi.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+
+create_field_marshal = {
+	name = "Shaak Ti"
+	id = 504
+	picture = "REP_ShaakTi.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+
+create_field_marshal = {
+	name = "Plo Koon"
+	id = 505
+	picture = "REP_PloKoon.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+
+create_field_marshal = {
+	name = "Anakin Skywalker"
+	id = 506
+	picture = "REP_AnakinSkywalker.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+
+create_field_marshal = {
+	name = "Luminara Unduli"
+	id = 507
+	picture = "REP_LuminaraUduli.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+
+create_field_marshal = {
+	name = "Saesee Tiin"
+	id = 508
+	picture = "REP_SaeseeTiin.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+
+create_field_marshal = {
+	name = "Aayla Secura"
+	id = 509
+	picture = "REP_AaylaSecura.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+
+create_field_marshal = {
+	name = "Stass Allie"
+	id = 510
+	picture = "REP_StassAllie.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+
+create_field_marshal = {
+	name = "Eeth Koth"
+	id = 511
+	picture = "REP_EethKoth.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+
+create_field_marshal = {
+	name = "Coleman Trebor"
+	id = 512
+	picture = "REP_ColemanTrebor.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
+
+create_field_marshal = {
+	name = "Depa Billaba"
+	id = 513
+	picture = "REP_DepaBillaba.tga"
+	traits = { }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 2
 }
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
-create_corps_commander = {
- 	name = "Clone Commander"
- 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
- 	traits = { panzer_leader fortress_buster }
- 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
+
+
 create_corps_commander = {
  	name = "Commander Bacara"
  	portrait_path = "gfx/leaders/REP/Bacara_P1.dds"
@@ -328,6 +367,25 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 2
 }
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+ 	name = "Clone Commander"
+ 	portrait_path = "gfx/leaders/REP/clonecomm.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
 create_navy_leader = {
 	name = "Naval Officer"
     picture = "officer.dds"

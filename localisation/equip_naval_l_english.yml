@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  naval_equipment:0 "Ships"
  submarine_1:0 "Submarine I"
  submarine_2:0 "Submarine II"
@@ -83,13 +83,13 @@
  REP_light_cruiser_2_desc:0 "The Carrack-class light cruiser, also known as the Carrack-class gunship, was a cruiser deployed by the Republic Navy throughout the final era of the Galactic Republic and was prominent in the Clone Wars."
  REP_light_cruiser_3_desc:0 "The Dreadnaught-class heavy cruiser, or simply the Dreadnaught, was a type of capital ship built for planetary occupation and space combat used by the Galactic Republic, Galactic Empire, New Republic, local governments, and various other organizations."
  REP_light_cruiser_4_desc:0 "Late war variant of the Acclamator-class assault ship"
- REP_carrier_1:0 "Acclamator-class Cruiser"
- REP_carrier_2:0 "Venator-class Attack Cruiser"
- REP_carrier_3:0 "Victory-I Class Star Destroyer"
+ REP_carrier_1:0 "Venator Class Star Destroyerr"
+ REP_carrier_2:0 "Victory-I Class Star Destroyer"
+ REP_carrier_3:0 "Victory-II Class Star Destroyer"
  REP_carrier_4:0 "Imperial Class Star Destroyer"
- REP_carrier_1_desc:0 "The Acclamator-class assault ship, alternatively referred to as the Acclamator-class transgalactic military assault ship, was an assault-class capital ship created for the Galactic Republic by Rothana Heavy Engineering."
- REP_carrier_2_desc:0 "The Venator-class Star Destroyer, also known as the Republic attack cruiser, was one of the capital ships used extensively by the Galactic Republic during the later parts of the Clone Wars, as well as by the Galactic Empire. It was designed and constructed by Kuat Drive Yards"
- REP_carrier_3_desc:0 "The Victory I-class Star Destroyer, also known as the Victory I-class Destroyer and Victoria I-class Star Destroyer, was a warship designed for planetary defense, planetary assault, ground troop support, and ship-to-ship combat. It was used by the Galactic Republic during the mid-Clone Wars, and the Galactic Empire and the Corporate Sector during the Galactic Civil War."
+ REP_carrier_1_desc:0 "The Venator-class Star Destroyer, also known as the Republic attack cruiser, was one of the capital ships used extensively by the Galactic Republic during the later parts of the Clone Wars, as well as by the Galactic Empire. It was designed and constructed by Kuat Drive Yards."
+ REP_carrier_2_desc:0 "The Victory I-class Star Destroyer, also known as the Victory I-class Destroyer and Victoria I-class Star Destroyer, was a warship designed for planetary defense, planetary assault, ground troop support, and ship-to-ship combat. It was used by the Galactic Republic during the mid-Clone Wars, and the Galactic Empire and the Corporate Sector during the Galactic Civil War."
+ REP_carrier_3_desc:0 "The Victory II-class Star Destroyer, also known as the Victory II-class Destroyer, was an improved version of the Victory I-class Star Destroyer. The Victory II-class was a more direct predecessor to the Imperial-class Star Destroyer.`"
  REP_carrier_4_desc:0 "The Imperial I-class Star Destroyer, also referred to as an Imperial-class Star Destroyer or Star Destroyer, was a model of Imperial-class Star Destroyer in the service of the Imperial Navy. A wedge-shaped capital ship, it bristled with weapons emplacements, assault troops, boarding craft, and TIE line starfighters."
  REP_battle_cruiser_1:0 "Mandator-Class"
 
