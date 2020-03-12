@@ -8,11 +8,6 @@ CIS = {
 	color_ui = rgb { 40 40 255 }
 }
 
-TEC = {
-	color = rgb { 140 149 92 }
-	color_ui = rgb { 209 208 154 }
-}
-
 RYL = {
 	color = rgb { 195 35 77 }
 	color_ui = rgb { 215 55 97 }
