@@ -1,0 +1,25 @@
+###Quarren
+state={
+	id=87
+	name="STATE_87"
+	provinces={
+		90 169 176 269 337 862 893 1019 1089 1478 1482 1499 1504 1510 1513
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	resources={
+		steel = 15
+		aluminium = 5
+		oil = 3
+	}
+   	history = {
+	owner = QUA
+	buildings = {
+		infrastructure = 1
+		arms_factory = 1
+		industrial_complex = 1
+		dockyard = 0
+		}
+	}
+}

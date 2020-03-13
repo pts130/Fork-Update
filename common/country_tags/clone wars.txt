@@ -38,6 +38,7 @@ FEL = "countries/Felucia.txt"
 FON = "countries/Fondor.txt"
 FRE = "countries/Fresia.txt"
 GEO = "countries/Geonosis.txt"
+GUN = "countries/Gungan.txt"
 HON = "countries/Honoghr.txt"
 HOT = "countries/Hoth.txt" # Sparcely populated, could be cool to have it as a place for fallen empires to hide?
 HYP = "countries/Hypori.txt"

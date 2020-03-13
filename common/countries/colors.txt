@@ -32,10 +32,6 @@ ALD = {
 	color = rgb { 195 55 07 }
 	color_ui = rgb { 215 75 27 }
 }
-TLZ = {
-	color = rgb { 145 05 90 }
-	color_ui = rgb { 165 25 110 }
-}
 MAN = {
 	color = rgb { 20 20 100 }
 	color_ui = rgb { 40 40 120 }
@@ -47,11 +43,7 @@ ATZ = {
 BOT = {
 	color = rgb { 30 10 140 }
 	color_ui = rgb { 50 30 160 }
-}
-BRN = {
-	color = rgb { 15 15 10 }
-	color_ui = rgb { 35 35 30 }
-}  
+} 
 CAR = {
 	color = rgb { 195 35 07 }
 	color_ui = rgb { 215 55 27 }

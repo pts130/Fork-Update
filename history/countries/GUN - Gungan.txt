@@ -1,0 +1,52 @@
+﻿capital = 58
+
+oob = "GUN_3677"
+set_research_slots = 1
+set_stability = 0.9
+set_war_support = .20
+
+set_technology = {
+	infantry_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	transport = 1
+	superior_firepower = 1
+	base_strike = 1
+
+}
+
+add_political_power = 20
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.11.8"
+	election_frequency = 240
+	elections_allowed = yes
+}
+set_popularities = {
+	neutrality = 30
+	democratic = 70
+}
+
+create_country_leader = {
+	name = "Rugor Nass"
+	desc = "Gungan High Council Boss"
+	picture = "gfx/leaders/NAB/NAB_nass.dds"
+	expire = "2020.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+

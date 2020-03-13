@@ -1,0 +1,25 @@
+###Gungan swamps
+state={
+	id=86
+	name="STATE_86"
+	provinces={
+		166 560 897 2033 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	resources={
+		steel = 15
+		aluminium = 5
+		oil = 3
+	}
+   	history = {
+	owner = GUN
+	buildings = {
+		infrastructure = 1
+		arms_factory = 1
+		industrial_complex = 1
+		dockyard = 0
+		}
+	}
+}
