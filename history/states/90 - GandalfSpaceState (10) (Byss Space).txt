@@ -1,0 +1,30 @@
+#86 - GandalfSpaceState (10) (Byss Space)
+state={
+	id=86
+	name="Byss Space"
+	provinces={
+		2501
+	}
+	
+	manpower=0
+	
+	buildings_max_level_factor=1.000
+    
+    state_category = space
+   	
+
+   	history = {
+	owner = BYS
+	
+	buildings = {
+		infrastructure = 4
+		}
+
+
+    #The Clone Wars Bookmark
+		3679.1.1 = {
+			owner = REP
+			controller = REP
+		}
+	}
+}

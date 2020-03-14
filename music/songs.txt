@@ -1,6 +1,7 @@
+music_station = "base_music"
 
 music = {
-	song = "mainmenutheme"
+	song = "maintheme"
 	chance = {
 		modifier = {
 			factor = 0.5
