@@ -1,0 +1,51 @@
+division_template = {
+	name = "Ord Mantell"
+
+	regiments = {
+		Standard  = { x = 0 y = 0 }
+		Standard  = { x = 0 y = 1 }
+		Standard  = { x = 0 y = 2 }
+   		Standard  = { x = 1 y = 0 }
+		Standard  = { x = 1 y = 1 }
+		Standard  = { x = 1 y = 2 }
+  		Standard  = { x = 2 y = 0 }
+		Standard  = { x = 2 y = 1 }
+		Standard  = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+
+
+
+###########################################UNITS###########################################
+
+units = {
+	division= {	
+		name = "Ord Mantell Militia"
+		location = 6 #Ord Mantell
+		division_template = "Ord Mantell"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Ord Mantell Militia"
+		location = 606 #Ord Mantell
+		division_template = "Ord Mantell"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Ord Mantell Militia"
+		location = 919 #Ord Mantell
+		division_template = "Ord Mantell"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Ord Mantell Militia"
+		location = 1180 #Ord Mantell
+		division_template = "Ord Mantell"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+}

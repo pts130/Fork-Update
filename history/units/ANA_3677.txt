@@ -1,0 +1,39 @@
+division_template = {
+	name = "Anaxes"
+
+	regiments = {
+		Standard  = { x = 0 y = 0 }
+		Standard  = { x = 0 y = 1 }
+		Standard  = { x = 0 y = 2 }
+   		Standard  = { x = 1 y = 0 }
+		Standard  = { x = 1 y = 1 }
+		Standard  = { x = 1 y = 2 }
+  		Standard  = { x = 2 y = 0 }
+		Standard  = { x = 2 y = 1 }
+		Standard  = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+
+
+
+###########################################UNITS###########################################
+
+units = {
+	division= {	
+		name = "Anaxes Militia"
+		location = 230
+		division_template = "Anaxes"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Anaxes Militia"
+		location = 1353
+		division_template = "Anaxes"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+}

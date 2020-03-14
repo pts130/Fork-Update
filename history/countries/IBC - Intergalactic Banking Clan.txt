@@ -45,6 +45,13 @@ give_military_access = CIS
 add_political_power = 80
 set_convoys = 5000
 
-		
+create_country_leader = {
+	name = "San Hill"
+	desc = "Chairman of the Intergalactic Banking Clan"
+	picture = "gfx/leaders/CIS/san hill.dds"
+	expire = "2020.1.1"
+	ideology = fascism_ideology 
+	traits = {	
+	}	
 	}
 }

@@ -1,0 +1,51 @@
+division_template = {
+	name = "Mandalorian Guard"
+
+	regiments = {
+		Mandalorian_guard = { x = 0 y = 0 }
+		Mandalorian_guard = { x = 0 y = 1 }
+		Mandalorian_guard = { x = 0 y = 2 }
+   		Mandalorian_guard = { x = 1 y = 0 }
+		Mandalorian_guard = { x = 1 y = 1 }
+		Mandalorian_guard = { x = 1 y = 2 }
+  		Mandalorian_guard = { x = 2 y = 0 }
+		Mandalorian_guard = { x = 2 y = 1 }
+		Mandalorian_guard = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+
+
+
+###########################################UNITS###########################################
+
+units = {
+	division= {	
+		name = "Mandalorian Guard"
+		location = 81 #Mandalore
+		division_template = "Mandalorian Guard"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Mandalorian Guard"
+		location = 822 #Mandalore
+		division_template = "Mandalorian Guard"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Mandalorian Guard"
+		location = 1285 #Mandalore
+		division_template = "Mandalorian Guard"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Mandalorian Guard"
+		location = 1298 #Mandalore
+		division_template = "Mandalorian Guard"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+}

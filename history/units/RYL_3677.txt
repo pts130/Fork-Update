@@ -1,0 +1,51 @@
+division_template = {
+	name = "Ryloth"
+
+	regiments = {
+		Ryloth_warrior = { x = 0 y = 0 }
+		Ryloth_warrior = { x = 0 y = 1 }
+		Ryloth_warrior = { x = 0 y = 2 }
+   		Ryloth_warrior = { x = 1 y = 0 }
+		Ryloth_warrior = { x = 1 y = 1 }
+		Ryloth_warrior = { x = 1 y = 2 }
+  		Ryloth_warrior = { x = 2 y = 0 }
+		Ryloth_warrior = { x = 2 y = 1 }
+		Ryloth_warrior = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+
+
+
+###########################################UNITS###########################################
+
+units = {
+	division= {	
+		name = "Ryloth Militia"
+		location = 22 #Ryloth
+		division_template = "Ryloth"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Ryloth Militia"
+		location = 392 #Ryloth
+		division_template = "Ryloth"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Ryloth Militia"
+		location = 925 #Ryloth
+		division_template = "Ryloth"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Ryloth Militia"
+		location = 2271 #Ryloth
+		division_template = "Ryloth"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+}

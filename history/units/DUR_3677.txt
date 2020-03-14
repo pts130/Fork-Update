@@ -1,0 +1,51 @@
+division_template = {
+	name = "Duro"
+
+	regiments = {
+		Duro_militia = { x = 0 y = 0 }
+		Duro_militia = { x = 0 y = 1 }
+		Duro_militia = { x = 0 y = 2 }
+   		Duro_militia = { x = 1 y = 0 }
+		Duro_militia = { x = 1 y = 1 }
+		Duro_militia = { x = 1 y = 2 }
+  		Duro_militia = { x = 2 y = 0 }
+		Duro_militia = { x = 2 y = 1 }
+		Duro_militia = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+
+
+
+###########################################UNITS###########################################
+
+units = {
+	division= {	
+		name = "Duro Militia"
+		location = 25 #Duro
+		division_template = "Duro"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Duro Militia"
+		location = 103 #Duro
+		division_template = "Duro"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Duro Militia"
+		location = 798 #Duro
+		division_template = "Duro"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Duro Militia"
+		location = 1705 #Duro
+		division_template = "Duro"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+}

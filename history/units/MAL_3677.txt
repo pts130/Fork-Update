@@ -1,0 +1,51 @@
+division_template = {
+	name = "Dug"
+
+	regiments = {
+		Dug_warrior = { x = 0 y = 0 }
+		Dug_warrior = { x = 0 y = 1 }
+		Dug_warrior = { x = 0 y = 2 }
+   		Dug_warrior = { x = 1 y = 0 }
+		Dug_warrior = { x = 1 y = 1 }
+		Dug_warrior = { x = 1 y = 2 }
+  		Dug_warrior = { x = 2 y = 0 }
+		Dug_warrior = { x = 2 y = 1 }
+		Dug_warrior = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+
+
+
+###########################################UNITS###########################################
+
+units = {
+	division= {	
+		name = "Dug Warriors"
+		location = 106 #Malastare
+		division_template = "Dug"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Dug Warriors"
+		location = 891 #Malastare
+		division_template = "Dug"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Dug Warriors"
+		location = 1964 #Malastare
+		division_template = "Dug"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Dug Warriors"
+		location = 1980 #Malastare
+		division_template = "Dug"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+}

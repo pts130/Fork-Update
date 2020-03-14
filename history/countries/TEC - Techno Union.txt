@@ -45,6 +45,14 @@ give_military_access = CIS
 add_political_power = 80
 set_convoys = 5000
 
+create_country_leader = {
+	name = "Wat Tambor"
+	desc = "Foreman of the Techno Union"
+	picture = "gfx/leaders/CIS/Wat Tambor.dds"
+	expire = "2020.1.1"
+	ideology = fascism_ideology 
+	traits = {	
+	}
 		
 	}
 }

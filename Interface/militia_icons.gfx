@@ -1,0 +1,364 @@
+spriteTypes = {
+###Unit icons###
+##Standard milita
+   spriteType = { 
+     name = "GFX_unit_Standard_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/Standard.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Standard_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/Standard.dds" 
+     noOfFrames = 2
+   }
+  #Talz militia
+   spriteType = { 
+     name = "GFX_unit_Talz_militia_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/talz.dds"        
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Talz_militia_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/talz.dds" 
+     noOfFrames = 2
+   }
+  #Bespin militia
+   spriteType = { 
+     name = "GFX_unit_Bespin_militia_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/bespin.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Bespin_militia_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/bespin.dds" 
+     noOfFrames = 2
+   }
+  #Bothan militia
+   spriteType = { 
+     name = "GFX_unit_Bothan_militia_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/bothan.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Bothan_militia_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/bothan.dds" 
+     noOfFrames = 2
+   }
+  #Caridian militia
+   spriteType = { 
+     name = "GFX_unit_Caridian_militia_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/caridian.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Caridian_militia_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/caridian.dds" 
+     noOfFrames = 2
+   }
+  #Corellian militia
+   spriteType = { 
+     name = "GFX_unit_Corellian_defense_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/corellian.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Corellian_defense_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/corellian.dds" 
+     noOfFrames = 2
+   }
+  #Judicial forces
+   spriteType = { 
+     name = "GFX_unit_Judicial_forces_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/judicial.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Judicial_forces_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/judicial.dds" 
+     noOfFrames = 2
+   }
+  #Khoonda militia
+   spriteType = { 
+     name = "GFX_unit_Khoonda_militia_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/khoonda.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Khoonda_militia_icon_medium_white"				
+     textureFile = "gfx/interface/counters/divisions_small/khoonda.dds" 
+     noOfFrames = 2
+   }
+  #Night sisters
+   spriteType = { 
+     name = "GFX_unit_Night_sisters_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/nightsis.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Night_sisters_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/nightsis.dds" 
+     noOfFrames = 2
+   }
+  #Duro militia
+   spriteType = { 
+     name = "GFX_unit_Duro_militia_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/duro.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Duro_militia_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/duro.dds" 
+     noOfFrames = 2
+   }
+  #Ewok
+   spriteType = { 
+     name = "GFX_unit_Ewoks_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/ewok.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Ewoks_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/ewok.dds" 
+     noOfFrames = 2
+   }
+  #geonosian militia
+   spriteType = { 
+     name = "GFX_unit_Geonosian_warrior_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/geo.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Geonosian_warrior_icon_medium_white"					
+     textureFile = "gfx/interface/counters/divisions_small/geo.dds" 
+     noOfFrames = 2
+   }
+  #Noghri militia
+   spriteType = { 
+     name = "GFX_unit_Noghri_warriors_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/noghri.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Noghri_warriors_icon_medium_white"					
+     textureFile = "gfx/interface/counters/divisions_small/noghri.dds" 
+     noOfFrames = 2
+   }
+  #Ithorian militia
+   spriteType = { 
+     name = "GFX_unit_Ithorian_warrior_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/ithor.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Ithorian_warrior_icon_medium_white"					
+     textureFile = "gfx/interface/counters/divisions_small/ithor.dds" 
+     noOfFrames = 2
+   }
+  #Jabiimi militia
+   spriteType = { 
+     name = "GFX_unit_Jabiimi_military_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/jabiim.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Jabiimi_military_icon_medium_white"					
+     textureFile = "gfx/interface/counters/divisions_small/jabiim.dds" 
+     noOfFrames = 2
+   }
+  #Kaminoan militia
+   spriteType = { 
+     name = "GFX_unit_Kaminoan_warrior_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/kamino.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Kaminoan_warrior_icon_medium_white"					
+     textureFile = "gfx/interface/counters/divisions_small/kamino.dds" 
+     noOfFrames = 2
+   }
+  #Wookiee militia
+   spriteType = { 
+     name = "GFX_unit_Wookiee_warrior_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/wookiee.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Wookiee_warrior_icon_medium_white"					
+     textureFile = "gfx/interface/counters/divisions_small/wookie.dds" 
+     noOfFrames = 2
+   }
+  #Dug militia
+   spriteType = { 
+     name = "GFX_unit_Dug_warrior_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/dug.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Dug_warrior_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/dug.dds" 
+     noOfFrames = 2
+   }
+  #Mandalorian militia
+   spriteType = { 
+     name = "GFX_unit_Mandalorian_guard_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/mandalorian.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Mandalorian_guard_icon_medium_white"					
+     textureFile = "gfx/interface/counters/divisions_small/mandalorian.dds" 
+     noOfFrames = 2
+   }
+  #Mimbanese militia
+   spriteType = { 
+     name = "GFX_unit_Mimbanese_warrior_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/mimbanese.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Mimbanese_warrior_icon_medium_white"					
+     textureFile = "gfx/interface/counters/divisions_small/mimbanese.dds" 
+     noOfFrames = 2
+   }
+  #MonCal militia
+   spriteType = { 
+     name = "GFX_unit_moncal_warrior_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/moncal.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_moncal_warrior_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/moncal.dds" 
+     noOfFrames = 2
+   }
+  #Quarren militia
+   spriteType = { 
+     name = "GFX_unit_Quarren_warrior_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/quarren.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Quarren_warrior_icon_medium_white"					
+     textureFile = "gfx/interface/counters/divisions_small/quarren.dds" 
+     noOfFrames = 2
+   }
+  #Hutt militia
+   spriteType = { 
+     name = "GFX_unit_Hutt_enforcer_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/hutt.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Hutt_enforcer_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/hutt.dds" 
+     noOfFrames = 2
+   }
+  #Onderon militia
+   spriteType = { 
+     name = "GFX_unit_Onderon_guard_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/onderon.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Onderon_guard_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onderon.dds" 
+     noOfFrames = 2
+   }
+  #Chattza militia
+   spriteType = { 
+     name = "GFX_unit_Chattza_militia_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/chattza.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Chattza_militia_icon_medium_white"					
+     textureFile = "gfx/interface/counters/divisions_small/chattza.dds" 
+     noOfFrames = 2
+   }
+  #Ryloth militia
+   spriteType = { 
+     name = "GFX_unit_Ryloth_warrior_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/ryloth.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Ryloth_warrior_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/ryloth.dds" 
+     noOfFrames = 2
+   }
+  #Toydaria militia
+   spriteType = { 
+     name = "GFX_unit_Toydarian_guard_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/toydaria.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Toydarian_guard_icon_medium_white"					
+     textureFile = "gfx/interface/counters/divisions_small/toydaria.dds" 
+     noOfFrames = 2
+   }
+  #Trandoshan militia
+   spriteType = { 
+     name = "GFX_unit_Trandoshan_warrior_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/trandosha.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Trandoshan_warrior_icon_medium_white"					
+     textureFile = "gfx/interface/counters/divisions_small/trandosha.dds" 
+     noOfFrames = 2
+   }
+  #Umbaran militia
+   spriteType = { 
+     name = "GFX_unit_Umbaran_militia_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/umbara.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Umbaran_militia_icon_medium_white"					
+     textureFile = "gfx/interface/counters/divisions_small/umbara.dds" 
+     noOfFrames = 2
+   }
+  #Utupau militia
+   spriteType = { 
+     name = "GFX_unit_Utupau_warrior_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/utupau.dds"  
+     noOfFrames = 2
+   }
+
+   spriteType = { 
+     name = "GFX_unit_Utupau_warrior_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/utupau.dds" 
+     noOfFrames = 2
+   }
+
+}

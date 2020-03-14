@@ -1,0 +1,51 @@
+division_template = {
+	name = "Corellian"
+
+	regiments = {
+		Corellian_defense = { x = 0 y = 0 }
+		Corellian_defense = { x = 0 y = 1 }
+		Corellian_defense = { x = 0 y = 2 }
+   		Corellian_defense = { x = 1 y = 0 }
+		Corellian_defense = { x = 1 y = 1 }
+		Corellian_defense = { x = 1 y = 2 }
+  		Corellian_defense = { x = 2 y = 0 }
+		Corellian_defense = { x = 2 y = 1 }
+		Corellian_defense = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+
+
+
+###########################################UNITS###########################################
+
+units = {
+	division= {	
+		name = "Corellian Defense"
+		location = 33 #Corellian
+		division_template = "Corellian"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Corellian Defense"
+		location = 647 #Corellian
+		division_template = "Corellian"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Corellian Defense"
+		location = 1009 #Corellian
+		division_template = "Corellian"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Corellian Defense"
+		location = 1631 #Corellian
+		division_template = "Corellian"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+}

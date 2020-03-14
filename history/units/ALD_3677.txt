@@ -24,14 +24,26 @@ division_template = {
 units = {
 	division= {	
 		name = "Alderaanian consular security"
-		location = 2077 #alderaan
+		location = 1057 #alderaan
 		division_template = "Alderaanian consular security"
 		start_experience_factor = 0.1   #optional, otherwise starts with 0 expereince
 	}
 	
 	division= {	
 		name = "Alderaan Security Force"
-		location = 2104 #alderaan
+		location = 1003 #alderaan
+		division_template = "Alderaan Guard"
+		start_experience_factor = 3   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Alderaan Security Force"
+		location = 1412 #alderaan
+		division_template = "Alderaan Guard"
+		start_experience_factor = 3   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Alderaan Security Force"
+		location = 455 #alderaan
 		division_template = "Alderaan Guard"
 		start_experience_factor = 3   #optional, otherwise starts with 0 expereince
 	}

@@ -1,0 +1,75 @@
+division_template = {
+	name = "Hutt Enforcer"
+
+	regiments = {
+		Hutt_Enforcer = { x = 0 y = 0 }
+		Hutt_Enforcer = { x = 0 y = 1 }
+		Hutt_Enforcer = { x = 0 y = 2 }
+   		Hutt_Enforcer = { x = 1 y = 0 }
+		Hutt_Enforcer = { x = 1 y = 1 }
+		Hutt_Enforcer = { x = 1 y = 2 }
+  		Hutt_Enforcer = { x = 2 y = 0 }
+		Hutt_Enforcer = { x = 2 y = 1 }
+		Hutt_Enforcer = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+
+
+
+###########################################UNITS###########################################
+
+units = {
+	division= {	
+		name = "Hutt Enforcer"
+		location = 79 #Nal Hutta
+		division_template = "Hutt Enforcer"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Hutt Enforcer"
+		location = 194 #Nal Hutta
+		division_template = "Hutt Enforcer"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Hutt Enforcer"
+		location = 983 #Nal Hutta
+		division_template = "Hutt Enforcer"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Hutt Enforcer"
+		location = 1036 #Nal Hutta
+		division_template = "Hutt Enforcer"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Hutt Enforcer"
+		location = 96 #Teth
+		division_template = "Hutt Enforcer"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Hutt Enforcer"
+		location = 1563 #Teth
+		division_template = "Hutt Enforcer"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Hutt Enforcer"
+		location = 850 #Tatooine
+		division_template = "Hutt Enforcer"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Hutt Enforcer"
+		location = 2128 #Tatooine
+		division_template = "Hutt Enforcer"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+}

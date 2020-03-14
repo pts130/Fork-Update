@@ -1,0 +1,51 @@
+division_template = {
+	name = "Caridian"
+
+	regiments = {
+		Caridian_militia = { x = 0 y = 0 }
+		Caridian_militia = { x = 0 y = 1 }
+		Caridian_militia = { x = 0 y = 2 }
+   		Caridian_militia = { x = 1 y = 0 }
+		Caridian_militia = { x = 1 y = 1 }
+		Caridian_militia = { x = 1 y = 2 }
+  		Caridian_militia = { x = 2 y = 0 }
+		Caridian_militia = { x = 2 y = 1 }
+		Caridian_militia = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+
+
+
+###########################################UNITS###########################################
+
+units = {
+	division= {	
+		name = "Caridian Militia"
+		location = 147 #Caridian
+		division_template = "Caridian"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Caridian Militia"
+		location = 485 #Caridian
+		division_template = "Caridian"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Caridian Militia"
+		location = 1343 #Caridian
+		division_template = "Caridian"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+	division= {	
+		name = "Caridian Militia"
+		location = 1388 #Caridian
+		division_template = "Caridian"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+	}
+}

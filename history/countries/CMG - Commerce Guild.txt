@@ -44,6 +44,14 @@ give_military_access = CIS
 add_political_power = 80
 set_convoys = 5000
 
+create_country_leader = {
+	name = "Shu Mai"
+	desc = "Presidente of the Commerce Guild"
+	picture = "gfx/leaders/CIS/Shu Mai.dds"
+	expire = "2020.1.1"
+	ideology = fascism_ideology 
+	traits = {	
+	}
 		
 	}
 }
