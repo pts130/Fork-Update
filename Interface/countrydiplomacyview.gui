@@ -22,11 +22,17 @@ guiTypes = {
 		containerWindowType = {
 			name = "country_info"
 			position = { x = 0 y = 50}	
-			size = { width = 530 height = 100%% }			
+			size = { width = 530 height = 100%% }
+
+			iconType = {
+				name = "diplo_upper_win_bg"
+				position = { x = 139 y = -4 }
+				spriteType = "GFX_diplo_upper_win_bg"
+			}				
 			
 			iconType = {
 				name = "leader_portrait"
-				position = { x = 50 y = 40 }
+				position = { x = 23 y = 65 }
 				spriteType = "GFX_leader_unknown"
 				scale = 0.74
 			}
@@ -34,24 +40,31 @@ guiTypes = {
 			iconType = {
 				name = "diplo_country_flag"
 				quadTextureSprite ="GFX_shield_medium"
-				position = { x= 190 y = 0 }
-				scale = 2
-			}						
+				position = { x= 39 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}			
+			
+			iconType = {
+				name = "diplo_leader_frame"
+				position = { x = 14 y = -10 }
+				spriteType = "GFX_diplo_leader_frame"
+				allwaystransparent = yes
+			}			
 			
 			iconType ={
 				name = "ideology_icon"
 				spriteType = "GFX_ideology_unknown"
-				position = { x = 330 y = 0 }
+				position = { x = 158 y = 0 }
 				Orientation = "UPPER_LEFT"
 				frame = 1
 			}
 			
 			instantTextboxType = {
 				name = "country_name"
-				position = { x = 30 y = 0 }
-				font = "hoi_36header"
+				position = { x = 245 y = 3 }
+				font = "hoi_18mbs"
 				text = "Germanian"
-				maxWidth = 500
+				maxWidth = 173
 				fixedsize = yes
 				maxHeight = 20
 				format = left
@@ -59,13 +72,13 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "faction"
-				position = { x = 370 y = 23}	
+				position = { x = 245 y = 23}	
 				size = { width = 175 height = 20 }
 				clipping = no
 			
 				instantTextboxType = {
 					name = "faction_name"
-					position = { x = 30 y = 0 }
+					position = { x = 0 y = 0 }
 					font = "hoi_18mbs"
 					text = "faction"
 					maxWidth = 173
@@ -77,26 +90,32 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "leader_name"
-				position = { x = 20 y = 200 }
-				font = "hoi_18mbs"
+				position = { x = 245 y = 43 }
+				font = "hoi_16mbs"
 				text = "Rudolf Kittler"
 				maxWidth = 173
 				maxHeight = 20
-				format = center
+				format = left
 				fixedsize = yes						
 			}
+
+			iconType =
+			{
+				name ="stability_bg"
+				spriteType = "GFX_diplo_unity_bg"
+				position = { x= 370 y = 1 }
+			}	
 			
 			iconType =
 			{
 				name ="stability_icon"
 				spriteType = "GFX_stability_icon"
-				position = { x= 300 y = 150 }
-				scale = 2
+				position = { x= 378 y = 9 }
 			}			
 
 			instantTextboxType = {
 				name = "stability_value"
-				position = { x = 360 y = 160 }
+				position = { x = 369 y = 42 }
 				font = "hoi_16mbs"
 				text = "100%"
 				maxWidth = 44
@@ -106,15 +125,21 @@ guiTypes = {
 			
 			iconType =
 			{
+				name ="war_support_bg"
+				spriteType = "GFX_diplo_unity_bg"
+				position = { x= 414 y = 1 }
+			}	
+			
+			iconType =
+			{
 				name ="war_support_icon"
 				spriteType = "GFX_war_support_icon"
-				position = { x= 400 y = 150 }
-				scale = 2
+				position = { x= 421 y = 9 }
 			}			
 
 			instantTextboxType = {
 				name = "war_support_value"
-				position = { x = 450 y = 160 }
+				position = { x = 414 y = 42 }
 				font = "hoi_16mbs"
 				text = "100%"
 				maxWidth = 44
@@ -124,9 +149,15 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "opinion_info"
-				position = { x = -20 y = 5 }
+				position = { x = 425 y = 5 }
 				size = { width = 100 height = 60 }
 				clipping = no
+			
+				background = {
+					name = "Background"		
+					spriteType ="GFX_diplo_opinion_bg"
+					position = { x = 33 y = -4 }					
+				}
 				
 				iconType = {
 					name = "our_opinion_left_flag"
@@ -165,7 +196,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "political_pie_chart"
-				position = { x = 312 y = 61 }
+				position = { x = 141 y = 61 }
 				size = { width=330 height=30 }
 				clipping = no
 
@@ -184,13 +215,13 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "ruling_party_info"
-				position = { x = 370 y = 90 }
+				position = { x = 260 y = 90 }
 				size = { width = 255 height = 60 }
 				clipping = no
 						
 				instantTextboxType = {
 					name = "party_name"
-					position = { x = 35 y = 5 }
+					position = { x = 5 y = -5 }
 					font = "hoi_16mbs"
 					text = "party"
 					maxWidth = 245
@@ -200,9 +231,18 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "ideology_name"
-					position = { x = 35 y = 20 }
+					position = { x = 5 y = 10 }
 					font = "hoi_16mbs"
 					text = "ideology"
+					maxWidth = 245
+					maxHeight = 20
+				}
+				
+				instantTextboxType = {
+					name = "elections"
+					position = { x = 5 y = 25 }
+					font = "hoi_16mbs"
+					text = "elections"
 					maxWidth = 245
 					maxHeight = 20
 				}
@@ -210,7 +250,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "active_national_focus_info"
-				position = { x = 70 y =  165 }
+				position = { x = 146 y =  154 }
 				size = { width = 330 height = 50 }
 				clipping = no
 				
@@ -219,36 +259,40 @@ guiTypes = {
 					position = { x = 103 y = 7 }
 					spriteType = "GFX_diplo_goal_button"
 					clicksound = click_default
-					scale = 0.4
 				}
 
 				iconType = {
 					name = "goal_icon"
-					position = { x = 160 y = 29 }
+					position = { x = 48 y = 39 }
 					spriteType = "GFX_goal_unknown"
 					centerposition = yes					
-					scale = 0.4
+					scale = 0.9
 				}
 				
 				instantTextboxType = {
 					name = "national_focus_label"
-					position = { x = 120 y = -40 }
+					position = { x = 146 y = 23 }
 					font = "hoi_18mbs"
 					text = "POLITICS_ACTIVE_GOAL"
-					maxWidth = 80
+					maxWidth = 200
 					maxHeight = 20
 					format = center
 					alwaystransparent = yes
-					vertical_alignment = center		
-					scale = 0.2	
+					vertical_alignment = center				
 				}
 				
 				iconType = {
 					name = "progress"
 					spriteType = "GFX_activegoal_progress"
-					position = { x=50 y = 50 }	
-					alwaystransparent = yes		
-					scale = 0.2
+					position = { x=129 y = 57 }	
+					alwaystransparent = yes				
+				}
+				
+				iconType = {
+					name = "progress_frame"
+					position = { x = 127 y = 57 }
+					spriteType = "GFX_pol_goal_progress_frame"
+					alwaystransparent = yes
 				}			
 			}
 			
@@ -416,6 +460,11 @@ guiTypes = {
 				size = { width = 265 height = -50 }
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top=6 bottom=8 }
+				
+				background = {
+					name = "Background"
+					spriteType ="GFX_tiled_plain_bg"
+				}
 
 				iconType = {
 					name = "diplo_details_header"
@@ -648,8 +697,15 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "player_info_box"
-			position = { x = 300 y = 16 }	
-			size = { width = 220 height = 40 }
+			position = { x = 280 y = 11 }	
+			size = { width = 270 height = 40 }
+
+			iconType ={
+				name ="player_name_bg"
+				spriteType = "GFX_generic_text_bg_203"
+				position = { x= 10 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
 
 			iconType ={
 				name ="player_icon"
