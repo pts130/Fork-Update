@@ -16,7 +16,7 @@ state={
 		oil = 40
 	}
    	history = {
-	owner = TEC
+	owner = FED
 	buildings = {
 		infrastructure = 4
 		arms_factory = 2

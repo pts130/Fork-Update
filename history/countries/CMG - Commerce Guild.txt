@@ -41,6 +41,12 @@ set_popularities = {
 give_guarantee = CIS
 give_military_access = CIS
 
+give_guarantee = BRN
+give_military_access = BRN
+
+give_guarantee = FON
+give_military_access = FON
+
 add_political_power = 80
 set_convoys = 5000
 

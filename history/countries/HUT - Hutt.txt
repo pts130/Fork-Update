@@ -35,19 +35,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 100
+	democratic = 10
+	fascism = 2
+	communism = 88
 }
 
-create_faction = Hutt
-add_to_faction = HUT
-add_to_faction = TAT
-add_to_faction = TET
-
-give_guarantee = TAT
-give_military_access = TAT
-
-give_guarantee = TET
-give_military_access = TET
 
 create_country_leader = {
 	name = "Jabba"

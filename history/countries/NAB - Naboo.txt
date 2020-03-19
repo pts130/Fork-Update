@@ -30,14 +30,14 @@ set_convoys = 50
 add_ideas = royal_house_naboo
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1932.11.8"
 	election_frequency = 240
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 30
-	democratic = 70
+	neutrality = 80
+	democratic = 20
 }
 
 give_military_access = REP
