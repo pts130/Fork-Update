@@ -1,6 +1,6 @@
-capital = 52
+capital = 25
 
-oob = "TRO_3677"
+oob = "QUA_3677"
 set_research_slots = 2
 set_stability = 0.9
 set_war_support = .01
@@ -29,11 +29,11 @@ add_political_power = 75
 set_convoys = 50
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1932.11.8"
-	election_frequency = 240
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	fascism = 100
 }

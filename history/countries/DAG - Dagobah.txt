@@ -1,9 +1,8 @@
 capital = 70
 
-oob = "DAG_3677"
-set_research_slots = 2
+set_research_slots = 0
 set_stability = 0.9
-set_war_support = .01
+set_war_support = 0
 
 set_technology = {
 	infantry_weapons = 1
@@ -25,16 +24,15 @@ set_technology = {
 
 }
 
-add_political_power = 75
-set_convoys = 50
+add_political_power = 0
+set_convoys = 0
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1932.11.8"
 	election_frequency = 240
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	neutrality = 100
 }

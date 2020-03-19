@@ -41,14 +41,54 @@ set_popularities = {
 
 create_faction = Confederacy
 add_to_faction = CIS
-add_to_faction = BRN
-add_to_faction = FON
+add_to_faction = ALL
+add_to_faction = FED
+add_to_faction = CMG
+add_to_faction = IBC
+add_to_faction = TEC
+add_to_faction = BAK
+add_to_faction = DUR
+add_to_faction = GEO
+add_to_faction = MIM
+add_to_faction = OND
+add_to_faction = RUS
+add_to_faction = QUA
 
-give_guarantee = BRN
-give_military_access = BRN
+give_guarantee = ALL
+give_military_access = ALL
 
-give_guarantee = FON
-give_military_access = FON
+give_guarantee = FED
+give_military_access = FED
+
+give_guarantee = CMG
+give_military_access = CMG
+
+give_guarantee = IBC
+give_military_access = IBC
+
+give_guarantee = TEC
+give_military_access = TEC
+
+give_guarantee = BAK
+give_military_access = BAK
+
+give_guarantee = DUR
+give_military_access = DUR
+
+give_guarantee = GEO
+give_military_access = GEO
+
+give_guarantee = MIM
+give_military_access = MIM
+
+give_guarantee = OND
+give_military_access = OND
+
+give_guarantee = RUS
+give_military_access = RUS
+
+give_guarantee = QUA
+give_military_access = QUA
 
 add_political_power = 80
 set_convoys = 5000
